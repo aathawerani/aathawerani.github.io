@@ -19,8 +19,13 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %}
+      {% if site.github_username %} 
+      {%- include github_follow_button.html -%} 
+      <span>
+          {%- include github_star_button.html -%}
+          {%- include github_fork_button.html -%}
+      </span>
+    {%endif %}
 
       <p class="profile-links">
         {% if site.twitter_username %}
@@ -92,7 +97,6 @@ layout: default
         </a>
         {% endif %}
       </p>
-
       {% if site.author_location %}
       <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
       {% endif %} {% if site.author_email %}
@@ -114,48 +118,80 @@ layout: default
       {%- include coding_activity.html -%}
     </div>
 
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
-      
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
   </div>
   <div class="col-lg-8">
-    {% if site.author_bio %}
-    <div class="card">
+    <div style="height: 200px;" class="card">
       <h1 class="card-title">About</h1>
       <p class="lead" id="typewriteText"></p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
-      {% for project in site.author_project_details %} {% if project.visibility
-      == true %}
       <div class="row" id="project-card">
-        <div class="col-md-6">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-            class="project-img"
-          />
-        </div>
-        <div class="col-md-4 center">
-          <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info}}</h6>
-          <p class="experience-desc">{{ project.project_description }}</p>
+        <div class="col-md-12">
+          <h3 class="experience-title">Professional</h3>
+          <h4 class="experience-title">Financial Middleware</h4>
+          <h6 class="experience-info">Financial middleware connects many front end channels such as Internet Banking, Mobile banking, ATMs etc with
+            back end hosts such as core banking host and country switch. Middleware applications process millions of transactions per second. This repo
+            is a collection of components I developed for financial middleware application. The components are written C++ and C#.</h6>
+            <p class="experience-desc">
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/FinancialMiddleware">https://github.com/aathawerani/FinancialMiddleware</a>
+            </p>
+          </div>
+      </div>
+      <br />
+      <div class="row" id="project-card">
+        <div class="col-md-12">
+          <h3 class="experience-title">Freelance </h3>
+          <h4 class="experience-title">Utilities</h4>
+          <h6 class="experience-info">Utilities developed to perform various tasks mostly code is written in C# and ASP.net.</h6>
+          <p class="experience-desc">Developed a few utilities to email invoices based on excel sheet, call some APIs based on data in excel sheet.
+          </p>
           <p>
-            <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
-            >
+            <a class="project-link" href="https://github.com/aathawerani/Utilitites">https://github.com/aathawerani/Utilitites</a>
+          </p>
+      </div>
+      </div>
+      <br />
+      <div class="row" id="project-card">
+        <div class="col-md-12">
+          <h3 class="experience-title">Community </h3>
+          <h4 class="experience-title">NGO Accounting Software</h4>
+          <h6 class="experience-info">A Windows Presentation Foundation based project I developed for an NGO. This NGO has buildings having flats and shops
+            that it gives on rent and the earnings are given out to needy people.</h6>
+          <p class="experience-desc">It has the features of receiving rent, donations, the organization also does event management and receive payment,
+            track cash positions. Handle accounting entries and perform year end closing. Also import / export accounts using excel sheet.
+          </p>
+          <p>
+            <a class="project-link" href="https://github.com/aathawerani/NGOAccountingSoftware">https://github.com/aathawerani/NGOAccountingSoftware</a>
           </p>
         </div>
       </div>
       <br />
-      {% endif %} {% endfor %}
+      <div class="row" id="project-card">
+        <div class="col-md-12">
+          <h3 class="experience-title">Self learning</h3>
+        </div>
+      </div>
+      <br />
+      <div class="row" id="project-card">
+        <div class="col-md-12">
+          <h3 class="experience-title">Academic</h3>
+          <h4 class="experience-title">PhD research</h4>
+          <h6 class="experience-info">My research is application of Deep Reinforcement Learning algorithm to solve identifying optimal schedule 
+            for Time Division Multiple Access protocol. All code is written in Python using Tensorflow, Tf-agents library and Torch.
+          </h6>
+          <p class="experience-desc">a quick brown fox jumped over the lazy dog. very long description of the projects and its components </p>
+          <p>
+            <a class="project-link" href="https://github.com/aathawerani/BroadcastSchedulingProblem">https://github.com/aathawerani/BroadcastSchedulingProblem</a>
+          </p>
+        </div>
+      </div>
+      <br />
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
+    {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />

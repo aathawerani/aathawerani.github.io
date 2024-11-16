@@ -50,17 +50,17 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 #                visibility: true
 
 # Projects
-#author_project_details:
-#              - project_thumbnail: project.png
-#                project_title: project
-#                project_description: A project
-#                project_url: https://project
-#                visibility: true
-#              - project_thumbnail: project.PNG
-#                project_title: project
-#                project_description: A project
-#                project_url: https://project
-#                visibility: true
+author_project_details:
+              - project_thumbnail: project.png
+                project_title: project
+                project_description: A project
+                project_url: https://project
+                visibility: true
+              - project_thumbnail: project.PNG
+                project_title: project
+                project_description: A project
+                project_url: https://project
+                visibility: true
 
 # social links
 #twitter_username: 
@@ -101,7 +101,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: false
 show_author_education_details: false
-show_author_project_details: false
+show_author_project_details: true
 
 # pagination of posts
 #paginate: 4
