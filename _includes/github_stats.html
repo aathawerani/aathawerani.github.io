@@ -4,7 +4,7 @@
   {% if site.data.github_stats %}
     {% assign s = site.data.github_stats %}
     <div class="stats-grid">
-      <div class="stat-row"><div class="stat-label">Followers</div><div class="stat-value numeric" title="{{ s.followers | default: 0 }}">{{ s.followers | default: 0 }}</div></div>
+      <div class="stat-row"><div >Followers</div><div class="stat-value numeric" title="{{ s.followers | default: 0 }}">{{ s.followers | default: 0 }}</div></div>
       <div class="stat-row"><div class="stat-label">Public repos</div><div class="stat-value numeric" title="{{ s.public_repos | default: 0 }}">{{ s.public_repos | default: 0 }}</div></div>
       <div class="stat-row"><div class="stat-label">Total stars</div><div class="stat-value numeric" title="{{ s.total_stars | default: 0 }}">{{ s.total_stars | default: 0 }}</div></div>
       <div class="stat-row"><div class="stat-label">Total forks</div><div class="stat-value numeric" title="{{ s.total_forks | default: 0 }}">{{ s.total_forks | default: 0 }}</div></div>
