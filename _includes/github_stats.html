@@ -4,8 +4,11 @@
   <p><strong>Followers:</strong> {{ s.followers | default: 0 }}</p>
   <p><strong>Public repos:</strong> {{ s.public_repos | default: 0 }}</p>
   <p><strong>Total stars:</strong> {{ s.total_stars | default: 0 }}</p>
-  {% if s.top_languages and s.top_languages != "" %}
-  <p><strong>Top languages:</strong> {{ s.top_languages }}</p>
-  {% endif %}
+  <p><strong>Total forks:</strong> {{ s.total_forks | default: 0 }}</p>
+  <p><strong>Total commits:</strong> {{ s.total_commits | default: 0 }}</p>
+  <p><strong>PRs opened:</strong> {{ s.prs_opened | default: 0 }}</p>
+  <p><strong>PRs merged:</strong> {{ s.prs_merged | default: 0 }}</p>
+  <p><strong>Recent push events (last ~300 events):</strong> {{ s.pushes_recent | default: 0 }}</p>
+  <p><strong>Score:</strong> {{ s.score | default: 0 }}</p>
   <p style="font-size:0.85rem;color:#666">Updated: {{ s.updated_at }}</p>
 </div>
