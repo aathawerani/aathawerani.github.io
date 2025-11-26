@@ -2,15 +2,15 @@
   <h1 class="card-title">GitHub</h1>
   {% assign s = site.data.github_stats %}
   <div class="stats-grid">
-    <div class="stat-row"><div class="stat-label">Followers</div><div class="stat-value">{{ s.followers | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Public repos</div><div class="stat-value">{{ s.public_repos | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Total stars</div><div class="stat-value">{{ s.total_stars | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Total forks</div><div class="stat-value">{{ s.total_forks | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Commits (approx.)</div><div class="stat-value">{{ s.total_commits | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">PRs opened</div><div class="stat-value">{{ s.prs_opened | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">PRs merged</div><div class="stat-value">{{ s.prs_merged | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Recent pushes</div><div class="stat-value">{{ s.pushes_recent | default: 0 }}</div></div>
-    <div class="stat-row"><div class="stat-label">Score</div><div class="stat-value">{{ s.score | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Followers</div><div class="stat-value numeric">{{ s.followers | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Public repos</div><div class="stat-value numeric">{{ s.public_repos | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Total stars</div><div class="stat-value numeric">{{ s.total_stars | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Total forks</div><div class="stat-value numeric">{{ s.total_forks | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Commits (approx.)</div><div class="stat-value numeric">{{ s.total_commits | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">PRs opened</div><div class="stat-value numeric">{{ s.prs_opened | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">PRs merged</div><div class="stat-value numeric">{{ s.prs_merged | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Recent pushes</div><div class="stat-value numeric">{{ s.pushes_recent | default: 0 }}</div></div>
+    <div class="stat-row"><div class="stat-label">Score</div><div class="stat-value numeric">{{ s.score | default: 0 }}</div></div>
   </div>
 
   {% if s.updated_at %}

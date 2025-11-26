@@ -3,9 +3,15 @@ layout: default
 ---
 
 <style>
-  /* Layout improvements */
-  .container-custom { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; 
-    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+  /* global box-sizing & font (use a solid system stack so font rendering is consistent) */
+  * { box-sizing: border-box; }
+  body, .container-custom, .card { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility;
+    color: #222;
+  }
+
+  .container-custom { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
 
   /* Profile card */
   #profile-card { text-align: center; padding: 1.5rem; }
@@ -14,33 +20,61 @@ layout: default
   .profile-bio { color: #6c757d; margin-bottom: 0.75rem; }
 
   /* Cards & headings */
-  .card { border-radius: 10px; box-shadow: 0 6px 20px rgba(33,37,41,.08); padding: 1.25rem; margin-bottom: 1.25rem; background: #fff; font-family: inherit; color: #222; }
+  .card { border-radius: 10px; box-shadow: 0 6px 20px rgba(33,37,41,.08); padding: 1.25rem; margin-bottom: 1.25rem; background: #fff; }
   .card-title { font-size: 1.25rem; margin-bottom: .75rem; font-weight: 700; }
   .lead#typewriteText { font-size: 1rem; color: #343a40; margin: 0; }
-
-  /* Improve text clarity globally where text-heavy */
-  .card, .card p, .card h1, .card h3, .card h4, .card h6, .profile-bio { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; line-height:1.45; }
+  .card, .card p, .card h1, .card h3, .card h4, .card h6, .profile-bio { line-height:1.45; }
 
   /* Projects */
   #project-card .experience-title { margin: 0.25rem 0; font-weight: 700; }
   .experience-info { color: #6c757d; margin-bottom: .5rem; }
-  .project-link { color: #0d6efd; word-break: break-all; }
+  .project-link { color: #0d6efd; word-break: break-word; }
 
   /* Skills as badges */
   .skill-badge { display:inline-block; margin:3px 6px 6px 0; padding:6px 10px; background:#f1f3f5; border-radius:999px; font-size:0.85rem; color:#495057; }
 
-  /* GitHub stats card styling (keeps values on one line and matches page font) */
+  /* GitHub stats card styling */
   .github-stats-card { font-family: inherit; }
-  .github-stats-card .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.4rem 1rem; align-items: center; }
-  .github-stats-card .stat-row { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; align-items: center; white-space: nowrap; }
-  .github-stats-card .stat-label { color: #6c757d; font-size: 0.95rem; overflow: hidden; text-overflow: ellipsis; }
-  .github-stats-card .stat-value { font-weight:700; color:#111; font-size:0.98rem; white-space: nowrap; }
+  .github-stats-card .stats-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
+    gap: 0.45rem 1rem; 
+    align-items: center; 
+  }
+
+  /* Make each row flexible so labels can shrink and values stay visible */
+  .github-stats-card .stat-row { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 0.5rem; 
+    align-items: center; 
+    min-width: 0; /* allow children to shrink inside grid cell */
+  }
+  .github-stats-card .stat-label { 
+    color: #6c757d; 
+    font-size: 0.95rem; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    min-width: 0;
+  }
+  .github-stats-card .stat-value { 
+    font-weight:700; 
+    color:#111; 
+    font-size:0.98rem; 
+    text-align: right; 
+    white-space: nowrap; 
+    flex: 0 0 auto; 
+    max-width: 100%;
+    font-variant-numeric: tabular-nums; /* keeps digits crisp and aligned */
+  }
   .github-stats-card .updated { font-size:0.82rem; color:#666; margin-top:0.65rem; }
 
-  /* Prevent stat values wrapping on small screens */
+  /* mobile: stack stats rows vertically */
   @media (max-width:480px) {
     .github-stats-card .stats-grid { grid-template-columns: 1fr; }
     .github-stats-card .stat-row { grid-template-columns: 1fr auto; }
+    .github-stats-card .stat-label { white-space: normal; }
   }
 
   /* Responsive tweaks */
