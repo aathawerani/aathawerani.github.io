@@ -1,7 +1,7 @@
 name: Generate GitHub stats
 on:
   schedule:
-    - cron: '0 3 * * *'   # daily at 03:00 UTC
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,6 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
       - name: Fetch GitHub user & repo stats
         env:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -21,23 +24,32 @@ jobs:
           set -euo pipefail
           API="https://api.github.com"
           H="Authorization: token $GITHUB_API_TOKEN"
+
           user_json=$(curl -s -H "$H" "$API/users/$GH_USER")
           followers=$(echo "$user_json" | jq '.followers // 0')
           public_repos=$(echo "$user_json" | jq '.public_repos // 0')
+
+          # fetch up to 200 repos; paginate if you have more
           repos=$(curl -s -H "$H" "$API/users/$GH_USER/repos?per_page=200")
+
           total_stars=$(echo "$repos" | jq '[.[] .stargazers_count] | add // 0')
           top_langs=$(echo "$repos" | jq -r 'map(.language) | map(select(.!=null)) | group_by(.) | map({lang: .[0], count: length}) | sort_by(-.count) | map(.lang) | .[:6] | join(", ")')
           ts=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
           mkdir -p _data
-          cat > _data/github_stats.yml <<EOF
-followers: ${followers}
-public_repos: ${public_repos}
-total_stars: ${total_stars}
-top_languages: "${top_langs}"
-updated_at: "${ts}"
-EOF
+
+          # write JSON (safe for Jekyll)
+          jq -n \
+            --argjson followers "$followers" \
+            --argjson public_repos "$public_repos" \
+            --argjson total_stars "$total_stars" \
+            --arg top_languages "$top_langs" \
+            --arg updated_at "$ts" \
+            '{followers:$followers, public_repos:$public_repos, total_stars:$total_stars, top_languages:$top_languages, updated_at:$updated_at}' \
+            > _data/github_stats.json
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/github_stats.yml || true
+          git add _data/github_stats.json
           git commit -m "chore: update github stats (${ts})" || echo "no changes to commit"
           git push
