@@ -2,6 +2,375 @@
 layout: default
 ---
 
+<style>
+  /* Layout improvements */
+  .container-custom { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+
+  /* Profile card */
+  #profile-card { text-align: center; padding: 1.5rem; }
+  .profile-img { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .profile-name { margin-top: 0.75rem; font-size: 1.6rem; font-weight: 700; }
+  .profile-bio { color: #6c757d; margin-bottom: 0.75rem; }
+
+  /* Cards & headings */
+  .card { border-radius: 10px; box-shadow: 0 6px 20px rgba(33,37,41,.08); padding: 1.25rem; margin-bottom: 1.25rem; background: #fff; }
+  .card-title { font-size: 1.25rem; margin-bottom: .75rem; font-weight: 700; }
+  .lead#typewriteText { font-size: 1rem; color: #343a40; margin: 0; }
+
+  /* Projects */
+  #project-card .experience-title { margin: 0.25rem 0; font-weight: 700; }
+  .experience-info { color: #6c757d; margin-bottom: .5rem; }
+  .project-link { color: #0d6efd; word-break: break-all; }
+
+  /* Skills as badges */
+  .skill-badge { display:inline-block; margin:3px 6px 6px 0; padding:6px 10px; background:#f1f3f5; border-radius:999px; font-size:0.85rem; color:#495057; }
+
+  /* Responsive tweaks */
+  @media (max-width: 991.98px) {
+    .profile-img { width: 120px; height: 120px; }
+  }
+</style>
+
+<div class="container-custom">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card" id="profile-card">
+        <a href="/about">
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="Author" />
+        </a>
+        <h1 class="profile-name">{{ site.title }}</h1>
+        <p class="profile-bio">{{ site.subtitle }}</p>
+        {% if site.github_username %} 
+        {%- include github_follow_button.html -%} 
+        <span>
+            {%- include github_star_button.html -%}
+            {%- include github_fork_button.html -%}
+        </span>
+        {% endif %}
+
+        <p class="profile-links">
+          {% if site.twitter_username %}
+          <a class="social-link" href="http://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          {% if site.facebook_username %}
+          <a class="social-link" href="http://facebook.com/{{ site.facebook_username }}" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          {% endif %}
+          {% if site.instagram_username %}
+          <a class="social-link" href="http://instagram.com/{{ site.instagram_username }}" title="Instagram"><i class="fab fa-instagram"></i></a>
+          {% endif %}
+          {% if site.medium_username %}
+          <a class="social-link" href="http://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fab fa-medium-m"></i></a>
+          {% endif %}
+          {% if site.github_username %}
+          <a class="social-link" href="http://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if site.behance_username %}
+          <a class="social-link" href="http://behance.net/{{ site.behance_username }}" title="Behance"><i class="fab fa-behance"></i></a>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          {% endif %}
+          {% if site.telegram_username %}
+          <a class="social-link" href="http://t.me/{{ site.telegram_username }}" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+          {% endif %}
+          {% if site.dribbble_username %}
+          <a class="social-link" href="https://dribbble.com/{{ site.dribbble_username }}" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+          {% endif %}
+          {% if site.flickr_username %}
+          <a class="social-link" href="https://www.flickr.com/photos/{{ site.flickr_username }}" title="Flickr"><i class="fab fa-flickr"></i></a>
+          {% endif %}
+        </p>
+
+        {% if site.author_location %}
+        <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
+        {% endif %}
+        {% if site.author_email %}
+        <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
+        {% endif %}
+        {% if site.author_website_url %}
+        <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
+        {% endif %}
+      </div>
+
+      <div class="card">
+        <h1 class="card-title">Skills</h1>
+        <div>
+          {%- include author_skills.html -%}
+        </div>
+      </div>
+
+      <div class="card">
+        <h1 class="card-title">Coding Activity</h1>
+        {%- include coding_activity.html -%}
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card">
+        <div class="d-flex justify-content-between align-items-start">
+          <h1 class="card-title mb-0">About</h1>
+        </div>
+        <p class="lead" id="typewriteText" style="margin-top:.65rem;"></p>
+      </div>
+
+      <div id="author_projects" class="card">
+        <h1 class="card-title">Projects</h1>
+
+        <!-- Group each project section into its own subtle card block -->
+        <div class="mb-3">
+          <h3 class="experience-title">Professional</h3>
+          <div class="mb-2">
+            <h4 class="experience-title">Financial Middleware</h4>
+            <h6 class="experience-info">Financial middleware connects many front end channels such as Internet Banking, Mobile banking, ATMs etc with back end hosts such as core banking host and country switch.</h6>
+            <p class="experience-desc">This repo is a collection of components I developed for financial middleware application. The components are written C++ and C#.</p>
+            <p><a class="project-link" href="https://github.com/aathawerani/FinancialMiddleware">https://github.com/aathawerani/FinancialMiddleware</a></p>
+            <ul style="padding-left:1rem; color:#495057;">
+              <li>Encryption - Various functions that are used for encryption.</li>
+              <li>FileOps - Higher level file operations such as parsing and writing parameters.</li>
+              <li>FileIO - File and directory operations used for logging and state saving.</li>
+              <li>DateTime - DateTime class for handling transaction date and time.</li>
+              <li>Event Log - Write to Windows Event Log if disk logging fails.</li>
+              <li>Common Functions - Helper functions for data format conversion and string operations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <h3 class="experience-title">Freelance</h3>
+          <div class="mb-2">
+            <h4 class="experience-title">Sharepoint Product Catalogue</h4>
+            <h6 class="experience-info">Made changes to a client's existing Sharepoint website.</h6>
+            <p class="experience-desc">Fixed bugs and implemented multipart upload for large files.</p>
+            <p><a class="project-link" href="https://github.com/aathawerani/SharePointProductCatalog">https://github.com/aathawerani/SharePointProductCatalog</a></p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">School ERP</h4>
+            <h6 class="experience-info">A standalone website as an additional component to their existing ERP system.</h6>
+            <p class="experience-desc">The website helped managed inventory, also mapped schools on Google maps using Google APIs and also would tell the 
+              nearest school on a location.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/SchoolERP">https://github.com/aathawerani/SchoolERP</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Utilities</h4>
+            <h6 class="experience-info">Utilities developed to perform various tasks mostly code is written in C# and ASP.net.</h6>
+            <p class="experience-desc">Developed a few utilities to email invoices based on excel sheet, call some APIs based on data in excel sheet.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/Utilitites">https://github.com/aathawerani/Utilitites</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <h3 class="experience-title">Community</h3>
+          <div class="mb-2">
+            <h4 class="experience-title">NGO Accounting Software</h4>
+            <h6 class="experience-info">A Windows Presentation Foundation based project I developed for an NGO. This NGO has buildings having flats and shops
+              that it gives on rent and the earnings are given out to needy people.</h6>
+            <p class="experience-desc">It has the features of receiving rent, donations, the organization also does event management and receive payment,
+              track cash positions. Handle accounting entries and perform year end closing. Also import / export accounts using excel sheet.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/NGOAccountingSoftware">https://github.com/aathawerani/NGOAccountingSoftware</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Arabic chatbot</h4>
+            <h6 class="experience-info">Using Arabic Bert to train model on arabic files to answer questions.</h6>
+            <p class="experience-desc">Arabic PDF files having images is converted to text file that can be processed by Arabic Bert. In the next step that
+              converted file is provided to Arabic Bert for training.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/ArabicChatbot">https://github.com/aathawerani/ArabicChatbot</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <h3 class="experience-title">Self learning</h3>
+          <div class="mb-2">
+            <h4 class="experience-title">Restaurant Ordering System</h4>
+            <p class="experience-desc">Used React redux and angular to create restaurant menu with node JS and express JS at the backend</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/RestaurantOrderingSystem">https://github.com/aathawerani/RestaurantOrderingSystem</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Shopping app</h4>
+            <p class="experience-desc">Shows product listing and details. Mobile app created in Kotlin and Flutter.</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/ShoppingApp">https://github.com/aathawerani/ShoppingApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Tasks tracking app</h4>
+            <p class="experience-desc">Create and close tasks. Mobile app created in Kotlin</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/TasksApp">https://github.com/aathawerani/TasksApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Employee Management app</h4>
+            <p class="experience-desc">Fetches employees by calling an API. Mobile app created in Flutter</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/EmployeeManagement">https://github.com/aathawerani/EmployeeManagement</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Earthquake app</h4>
+            <p class="experience-desc">Keeps earthquake listings. Mobile app created in Kotlin</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/EarthQuakeApp">https://github.com/aathawerani/EarthQuakeApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Quiz app</h4>
+            <p class="experience-desc">Presents random questions. Mobile app created in Kotlin</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/QuizApp">https://github.com/aathawerani/QuizApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Stop watch app</h4>
+            <p class="experience-desc">Simple stop watch functionality. Mobile app created in Kotlin</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/StopWatchApp">https://github.com/aathawerani/StopWatchApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Weather App</h4>
+            <p class="experience-desc">Created in Django.</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/WeatherApp">https://github.com/aathawerani/WeatherApp</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Payroll system</h4>
+            <p class="experience-desc">Created in Flask.</p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/PayrollManagement">https://github.com/aathawerani/PayrollManagement</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <h3 class="experience-title">Academic</h3>
+          <div class="mb-2">
+            <h4 class="experience-title">PhD research</h4>
+            <h6 class="experience-info">Application of Deep Reinforcement Learning algorithm to solve identifying optimal schedule 
+              for Time Division Multiple Access protocol. All code is written in Python using Tensorflow, Tf-agents library and Torch.
+            </h6>
+            <p class="experience-desc">Created my own environment for the agent and used TF-agents library for Proximity Policy Optimization algorithm
+              which is a variation of Actor Critic algorithm to determine optimal TDMA schedule.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/BroadcastSchedulingProblem">https://github.com/aathawerani/BroadcastSchedulingProblem</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">PhD Courses</h4>
+            <h6 class="experience-info">Some of the projects and assignments that I completed as part of my PhD studies.</h6>
+            <p class="experience-desc">Probabilistic reasoning project - Skin cancer detection based on Bayesian Network. Determining the best Bayesian Network 
+              that explains a cause for cancer is an NP complete problem and Evolutionary Algorithms and Neural Networks can be used to solve this problem. In
+              Computational Intelligence course these algorithms were applied to solve the Bayesian Network problem.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/SkinCancerDetection">https://github.com/aathawerani/SkinCancerDetection</a>
+            </p>
+            <p class="experience-desc">Computational Intelligence project - Particle Swarm Optimization (PSO) and Neural Network (NN) were used to automate PacMan
+              moves against computer ghosts.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/PacMan">https://github.com/aathawerani/PacMan</a>
+            </p>
+            <p class="experience-desc">Information Retrieval project - Knime and Lucene were used to index Minutes of the meetings that are publicly available
+              for various IBA meetings.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/KnowledgeBase">https://github.com/aathawerani/KnowledgeBase</a>
+            </p>
+            <p class="experience-desc">Machine Learning assignments for K Nearest Neighboars, Support Vector Machines, Linear Regression, Logisctic Regression,
+              Multi Class classification, Non linear Multi class classification.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/MachineLearning">https://github.com/aathawerani/MachineLearning</a>
+            </p>
+            <p class="experience-desc">Stochastic Modeling project - Used Hidden Markov Model and Evolutionary algorithm on Twitter data to identify the 
+              most influential user on a particular topic.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/TwitterInfluence">https://github.com/aathawerani/TwitterInfluence</a>
+            </p>
+            <p class="experience-desc">Semantic Web project - Connect patients monitoring data in a semantic web to draw meaning from the data.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/PatientHealthMonitoring">https://github.com/aathawerani/PatientHealthMonitoring</a>
+            </p>
+          </div>
+          <div class="mb-2">
+            <h4 class="experience-title">Masters Courses</h4>
+            <h6 class="experience-info">Some of the projects and assignments that I completed as part of my Masters studies.</h6>
+            <p class="experience-desc">Data warehouse project that contains university data and created star schema with fact table and dimensions.
+            </p>
+            <p>
+              <a class="project-link" href="https://github.com/aathawerani/Datawarehouse">https://github.com/aathawerani/Datawarehouse</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {% if site.show_author_work_experiences == true %}
+      <div class="card">
+        <h1 class="card-title">Work Experience</h1>
+        <div>
+          {% for exp in site.author_work_experiences %}
+            {% if exp.visibility == true %}
+            <div class="row mb-3 align-items-center">
+              <div class="col-md-2">
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" style="max-width:80px;" />
+              </div>
+              <div class="col-md-10">
+                <h4 class="experience-title">{{ exp.designation }}</h4>
+                <h6 class="experience-info">{{ exp.company_name}}</h6>
+                <p class="experience-desc">{{ exp.description }}</p>
+                <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.show_author_education_details == true %}
+      <div class="card">
+        <h1 class="card-title">Education</h1>
+        <div>
+          {% for detail in site.author_education_details %}
+            {% if detail.visibility == true %}
+            <div class="row mb-3 align-items-center">
+              <div class="col-md-2">
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" style="max-width:80px;" />
+              </div>
+              <div class="col-md-10">
+                <h4 class="experience-title">{{detail.college_degree }}</h4>
+                <h6 class="experience-info">{{detail.college_name}}</h6>
+                <p class="experience-desc">{{detail.description }}</p>
+                <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 <script>
   $(document).ready(function() {
     $("#typewriteText").typewrite({
@@ -9,361 +378,3 @@ layout: default
     });
   });
 </script>
-
-<div class="col-lg-12">
-<div class="row">
-  <div class="col-lg-4">
-    <div class="card" id="profile-card">
-      <a href="/about">
-        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
-      </a>
-      <h1 class="profile-name">{{ site.title }}</h1>
-      <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} 
-      {%- include github_follow_button.html -%} 
-      <span>
-          {%- include github_star_button.html -%}
-          {%- include github_fork_button.html -%}
-      </span>
-    {%endif %}
-
-      <p class="profile-links">
-        {% if site.twitter_username %}
-        <a
-          class="social-link"
-          href="http://twitter.com/{{ site.twitter_username }}"
-        >
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %} {% if site.facebook_username %}
-        <a
-          class="social-link"
-          href="http://facebook.com/{{ site.facebook_username }}"
-        >
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        {% endif %} {% if site.instagram_username %}
-        <a
-          class="social-link"
-          href="http://instagram.com/{{ site.instagram_username }}"
-        >
-          <i class="fab fa-instagram"></i>
-        </a>
-        {% endif %} {% if site.medium_username %}
-        <a
-          class="social-link"
-          href="http://medium.com/@{{ site.medium_username }}"
-        >
-          <i class="fab fa-medium-m"></i>
-        </a>
-        {% endif %} {% if site.github_username %}
-        <a
-          class="social-link"
-          href="http://github.com/{{ site.github_username }}"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %} {% if site.behance_username %}
-        <a
-          class="social-link"
-          href="http://behance.net/{{ site.behance_username }}"
-        >
-          <i class="fab fa-behance"></i>
-        </a>
-        {% endif %} {% if site.linkedin_username %}
-        <a
-          class="social-link"
-          href="http://linkedin.com/in/{{ site.linkedin_username }}"
-        >
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        {% endif %} {% if site.telegram_username %}
-        <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
-          <i class="fab fa-telegram-plane"></i>
-        </a>
-        {% endif %} {% if site.dribbble_username %}
-        <a
-          class="social-link"
-          href="https://dribbble.com/{{ site.dribbble_username }}"
-        >
-          <i class="fab fa-dribbble"></i>
-        </a>
-        {% endif %} {% if site.flickr_username %}
-        <a
-          class="social-link"
-          href="https://www.flickr.com/photos/{{ site.flickr_username }}"
-        >
-          <i class="fab fa-flickr"></i>
-        </a>
-        {% endif %}
-      </p>
-      {% if site.author_location %}
-      <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
-      {% endif %} {% if site.author_email %}
-      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
-      {% endif %} {% if site.author_website_url %}
-      <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
-      {% endif %}
-    </div>
-
-    <div class="card">
-      <h1>Skills</h1>
-
-      {%- include author_skills.html -%}
-    </div>
-
-    <div class="card">
-      <h1>Coding Activity</h1>
-      
-      {%- include coding_activity.html -%}
-    </div>
-
-  </div>
-  <div class="col-lg-8">
-    <div style="height: 200px;" class="card">
-      <h1 class="card-title">About</h1>
-      <p class="lead" id="typewriteText"></p>
-    </div>
-    <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
-      <br />
-      <div class="row" id="project-card">
-        <div class="col-md-12">
-          <h3 class="experience-title">Professional</h3>
-          <h4 class="experience-title">Financial Middleware</h4>
-          <h6 class="experience-info">Financial middleware connects many front end channels such as Internet Banking, Mobile banking, ATMs etc with
-            back end hosts such as core banking host and country switch. Middleware applications process millions of transactions per second. This repo
-            is a collection of components I developed for financial middleware application. The components are written C++ and C#.</h6>
-            <p class="experience-desc">
-            </p>
-            <p>
-              <a class="project-link" href="https://github.com/aathawerani/FinancialMiddleware">https://github.com/aathawerani/FinancialMiddleware</a>
-            </p>
-			<p class="experience-desc">
-			Following was developed using C++20 in VS code using Windows APIs.
-            </p>
-      <p class="experience-desc">
-      Encryption - Various functions that are used for encryption.
-            </p>
-			<p class="experience-desc">
-			FileOps - Higher level file operations such as parsing and writing parameters.
-            </p>
-			<p class="experience-desc">
-			FileIO - Various file and directory operations used for logging and state saving.
-            </p>
-			<p class="experience-desc">
-			DateTime - DateTime class for handling transaction date and time.
-            </p>
-			<p class="experience-desc">
-			Event Log - When writing logs on disk or any other medium fails then event is written in Windows event logs for debugging purpose.
-            </p>
-			<p class="experience-desc">
-			Common Functions - Various helper functions for data format conversion and string operations. 
-            </p>
-          </div>
-      </div>
-      <br />
-      <div class="row" id="project-card">
-        <div class="col-md-12">
-          <h3 class="experience-title">Freelance </h3>
-          <h4 class="experience-title">Sharepoint Proudct Catalogue</h4>
-          <h6 class="experience-info">Made changes to a clients existing Sharepoint website.</h6>
-          <p class="experience-desc">Fixed bugs and new features, added multi part upload of large files to Sharepoint website.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/SharePointProductCatalog">https://github.com/aathawerani/SharePointProductCatalog</a>
-          </p>
-          <h4 class="experience-title">School ERP</h4>
-          <h6 class="experience-info">A standalone website as an additional component to their existing ERP system.</h6>
-          <p class="experience-desc">The website helped managed inventory, also mapped schools on Google maps using Google APIs and also would tell the 
-            nearest school on a location.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/SchoolERP">https://github.com/aathawerani/SchoolERP</a>
-          </p>
-          <h4 class="experience-title">Utilities</h4>
-          <h6 class="experience-info">Utilities developed to perform various tasks mostly code is written in C# and ASP.net.</h6>
-          <p class="experience-desc">Developed a few utilities to email invoices based on excel sheet, call some APIs based on data in excel sheet.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/Utilitites">https://github.com/aathawerani/Utilitites</a>
-          </p>
-      </div>
-      </div>
-      <br />
-      <div class="row" id="project-card">
-        <div class="col-md-12">
-          <h3 class="experience-title">Community </h3>
-          <h4 class="experience-title">NGO Accounting Software</h4>
-          <h6 class="experience-info">A Windows Presentation Foundation based project I developed for an NGO. This NGO has buildings having flats and shops
-            that it gives on rent and the earnings are given out to needy people.</h6>
-          <p class="experience-desc">It has the features of receiving rent, donations, the organization also does event management and receive payment,
-            track cash positions. Handle accounting entries and perform year end closing. Also import / export accounts using excel sheet.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/NGOAccountingSoftware">https://github.com/aathawerani/NGOAccountingSoftware</a>
-          </p>
-          <h4 class="experience-title">Arabic chatbot</h4>
-          <h6 class="experience-info">Using Arabic Bert to train model on arabic files to answer questions.</h6>
-          <p class="experience-desc">Arabic PDF files having images is converted to text file that can be processed by Arabic Bert. In the next step that
-            converted file is provided to Arabic Bert for training.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/ArabicChatbot">https://github.com/aathawerani/ArabicChatbot</a>
-          </p>
-        </div>
-      </div>
-      <br />
-      <div class="row" id="project-card">
-        <div class="col-md-12">
-          <h3 class="experience-title">Self learning</h3>
-          </h6>
-          <p class="experience-desc">Restaurant Ordering System - Used React redux and angular to create restaurant menu with node JS and express JS at the backend</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/RestaurantOrderingSystem">https://github.com/aathawerani/RestaurantOrderingSystem</a>
-          </p>
-          <p class="experience-desc">Shopping app that shows product listing and shows product details. Mobile app created in Kotlin and Flutter.</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/ShoppingApp">https://github.com/aathawerani/ShoppingApp</a>
-          </p>
-          <p class="experience-desc">Tasks tracking app with create and close tasks. Mobile app created in Kotlin</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/TasksApp">https://github.com/aathawerani/TasksApp</a>
-          </p>
-          <p class="experience-desc">Employee Management app that fetches employees by calling an API. Mobile app created in Flutter</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/EmployeeManagement">https://github.com/aathawerani/EmployeeManagement</a>
-          </p>
-          <p class="experience-desc">Earthquake app that keeps earthquake listings. Mobile app created in Kotlin</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/EarthQuakeApp">https://github.com/aathawerani/EarthQuakeApp</a>
-          </p>
-          <p class="experience-desc">Quiz app that presents random questions. Mobile app created in Kotlin</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/QuizApp">https://github.com/aathawerani/QuizApp</a>
-          </p>
-          <p class="experience-desc">Simple Stop watch app. Mobile app created in Kotlin</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/StopWatchApp">https://github.com/aathawerani/StopWatchApp</a>
-          </p>
-          <p class="experience-desc">Weather App created in Django.</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/WeatherApp">https://github.com/aathawerani/WeatherApp</a>
-          </p>
-          <p class="experience-desc">Payroll system created in Flask.</p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/PayrollManagement">https://github.com/aathawerani/PayrollManagement</a>
-          </p>
-        </div>
-      </div>
-      <br />
-      <div class="row" id="project-card">
-        <div class="col-md-12">
-          <h3 class="experience-title">Academic</h3>
-          <h4 class="experience-title">PhD research</h4>
-          <h6 class="experience-info">My research is application of Deep Reinforcement Learning algorithm to solve identifying optimal schedule 
-            for Time Division Multiple Access protocol. All code is written in Python using Tensorflow, Tf-agents library and Torch.
-          </h6>
-          <p class="experience-desc">Created my own environment for the agent and used TF-agents library for Proximity Policy Optimization algorithm
-            which is a variation of Actor Critic algorithm to determine optimal TDMA schedule.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/BroadcastSchedulingProblem">https://github.com/aathawerani/BroadcastSchedulingProblem</a>
-          </p>
-          <h4 class="experience-title">PhD Courses</h4>
-          <h6 class="experience-info">Some of the projects and assignments that I completed as part of my PhD studies.</h6>
-          <p class="experience-desc">Probabilistic reasoning project - Skin cancer detection based on Bayesian Network. Determining the best Bayesian Network 
-            that explains a cause for cancer is an NP complete problem and Evolutionary Algorithms and Neural Networks can be used to solve this problem. In
-            Computational Intelligence course these algorithms were applied to solve the Bayesian Network problem.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/SkinCancerDetection">https://github.com/aathawerani/SkinCancerDetection</a>
-          </p>
-          <p class="experience-desc">Computational Intelligence project - Particle Swarm Optimization (PSO) and Neural Network (NN) were used to automate PacMan
-            moves against computer ghosts.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/PacMan">https://github.com/aathawerani/PacMan</a>
-          </p>
-          <p class="experience-desc">Information Retrieval project - Knime and Lucene were used to index Minutes of the meetings that are publicly available
-            for various IBA meetings.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/KnowledgeBase">https://github.com/aathawerani/KnowledgeBase</a>
-          </p>
-          <p class="experience-desc">Machine Learning assignments for K Nearest Neighboars, Support Vector Machines, Linear Regression, Logisctic Regression,
-            Multi Class classification, Non linear Multi class classification.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/MachineLearning">https://github.com/aathawerani/MachineLearning</a>
-          </p>
-          <p class="experience-desc">Stochastic Modeling project - Used Hidden Markov Model and Evolutionary algorithm on Twitter data to identify the 
-            most influential user on a particular topic.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/TwitterInfluence">https://github.com/aathawerani/TwitterInfluence</a>
-          </p>
-          <p class="experience-desc">Semantic Web project - Connect patients monitoring data in a semantic web to draw meaning from the data.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/PatientHealthMonitoring">https://github.com/aathawerani/PatientHealthMonitoring</a>
-          </p>
-          <h4 class="experience-title">Masters Courses</h4>
-          <h6 class="experience-info">Some of the projects and assignments that I completed as part of my Masters studies.</h6>
-          <p class="experience-desc">Data warehouse project that contains university data and created star schema with fact table and dimensions.
-          </p>
-          <p>
-            <a class="project-link" href="https://github.com/aathawerani/Datawarehouse">https://github.com/aathawerani/Datawarehouse</a>
-          </p>
-        </div>
-      </div>
-      <br />
-    </div>
-    {% if site.show_author_work_experiences == true %}
-    <div class="card">
-      <h1 class="card-title">Work Experience</h1>
-      <br />
-      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-      %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %} {% if site.show_author_education_details == true %}
-    <div class="card">
-      <h1 class="card-title">Education</h1>
-      <br />
-      {% for detail in site.author_education_details %} {% if detail.visibility
-      == true %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{detail.college_degree }}</h4>
-          <h6 class="experience-info">{{detail.college_name}}</h6>
-          <p class="experience-desc">{{detail.description}}</p>
-          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-</div>
