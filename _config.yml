@@ -3,26 +3,26 @@ subtitle: Solutions Architect
 description: >- # this means to ignore newlines until "baseurl:"
   I am a passionate developer with experience in building web applications using modern technologies.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://aathawerani.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
     - text: About
       url: /about
-    #- text: Blog
-    #  url: /blog
+    - text: Blog
+      url: /blog
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: Ali Ahmed Thawerani
-author_bio: Hi, my name is Ali Ahmed Thawerani. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Ali Ahmed Thawerani. 
 author_email: "athawerani@gmail.com"
 author_location: Karachi
 #author_website_url: ""
-typewrite-text: I am a passionate developer with experience in building web applications using modern technologies. I enjoy solving complex problems and am always eager to learn new skills.
+typewrite-text: I design and build secure platforms, scalable backend systems, and mature DevSecOps environments. My work focuses on engineering excellence, predictable delivery, and creating resilient, compliant digital products.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -104,9 +104,9 @@ show_author_education_details: false
 show_author_project_details: true
 
 # pagination of posts
-#paginate: 4
-#per_page: 4
-#paginate_path: "/blog/page/:num/"
+paginate: 4
+per_page: 4
+paginate_path: "/blog/page/:num/"
 
 # minify
 # compress_html:
