@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Culture
 permalink: /blog/categories/culture/
 ---
