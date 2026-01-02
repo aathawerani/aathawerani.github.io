@@ -2,16 +2,13 @@
 layout: post
 title: "Practical Git Branching for Fintech: A Strategy for Systems, Scale, and Culture"
 date: 2026-01-02
-categories:
-  - systems
-  - scale
-  - culture
+categories:[systems, culture, scale]
 author: ali
 summary: "A strategic approach to Git branching in fintech environments, balancing regulatory rigor, multi-customer deployments, and product evolution without sacrificing team velocity."
 thumbnail: /assets/img/blog/git-branching-fintech.png
 ---
 
-## Why Git Branching Is a Strategic Decision in Fintech
+Why Git Branching Is a Strategic Decision in Fintech
 
 In fintech organizations, Git branching is not a tooling preference — it is a **systems-level decision** that directly affects delivery speed, auditability, customer trust, and team culture.
 
