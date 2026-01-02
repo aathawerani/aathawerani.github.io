@@ -11,9 +11,7 @@ layout: default
       {% if author %}
         <div class="card mb-4">
           <div class="card-body text-center">
-            {% if author.profile %}
               <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="Author" />
-            {% endif %}
             <h2>{{ author.name }}</h2>
             <p class="text-muted">{{ author.bio }}</p>
           </div>
