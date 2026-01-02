@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Scale
 permalink: /blog/categories/scale/
 ---
