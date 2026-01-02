@@ -13,7 +13,7 @@ layout: default
                               <h4 class="card-title">{{ post.title }}</h4>
 
                               <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                              <p class="card-text">{{ post.summary }} </p>
+                              <p class="card-text">{{ post.excerpt  }} </p>
 
                               <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                               <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
@@ -29,7 +29,7 @@ layout: default
           {% if paginator.total_pages > 1 %}
             <ul class="pagination pagination-sm">
               {% if paginator.previous_page %}
-                <li class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/about' }}">&laquo;</a></li>
+                <li class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl  }}">&laquo;</a></li>
               {% else %}
                 <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
               {% endif %}
