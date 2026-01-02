@@ -7,7 +7,7 @@ layout: default
               <ul>
                   <div class="row">
                       {% for post in paginator.posts %}
-                      {% include blog_card.html %}
+                      <div class="card blog-post"> ... </div>
                       {% endfor %}
                   </div>
               </ul>
@@ -46,9 +46,7 @@ layout: default
       </div>
 
     </div>
-    {%- comment -%}
     {%- include blog_sidebar.html -%}
-    {%- endcomment -%}
 
  </div>
 </div>
