@@ -3,7 +3,7 @@ layout: post
 title: "TECTONICS: Systems, Culture & Scale"
 date: 2025-12-26
 categories: [systems, culture, scale]
-author: Ali Ahmed Thawerani
+author: ali
 ---
 
 This space is a record of how technology organizations actually move.
