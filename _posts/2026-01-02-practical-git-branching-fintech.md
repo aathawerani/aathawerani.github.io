@@ -3,7 +3,7 @@ layout: post
 title: "Practical Git Branching for Fintech: A Strategy for Systems, Scale, and Culture"
 date: 2026-01-02
 categories:[systems, culture, scale]
-author: ali
+author: Ali Ahmed Thawerani
 summary: "A strategic approach to Git branching in fintech environments, balancing regulatory rigor, multi-customer deployments, and product evolution without sacrificing team velocity."
 thumbnail: /assets/img/blog/git-branching-fintech.png
 ---
