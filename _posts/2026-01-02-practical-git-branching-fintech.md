@@ -142,7 +142,7 @@ This approach works particularly well for organizations that:
 
 ## Trunk-Based Development as the Foundation
 
-At the center of this model is ![Trunk-based development](/assets/img/blog/git-branching/trunk-based-development.png).
+At the center of this model is ##trunk-based development## ![Trunk-based development](/assets/img/blog/git-branching/trunk-based-development.png).
 
 All product development flows through a single, continuously evolving branch:
 
