@@ -142,7 +142,7 @@ This approach works particularly well for organizations that:
 
 ## Trunk-Based Development as the Foundation
 
-At the center of this model is **trunk-based development**.
+At the center of this model is ![Trunk-based development](/assets/img/blog/git-branching/trunk-based-development.png).
 
 All product development flows through a single, continuously evolving branch:
 
@@ -244,33 +244,150 @@ This scenario shows how a product fix is applied and propagated across versions.
 - Stability improvements flow forward  
 - Customers inherit fixes without manual rework  
 
----
-
-### Scenario 4: Emergency Production Fix
-
-This scenario illustrates how urgent fixes are handled without destabilizing the product.
-
-![Scenario 4: Emergency Fix Flow](/assets/img/blog/git-branching/scenario-emergency-fix.png)
-
-**What this illustrates:**
-
-- Immediate fixes are applied where needed  
-- Long-term consistency is preserved  
-- The product does not accumulate hidden divergence  
-
----
-
-### Scenario 5: Customer Upgrade to a New Product Version
+### Scenario 4: Customer Upgrade to a New Product Version
 
 This scenario demonstrates a clean and controlled customer upgrade.
 
-![Scenario 5: Customer Upgrade Strategy](/assets/img/blog/git-branching/scenario-customer-upgrade.png)
+![Scenario 4: Customer Upgrade Strategy](/assets/img/blog/git-branching/scenario-customer-upgrade.png)
 
 **What this illustrates:**
 
 - Upgrades start from a clean new release  
 - Only required customer-specific changes are reapplied  
 - Historical complexity is intentionally discarded  
+
+---
+
+## Exceptional Scenarios: Handling Reality Without Breaking the System
+
+No branching strategy operates in a perfectly controlled environment.  
+In long-lived product organizations, especially in fintech, **exceptions are part of business-as-usual (BAU)**.
+
+The goal is not to eliminate exceptions, but to ensure they **do not clutter the product, distort the roadmap, or fragment the codebase** over time.
+
+Exceptional scenarios fall into two broad categories:
+- BAU-driven operational exceptions
+- Product-level decisions required to safeguard long-term scalability
+
+---
+
+## BAU Exceptions: Operational Reality at Scale
+
+These scenarios arise from day-to-day production support and customer operations.
+
+---
+
+### Emergency Fixes That Are Also Product-Relevant
+
+There are cases where:
+
+- A customer faces a production issue requiring immediate resolution
+- The root cause exists in core product logic
+- The fix is relevant beyond a single customer
+
+In such situations, the fix must be treated as a **product fix**, not a customer patch.
+
+The guiding principles are:
+
+- The fix ultimately belongs to the product
+- Customer urgency does not override product integrity
+- Temporary isolation may be necessary, but permanent divergence is not
+
+Emergency paths must always converge back into the product flow to avoid silent forks.
+
+---
+
+### Product Fixes That Break Customer-Specific Features
+
+Product fixes, when rolled out to customers, can occasionally break:
+
+- Customer-specific workflows
+- Custom integrations
+- Regulatory adaptations
+
+This does not invalidate the product fix.
+
+Instead:
+- The product fix remains intact
+- Customer branches are adjusted to restore compatibility
+- The product is not reshaped to preserve isolated customer behavior by default
+
+This preserves forward momentum while respecting customer commitments.
+
+---
+
+### Product Fixes That Are Not Relevant for Certain Customers
+
+Some customers may continue operating on very old product versions due to:
+
+- Compliance certification cycles
+- Contractual or operational constraints
+- Risk tolerance within their organizations
+
+In such cases:
+- Not every product fix is automatically applicable
+- Fixes are evaluated for relevance and feasibility
+- If a fix can be safely adjusted, it may be backported
+- Otherwise, the limitation is documented and accepted
+
+This avoids the illusion that all versions must evolve equally.
+
+---
+
+## Product Safeguard Exceptions: Protecting Long-Term Clarity
+
+These scenarios are less about immediate operations and more about **preventing long-term product clutter**.
+
+---
+
+### New Product Features Not Supported on Older Versions
+
+As products evolve, new features may depend on:
+
+- Architectural changes
+- Data model evolution
+- Platform capabilities not present in older releases
+
+Supporting every historical version indefinitely is neither realistic nor healthy.
+
+A clear support policy is required, for example:
+
+- Only the latest version and the previous two versions (N-2) are supported
+- Customers on older versions must upgrade to access new functionality
+
+This creates a sustainable balance between customer flexibility and product evolution.
+
+---
+
+### Customer Features Promoted to Product Features
+
+Some customer-specific features prove to be broadly valuable.
+
+When this happens:
+- The feature is reassessed from a product perspective
+- Assumptions tied to a single customer are removed
+- The feature is generalized, hardened, and documented
+- It is then introduced into the product through normal product development flow
+
+This transforms customer-driven innovation into **intentional product value**, rather than accidental complexity.
+
+---
+
+## The Discipline Behind Exceptional Scenarios
+
+Exceptional scenarios should follow one unifying rule:
+
+> **Exceptions may solve immediate problems, but they must not redefine the system.**
+
+Healthy systems ensure that exceptions are:
+- Explicit
+- Intentional
+- Time-bound
+- Reconciled with the product roadmap
+
+When exceptions become frequent, informal, or permanent, the branching strategy is no longer scaling — it is eroding.
+
+Strong product organizations absorb operational pressure **without changing their shape**.
 
 ---
 
