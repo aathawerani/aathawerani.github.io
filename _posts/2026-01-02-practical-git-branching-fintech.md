@@ -7,7 +7,7 @@ categories:
   - culture
   - scale
 author: ali
-summary: "A product-centric Git branching strategy that supports multiple customer versions, controlled customization, and scalable delivery without sacrificing engineering velocity."
+excerpt: "A product-centric Git branching strategy that supports multiple customer versions, controlled customization, and scalable delivery without sacrificing engineering velocity."
 thumbnail: /assets/img/blog/git-branching/cover.png
 ---
 ## Why Git Branching Is a Strategic Decision
