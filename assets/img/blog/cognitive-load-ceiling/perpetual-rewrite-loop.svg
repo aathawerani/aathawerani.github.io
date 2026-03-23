@@ -1,0 +1,71 @@
+<svg width="680" height="700" viewBox="0 0 680 700" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+
+  <rect width="680" height="700" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#7F77DD"/>
+    </marker>
+  </defs>
+
+  <!-- Vertical connectors between steps -->
+  <line x1="100" y1="80" x2="100" y2="148" stroke="#AFA9EC" stroke-width="2"/>
+  <line x1="100" y1="200" x2="100" y2="268" stroke="#EF9F27" stroke-width="2"/>
+  <line x1="100" y1="320" x2="100" y2="388" stroke="#F0997B" stroke-width="2"/>
+  <line x1="100" y1="440" x2="100" y2="508" stroke="#F09595" stroke-width="2"/>
+
+  <!-- Return path: down → right → up → left back to step 1 -->
+  <polyline points="100,560 100,598 636,598 636,40 154,40" fill="none" stroke="#7F77DD" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowhead)"/>
+
+  <!-- Return label, rotated along right edge -->
+  <text font-size="11" fill="#9c9a92" font-style="italic" text-anchor="middle" transform="translate(655,380) rotate(90)">cycle restarts — faster, less understood</text>
+
+  <!-- STEP 1 -->
+  <circle cx="100" cy="56" r="16" fill="#EEEDFE" stroke="#7F77DD" stroke-width="1.5"/>
+  <text x="100" y="61" text-anchor="middle" font-size="12" font-weight="500" fill="#3C3489">1</text>
+  <rect x="130" y="30" width="468" height="52" rx="8" fill="#f8f7f4" stroke="#e0ddd6" stroke-width="0.5"/>
+  <text x="150" y="52" font-size="14" font-weight="500" fill="#1a1a1a">AI accelerates code generation</text>
+  <text x="150" y="70" font-size="12" fill="#5f5e5a">Velocity increases, teams ship faster than ever before</text>
+
+  <!-- STEP 2 -->
+  <circle cx="100" cy="176" r="16" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.5"/>
+  <text x="100" y="181" text-anchor="middle" font-size="12" font-weight="500" fill="#633806">2</text>
+  <rect x="130" y="150" width="468" height="52" rx="8" fill="#f8f7f4" stroke="#e0ddd6" stroke-width="0.5"/>
+  <text x="150" y="172" font-size="14" font-weight="500" fill="#1a1a1a">Comprehension debt accumulates</text>
+  <text x="150" y="190" font-size="12" fill="#5f5e5a">Code is locally coherent but globally undisciplined</text>
+
+  <!-- STEP 3 -->
+  <circle cx="100" cy="296" r="16" fill="#FAECE7" stroke="#D85A30" stroke-width="1.5"/>
+  <text x="100" y="301" text-anchor="middle" font-size="12" font-weight="500" fill="#712B13">3</text>
+  <rect x="130" y="270" width="468" height="52" rx="8" fill="#f8f7f4" stroke="#e0ddd6" stroke-width="0.5"/>
+  <text x="150" y="292" font-size="14" font-weight="500" fill="#1a1a1a">Architectural discipline erodes</text>
+  <text x="150" y="310" font-size="12" fill="#5f5e5a">Boundaries blur, enforcement mechanisms can't keep pace</text>
+
+  <!-- STEP 4 -->
+  <circle cx="100" cy="416" r="16" fill="#FCEBEB" stroke="#E24B4A" stroke-width="1.5"/>
+  <text x="100" y="421" text-anchor="middle" font-size="12" font-weight="500" fill="#791F1F">4</text>
+  <rect x="130" y="390" width="468" height="52" rx="8" fill="#f8f7f4" stroke="#e0ddd6" stroke-width="0.5"/>
+  <text x="150" y="412" font-size="14" font-weight="500" fill="#1a1a1a">System becomes unmaintainable</text>
+  <text x="150" y="430" font-size="12" fill="#5f5e5a">Incidents increase, cognitive load ceiling is breached</text>
+
+  <!-- STEP 5 -->
+  <circle cx="100" cy="536" r="16" fill="#EEEDFE" stroke="#7F77DD" stroke-width="1.5"/>
+  <text x="100" y="541" text-anchor="middle" font-size="12" font-weight="500" fill="#3C3489">5</text>
+  <rect x="130" y="510" width="468" height="52" rx="8" fill="#f8f7f4" stroke="#e0ddd6" stroke-width="0.5"/>
+  <text x="150" y="532" font-size="14" font-weight="500" fill="#1a1a1a">AI accelerates the rewrite</text>
+  <text x="150" y="550" font-size="12" fill="#5f5e5a">Lower cost, same knowledge gap — conditions unchanged</text>
+
+  <!-- Break the loop box -->
+  <rect x="60" y="624" width="538" height="52" rx="8" fill="#ffffff" stroke="#b4b2a9" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="329" y="645" text-anchor="middle" font-size="13" font-weight="500" fill="#1a1a1a">Breaking the loop requires</text>
+  <text x="329" y="663" text-anchor="middle" font-size="12" fill="#5f5e5a">Requirements as specs  ·  Tests as contracts  ·  Architecture as intent</text>
+
+  <!-- Arrow from loop to break box -->
+  <line x1="329" y1="600" x2="329" y2="622" stroke="#b4b2a9" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrowBreak)"/>
+  <defs>
+    <marker id="arrowBreak" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#b4b2a9"/>
+    </marker>
+  </defs>
+
+</svg>
