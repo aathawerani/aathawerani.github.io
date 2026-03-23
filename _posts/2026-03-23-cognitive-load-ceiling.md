@@ -38,6 +38,8 @@ It is worth noting that this framing is not entirely new. Fred Brooks identified
 
 > **Key Insight:** Complexity does not disappear when you change architecture. It redistributes. Every architectural decision is ultimately a decision about where cognitive load lives and who carries it.
 
+AI does not remove the cognitive load ceiling. It preserves the constraint, but compresses the timeline on which it is reached.
+
 ---
 
 # How Architecture Has Always Responded to the Ceiling
@@ -110,6 +112,8 @@ AI introduces a disruption to this dynamic that has not been fully reckoned with
 
 The implication for engineering leaders is direct: Conway's Law does not become irrelevant in an AI-assisted organization. It becomes harder to manage, because the "communication structure" that shapes the system now includes the implicit assumptions baked into AI models that the team did not author, cannot fully inspect, and may not be aware of.
 
+A system that no longer reflects the structure of the team responsible for it becomes harder for that team to reason about — which is precisely another name for increased cognitive load.
+
 ## Are the Disciplines Still Relevant?
 
 The disciplines — Clean Architecture, DDD, the principles underlying microservices decomposition — remain relevant as **intent**, but AI has fundamentally changed their relevance as **enforcement mechanisms**. The reasons the disciplines were developed have not disappeared. Domain logic still becomes entangled with infrastructure if boundaries are not enforced. Systems still become unmaintainable if domain concepts are not aligned with code structure. Cognitive load still accumulates when ownership is unclear and dependencies are invisible. The problems these disciplines were designed to solve are permanent features of software at scale.
@@ -117,6 +121,8 @@ The disciplines — Clean Architecture, DDD, the principles underlying microserv
 What AI changes is their relevance as **enforcement mechanisms**. Architectural discipline has always depended on consistent human judgment applied across thousands of small decisions over time. Code review, pair programming, architectural decision records, and team norms were the enforcement layer. AI-assisted development, operating at the speed and volume it enables, produces decisions faster than those enforcement mechanisms can process. A team of five engineers using AI assistance can generate the volume of code that previously required twenty engineers — but it still has five engineers' worth of review capacity, architectural judgment, and institutional knowledge.
 
 The disciplines do not become obsolete. They become harder to maintain at the pace AI enables — and more important to maintain precisely because of that.
+
+This means the enforcement model must shift — from code-level judgment applied by engineers in review, to system-level constraints encoded into the platforms, scaffolding, and tooling through which AI generates code in the first place.
 
 > **Key Insight:** AI follows architectural disciplines only as faithfully as the context it receives encodes them. Without explicit, maintained architectural intent in every generation context, AI defaults to average patterns — and average patterns do not scale.
 
