@@ -1,0 +1,78 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The two pillars of a working SDLC policy</title>
+  <desc>A diagram showing that Technical Design and Social Contract must both be present to produce a policy that actually works. Either pillar alone produces a different failure: structure without substance, or goodwill without discipline.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1a1a1a; }
+      .th  { font-size: 14px; font-weight: 500; }
+      .ts  { font-size: 12px; font-weight: 400; fill: #444; }
+      .box-purple      { fill: #EEEDFE; stroke: #534AB7; }
+      .box-purple-sub  { fill: #CECBF6; stroke: #534AB7; }
+      .box-teal        { fill: #E1F5EE; stroke: #0F6E56; }
+      .box-teal-sub    { fill: #9FE1CB; stroke: #0F6E56; }
+      .box-gray        { fill: #F1EFE8; stroke: #5F5E5A; }
+      .text-purple     { fill: #3C3489; }
+      .text-teal       { fill: #085041; }
+      .text-gray       { fill: #2C2C2A; }
+      .text-sub-purple { fill: #534AB7; }
+      .text-sub-teal   { fill: #0F6E56; }
+      .text-sub-gray   { fill: #5F5E5A; }
+      .text-muted      { fill: #888780; }
+      .arr             { stroke: #888780; fill: none; }
+    </style>
+  </defs>
+
+  <!-- ── Left pillar: Technical Design ── -->
+  <rect class="box-purple" x="60" y="40" width="210" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th text-purple" x="165" y="62" text-anchor="middle" dominant-baseline="central">Technical design</text>
+  <text class="ts text-sub-purple" x="165" y="82" text-anchor="middle" dominant-baseline="central">Stages, gates, tools, severity</text>
+
+  <rect class="box-purple-sub" x="60" y="118" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-purple" x="165" y="136" text-anchor="middle" dominant-baseline="central">Pipeline stages</text>
+
+  <rect class="box-purple-sub" x="60" y="164" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-purple" x="165" y="182" text-anchor="middle" dominant-baseline="central">Severity classification</text>
+
+  <rect class="box-purple-sub" x="60" y="210" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-purple" x="165" y="228" text-anchor="middle" dominant-baseline="central">Forward-only discipline</text>
+
+  <rect class="box-purple-sub" x="60" y="256" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-purple" x="165" y="274" text-anchor="middle" dominant-baseline="central">Security tooling</text>
+
+  <!-- ── Right pillar: Social Contract ── -->
+  <rect class="box-teal" x="410" y="40" width="210" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th text-teal" x="515" y="62" text-anchor="middle" dominant-baseline="central">Social contract</text>
+  <text class="ts text-sub-teal" x="515" y="82" text-anchor="middle" dominant-baseline="central">Trust, honesty, ownership</text>
+
+  <rect class="box-teal-sub" x="410" y="118" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-teal" x="515" y="136" text-anchor="middle" dominant-baseline="central">Honest risk classification</text>
+
+  <rect class="box-teal-sub" x="410" y="164" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-teal" x="515" y="182" text-anchor="middle" dominant-baseline="central">Genuine review judgment</text>
+
+  <rect class="box-teal-sub" x="410" y="210" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-teal" x="515" y="228" text-anchor="middle" dominant-baseline="central">Aligned incentives</text>
+
+  <rect class="box-teal-sub" x="410" y="256" width="210" height="36" rx="6" stroke-width="0.5" opacity="0.7"/>
+  <text class="ts text-teal" x="515" y="274" text-anchor="middle" dominant-baseline="central">Policy that evolves</text>
+
+  <!-- ── Converging arrows ── -->
+  <line class="arr" x1="200" y1="292" x2="290" y2="345" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line class="arr" x1="480" y1="292" x2="392" y2="345" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ── Outcome box ── -->
+  <rect class="box-gray" x="236" y="348" width="208" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th text-gray" x="340" y="368" text-anchor="middle" dominant-baseline="central">Policy that actually works</text>
+  <text class="ts text-sub-gray" x="340" y="386" text-anchor="middle" dominant-baseline="central">Structure with substance</text>
+
+  <!-- ── Failure labels ── -->
+  <text class="ts text-muted" x="165" y="320" text-anchor="middle">Without the right →</text>
+  <text class="ts text-muted" x="165" y="336" text-anchor="middle">compliance theater</text>
+
+  <text class="ts text-muted" x="515" y="320" text-anchor="middle">Without the left →</text>
+  <text class="ts text-muted" x="515" y="336" text-anchor="middle">goodwill without guardrails</text>
+</svg>
