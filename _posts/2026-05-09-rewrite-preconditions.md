@@ -2,6 +2,7 @@
 layout: post
 title: "Why Architecture Is Shifting From Diagrams to Guardrails"
 excerpt: "AI has made rewrites cheaper without making them better. Without requirements written as specifications, tests evolved from production evidence, and architecture encoded as executable constraints, an AI-assisted rewrite is just a faster way to restart the same problems. This post addresses what a well-governed AI-assisted rewrite actually looks like — and whether the feedback loop that sustains it can be made reliable over time."
+description: "AI has made rewrites cheaper without making them better. Without requirements written as specifications, tests evolved from production evidence, and architecture encoded as executable constraints, an AI-assisted rewrite is just a faster way to restart the same problems. This post addresses what a well-governed AI-assisted rewrite actually looks like — and whether the feedback loop that sustains it can be made reliable over time."
 author: ali
 date: '2026-05-09 00:00:00'
 category: ['systems','architecture','scale']
