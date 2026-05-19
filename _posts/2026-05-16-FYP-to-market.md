@@ -11,13 +11,11 @@ thumbnail: /assets/img/blog/fyp-to-market/fyp_to_market_thumbnail.svg
 
 ## From Final Year Project to Startup
 
-I spent part of today as a juror at Habib University's final year project exhibition — part of a broader movement across Pakistani universities that has been building with real seriousness over the past decade: a full academic year, real industry partners, external supervisors, formal evaluation panels, public defence.
-
-Walking out, I kept thinking about one thing.
+I spent part of today as a juror at Habib University's Kaavish - final year project exhibition — walking out, I kept thinking about one thing.
 
 How many of the projects I evaluated today are closer to a real business than their builders realise.
 
-Not in a motivational sense. In a structural sense. The foundations were solid. The problem domains were understood at a depth that only sustained engagement produces. The students had spent a year being accountable to real stakeholders — not a professor marking a rubric, but an organisation that actually cared whether the solution worked.
+In a structural sense the foundations were solid. The problem domains were understood at a depth that only sustained engagement produces. The students had spent a year being accountable to real stakeholders — not a professor marking a rubric, but an organisation that actually cared whether the solution worked.
 
 That kind of accountability is rare. It is also, not coincidentally, exactly what building a company feels like.
 
@@ -27,7 +25,7 @@ What follows is not an evaluation of what was built. It is an attempt to describ
 
 ## What the Industry Already Knows
 
-There is a reason companies invest in these programmes. It is not charity.
+There is a reason companies invest in these programmes. 
 
 Industry partners who supervise final year projects are making a calculated observation: the students who spend a year solving a real problem, with real constraints, in a real organisational context, come out the other side with something that cannot be hired in through a job posting. They have domain depth. They have the scar tissue of a project that did not go exactly as planned. They have the experience of defending a position under pressure to people who are not obligated to be kind about it.
 
@@ -43,9 +41,9 @@ Building your own thing is harder. It is also, if the problem is real and the un
 
 The most consequential technology companies tend to start the same way — not with a unique idea, but with an unusually deep understanding of a specific problem, and the decision to take that understanding seriously.
 
-Sualeh Asif grew up in Karachi and went on to MIT. While still a student there, he and three classmates built Cursor — an AI-powered coding environment — because they were frustrated with the tools developers already had. They made the problem personal before they made it a company. Cursor grew into one of the fastest-growing AI startups in recent memory, reaching a billion dollars in annualised revenue within a year of launch and a valuation that places it among the most valuable developer tools companies in the world. Sualeh is 26.
+Sualeh Asif grew up in Karachi and went on to MIT. While still a student there, he and three classmates built Cursor — an AI-powered coding environment — because they were frustrated with the tools developers already had. They made the problem personal before they made it a company. Cursor grew into one of the fastest-growing AI startups in recent memory, a valuation that places it among the most valuable developer tools companies in the world. Sualeh is 26.
 
-Aaqib Gadit built Cloudways in Pakistan — a managed cloud hosting platform that made enterprise-grade infrastructure accessible to small businesses who could not afford the complexity that came with it. He focused on one problem, solved it with unusual care, and stayed close enough to his users to keep understanding what they actually needed. DigitalOcean eventually acquired Cloudways in a multi-hundred-million dollar deal — the largest acquisition of a Pakistani startup by an American firm at the time.
+Aaqib Gadit built Cloudways in Pakistan — a managed cloud hosting platform that made enterprise-grade infrastructure accessible to small businesses who could not afford the complexity that came with it. He focused on one problem, solved it with unusual care, and stayed close enough to his users to keep understanding what they actually needed. DigitalOcean eventually acquired Cloudways.
 
 Neither of these started with an original idea. Both started with an unusually honest understanding of a specific problem — and the decision to stay with it long enough for that understanding to compound into something real.
 
