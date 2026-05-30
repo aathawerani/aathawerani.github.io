@@ -102,8 +102,6 @@ There is a dimension missing from almost every architectural template written fo
 
 Backend architecture gets most of the attention. The frontend is treated as the presentation layer — a consequence of the real decisions, not a domain with its own architectural concerns. This is a mistake that becomes expensive exactly when the product starts to scale.
 
-**Frontend debt is cognitive rather than structural.**
-
 > Frontend debt is cognitive rather than structural. Not coupling between modules or schema problems, but components that grew without boundaries, state in the wrong place, API calls inlined wherever first needed and then copied rather than centralised. The result is a frontend that resists change because there are no clean units to work with.
 
 Three rules prevent this:
@@ -216,6 +214,19 @@ What this collection of disciplines adds up to is something Neal Ford and Rebecc
 ---
 
 ## What the Prototype Disciplines Protect
+
+| Prototype Discipline | Migration Option It Keeps Open |
+|---|---|
+| Domain module boundaries | Strangler Fig — clean seam at the module boundary |
+| External dependency interface files | Branch by Abstraction — abstraction pre-exists, swap the implementation |
+| Cloud services behind interface files | Branch by Abstraction on vendors — replace when cost curve shifts |
+| Migration-based schema from table one | Expand/Contract — phased schema changes on a live system |
+| Structured logging + correlation IDs | Parallel Run — old and new comparable on real production traffic |
+| Boundary tests per module interface | Safe replacement — new implementation validated against same test suite |
+| Feature-based frontend structure | UI Composition — pages and widgets independently extractable |
+| Vertical slice per user type | Extract Product Lines — one side migrated without touching the other |
+| Docker + environment parity | Transitional Architecture — routing layers as first-class infrastructure |
+| Architecture Decision Records | Feature Parity trap avoided — intent documented, not just behaviour |
 
 ![Disciplines to patterns map](/assets/img/blog/tech-stack-ai-agents/disciplines_to_patterns_map.svg)
 
