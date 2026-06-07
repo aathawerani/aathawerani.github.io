@@ -1,0 +1,145 @@
+<svg viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg" font-family="'Georgia', serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="100%" stop-color="#181c27"/>
+    </linearGradient>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#d46b5b"/>
+    </marker>
+    <marker id="arrowD" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M1,1 L7,1 L4,7 Z" fill="#d46b5b"/>
+    </marker>
+    <marker id="arrowRg" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#4caf6e"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="580" fill="url(#bg)" rx="4"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="14" font-weight="bold" letter-spacing="3" fill="#c8c8c8">HOW THE LAYERS BREAK DOWN</text>
+  <text x="340" y="54" text-anchor="middle" font-size="11" fill="#555" letter-spacing="1">Three failure patterns that appear consistently across engineering organizations</text>
+  <line x1="60" y1="64" x2="620" y2="64" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- ── PATTERN 1 ── -->
+  <text x="60" y="88" font-size="10" fill="#d46b5b" letter-spacing="2">PATTERN 1  ·  STRATEGIC DECISIONS MASQUERADING AS TECHNICAL ONES</text>
+
+  <!-- Mini stack for pattern 1 — layers shown as small bars, decision at wrong level highlighted -->
+  <!-- Layers L1–L7 as thin rows, x=60, w=260 -->
+  <!-- "should be here" L1/L2/L3 normal, L6/L7 highlighted red -->
+  <rect x="60" y="96" width="260" height="16" rx="2" fill="#1a2a1a" opacity="0.6"/>
+  <text x="72" y="108" font-size="9" fill="#4caf6e">L1 Strategy</text>
+  <text x="250" y="108" text-anchor="end" font-size="9" fill="#555">← belongs here</text>
+
+  <rect x="60" y="114" width="260" height="16" rx="2" fill="#1a1f2a" opacity="0.6"/>
+  <text x="72" y="126" font-size="9" fill="#5b8fd4">L2 Architecture</text>
+
+  <rect x="60" y="132" width="260" height="16" rx="2" fill="#1f1a2a" opacity="0.6"/>
+  <text x="72" y="144" font-size="9" fill="#9b7fd4">L3 Tech Delivery</text>
+
+  <rect x="60" y="150" width="260" height="16" rx="2" fill="#221212" opacity="0.4"/>
+  <text x="72" y="162" font-size="9" fill="#555">L4 Eng Org</text>
+
+  <rect x="60" y="168" width="260" height="16" rx="2" fill="#221a0e" opacity="0.4"/>
+  <text x="72" y="180" font-size="9" fill="#555">L5 People</text>
+
+  <rect x="60" y="186" width="260" height="16" rx="2" fill="#d46b5b" opacity="0.25"/>
+  <rect x="60" y="186" width="3" height="16" fill="#d46b5b"/>
+  <text x="72" y="198" font-size="9" fill="#d46b5b">L6 Infrastructure</text>
+  <text x="250" y="198" text-anchor="end" font-size="9" fill="#d46b5b">← decision made here</text>
+
+  <rect x="60" y="204" width="260" height="16" rx="2" fill="#d46b5b" opacity="0.15"/>
+  <rect x="60" y="204" width="3" height="16" fill="#d46b5b" opacity="0.6"/>
+  <text x="72" y="216" font-size="9" fill="#d46b5b" opacity="0.7">L7 Dev Productivity</text>
+  <text x="250" y="216" text-anchor="end" font-size="9" fill="#d46b5b" opacity="0.7">← or even here</text>
+
+  <!-- Explanation -->
+  <text x="340" y="108" font-size="12" fill="#d4d4d4">A vendor selection evaluated on benchmarks,</text>
+  <text x="340" y="126" font-size="12" fill="#d4d4d4">not cost structure. A build-vs-buy decision</text>
+  <text x="340" y="144" font-size="12" fill="#d4d4d4">evaluated on feature parity, not capability.</text>
+  <text x="340" y="162" font-size="12" fill="#d4d4d4">A stack choice evaluated on architecture,</text>
+  <text x="340" y="180" font-size="12" fill="#d4d4d4">not deliverability.</text>
+  <text x="340" y="207" font-size="11" fill="#999" font-style="italic">Consequences accumulate upward invisibly</text>
+  <text x="340" y="222" font-size="11" fill="#999" font-style="italic">until they become a business problem.</text>
+
+  <line x1="60" y1="238" x2="620" y2="238" stroke="#222" stroke-width="1"/>
+
+  <!-- ── PATTERN 2 ── -->
+  <text x="60" y="258" font-size="10" fill="#d4a05b" letter-spacing="2">PATTERN 2  ·  DECISIONS MADE WITHOUT CROSS-LAYER VISIBILITY</text>
+
+  <!-- L2 box -->
+  <rect x="60" y="268" width="180" height="48" rx="3" fill="#121828"/>
+  <rect x="60" y="268" width="3" height="48" fill="#5b8fd4"/>
+  <text x="76" y="284" font-size="9" fill="#5b8fd4" letter-spacing="1">L2  ARCHITECTURE</text>
+  <text x="76" y="300" font-size="11" fill="#eeeeee">Made in isolation.</text>
+  <text x="76" y="314" font-size="11" fill="#eeeeee">No L3 visibility.</text>
+
+  <!-- X mark between them -->
+  <text x="262" y="298" text-anchor="middle" font-size="22" fill="#d46b5b">✕</text>
+
+  <!-- L3 box -->
+  <rect x="284" y="268" width="180" height="48" rx="3" fill="#1a1228"/>
+  <rect x="284" y="268" width="3" height="48" fill="#9b7fd4"/>
+  <text x="300" y="284" font-size="9" fill="#9b7fd4" letter-spacing="1">L3  TECH DELIVERY</text>
+  <text x="300" y="300" font-size="11" fill="#eeeeee">Constraints not</text>
+  <text x="300" y="314" font-size="11" fill="#eeeeee">considered.</text>
+
+  <!-- Explanation right -->
+  <text x="490" y="280" font-size="12" fill="#d4d4d4">An infrastructure choice</text>
+  <text x="490" y="298" font-size="12" fill="#d4d4d4">that constrains the arch,</text>
+  <text x="490" y="316" font-size="12" fill="#d4d4d4">made without awareness.</text>
+
+  <!-- Result -->
+  <rect x="60" y="326" width="404" height="26" rx="2" fill="#241806"/>
+  <text x="262" y="344" text-anchor="middle" font-size="11" fill="#d4a05b" font-style="italic">Result: operationally brutal architecture that looks correct on paper.</text>
+
+  <line x1="60" y1="364" x2="620" y2="364" stroke="#222" stroke-width="1"/>
+
+  <!-- ── PATTERN 3 ── -->
+  <text x="60" y="384" font-size="10" fill="#9b7fd4" letter-spacing="2">PATTERN 3  ·  LAYER COLLAPSE UNDER PRESSURE</text>
+
+  <!-- Normal flow -->
+  <text x="60" y="404" font-size="10" fill="#555" letter-spacing="1">NORMAL</text>
+  <rect x="100" y="410" width="46" height="20" rx="2" fill="#1a2a1a"/>
+  <text x="123" y="424" text-anchor="middle" font-size="9" fill="#4caf6e">L1</text>
+  <line x1="146" y1="420" x2="158" y2="420" stroke="#4caf6e" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="160" y="410" width="46" height="20" rx="2" fill="#121828"/>
+  <text x="183" y="424" text-anchor="middle" font-size="9" fill="#5b8fd4">L2</text>
+  <line x1="206" y1="420" x2="218" y2="420" stroke="#5b8fd4" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="220" y="410" width="46" height="20" rx="2" fill="#1a1228"/>
+  <text x="243" y="424" text-anchor="middle" font-size="9" fill="#9b7fd4">L3</text>
+  <line x1="266" y1="420" x2="278" y2="420" stroke="#9b7fd4" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="280" y="410" width="46" height="20" rx="2" fill="#221212"/>
+  <text x="303" y="424" text-anchor="middle" font-size="9" fill="#d46b5b">L4</text>
+  <line x1="326" y1="420" x2="338" y2="420" stroke="#d46b5b" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="340" y="410" width="46" height="20" rx="2" fill="#221a0e"/>
+  <text x="363" y="424" text-anchor="middle" font-size="9" fill="#d4a05b">L5</text>
+  <line x1="386" y1="420" x2="398" y2="420" stroke="#d4a05b" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="400" y="410" width="46" height="20" rx="2" fill="#10221a"/>
+  <text x="423" y="424" text-anchor="middle" font-size="9" fill="#4caf9a">L6</text>
+  <line x1="446" y1="420" x2="458" y2="420" stroke="#4caf9a" stroke-width="1" marker-end="url(#arrowRg)"/>
+  <rect x="460" y="410" width="46" height="20" rx="2" fill="#121828"/>
+  <text x="483" y="424" text-anchor="middle" font-size="9" fill="#5b9ad4">L7</text>
+
+  <!-- Collapse flow -->
+  <text x="60" y="460" font-size="10" fill="#d46b5b" letter-spacing="1">COLLAPSE</text>
+  <rect x="100" y="466" width="46" height="20" rx="2" fill="#321414"/>
+  <rect x="100" y="466" width="46" height="20" rx="2" fill="none" stroke="#d46b5b" stroke-width="1"/>
+  <text x="123" y="480" text-anchor="middle" font-size="9" fill="#d46b5b">L1</text>
+
+  <!-- Long arrow skipping layers -->
+  <path d="M146,476 Q320,446 448,476" stroke="#d46b5b" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowR)"/>
+  <text x="297" y="452" text-anchor="middle" font-size="10" fill="#d46b5b" font-style="italic">layers 2–5 skipped</text>
+
+  <rect x="450" y="466" width="46" height="20" rx="2" fill="#321414"/>
+  <rect x="450" y="466" width="46" height="20" rx="2" fill="none" stroke="#d46b5b" stroke-width="1"/>
+  <text x="473" y="480" text-anchor="middle" font-size="9" fill="#d46b5b">L6/7</text>
+
+  <text x="60" y="510" font-size="11" fill="#999" font-style="italic">Strategic questions answered at the operational layer.</text>
+  <text x="60" y="526" font-size="11" fill="#999" font-style="italic">Looks like pragmatism. Creates debt that arrives later as a different problem.</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="548" x2="620" y2="548" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="340" y="568" text-anchor="middle" font-size="10" fill="#666" letter-spacing="1.5">TECTONICS — aathawerani.github.io</text>
+</svg>

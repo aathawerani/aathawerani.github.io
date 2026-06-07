@@ -1,0 +1,75 @@
+<svg viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" font-family="'Georgia', serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="100%" stop-color="#181c27"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#3a3a4a"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="560" fill="url(#bg)" rx="4"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="14" font-weight="bold" letter-spacing="3" fill="#c8c8c8" font-family="'Georgia', serif">HOW ONE DECISION PROPAGATES</text>
+  <text x="340" y="54" text-anchor="middle" font-size="11" fill="#aaa" letter-spacing="1" font-family="'Georgia', serif">Stripe: "developer experience is the moat" — layer one to seven</text>
+  <line x1="80" y1="64" x2="600" y2="64" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Layer colors -->
+  <!-- L1 green, L2 blue, L3 purple, L4 red, L5 amber, L6 teal, L7 blue -->
+
+  <!-- Row height: 60, start y: 80 -->
+
+  <!-- L1 -->
+  <rect x="60" y="78" width="560" height="52" rx="3" fill="#122416"/>
+  <rect x="60" y="78" width="3" height="52" fill="#4caf6e"/>
+  <text x="80" y="97" font-size="9" fill="#4caf6e" letter-spacing="2">LAYER 1  ·  CORPORATE &amp; BUSINESS STRATEGY</text>
+  <text x="80" y="117" font-size="13" fill="#eeeeee">"Developer experience is the moat — not features, not pricing."</text>
+  <!-- Arrow -->
+  <line x1="340" y1="130" x2="340" y2="143" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L2 -->
+  <rect x="60" y="148" width="560" height="52" rx="3" fill="#121828"/>
+  <rect x="60" y="148" width="3" height="52" fill="#5b8fd4"/>
+  <text x="80" y="167" font-size="9" fill="#5b8fd4" letter-spacing="2">LAYER 2  ·  PRODUCT ARCHITECTURE</text>
+  <text x="80" y="187" font-size="13" fill="#eeeeee">Clean API surface, stable contracts, no breaking changes.</text>
+  <line x1="340" y1="200" x2="340" y2="213" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L3 -->
+  <rect x="60" y="218" width="560" height="52" rx="3" fill="#1a1228"/>
+  <rect x="60" y="218" width="3" height="52" fill="#9b7fd4"/>
+  <text x="80" y="237" font-size="9" fill="#9b7fd4" letter-spacing="2">LAYER 3  ·  TECHNOLOGY DELIVERY</text>
+  <text x="80" y="257" font-size="13" fill="#eeeeee">Stack chosen for readability, documentation quality, AI fluency.</text>
+  <line x1="340" y1="270" x2="340" y2="283" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L4 -->
+  <rect x="60" y="288" width="560" height="52" rx="3" fill="#221212"/>
+  <rect x="60" y="288" width="3" height="52" fill="#d46b5b"/>
+  <text x="80" y="307" font-size="9" fill="#d46b5b" letter-spacing="2">LAYER 4  ·  ENGINEERING ORGANIZATION</text>
+  <text x="80" y="327" font-size="13" fill="#eeeeee">Teams structured around API domains, not internal components.</text>
+  <line x1="340" y1="340" x2="340" y2="353" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L5 -->
+  <rect x="60" y="358" width="560" height="52" rx="3" fill="#221a0e"/>
+  <rect x="60" y="358" width="3" height="52" fill="#d4a05b"/>
+  <text x="80" y="377" font-size="9" fill="#d4a05b" letter-spacing="2">LAYER 5  ·  PEOPLE &amp; TALENT</text>
+  <text x="80" y="397" font-size="13" fill="#eeeeee">Engineers hired and evaluated on craft, clarity, and empathy.</text>
+  <line x1="340" y1="410" x2="340" y2="423" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L6 -->
+  <rect x="60" y="428" width="560" height="52" rx="3" fill="#10221a"/>
+  <rect x="60" y="428" width="3" height="52" fill="#4caf9a"/>
+  <text x="80" y="447" font-size="9" fill="#4caf9a" letter-spacing="2">LAYER 6  ·  INFRASTRUCTURE</text>
+  <text x="80" y="467" font-size="13" fill="#eeeeee">Reliability above all else — an unreliable API is not a moat.</text>
+  <line x1="340" y1="480" x2="340" y2="493" stroke="#3a3a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L7 -->
+  <rect x="60" y="498" width="560" height="32" rx="3" fill="#121828"/>
+  <rect x="60" y="498" width="3" height="32" fill="#5b9ad4"/>
+  <text x="80" y="512" font-size="9" fill="#5b9ad4" letter-spacing="2">LAYER 7  ·  DEVELOPER PRODUCTIVITY</text>
+  <text x="80" y="526" font-size="13" fill="#eeeeee">Tooling enforces API contract stability across every commit.</text>
+
+  <!-- Footer -->
+  <text x="340" y="548" text-anchor="middle" font-size="10" fill="#666" letter-spacing="1.5" font-family="'Georgia', serif">TECTONICS — aathawerani.github.io</text>
+</svg>

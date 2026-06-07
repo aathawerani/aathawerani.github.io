@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 680 520"
+   font-family="'Georgia', serif"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="technology-swot.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.93461538"
+     inkscape:cx="339.71193"
+     inkscape:cy="260"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="bg"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#0f1117"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#181c27"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <rect
+     width="680"
+     height="520"
+     fill="url(#bg)"
+     rx="4"
+     id="rect2" />
+  <!-- Title -->
+  <text
+     x="340"
+     y="38"
+     text-anchor="middle"
+     font-size="15"
+     font-weight="bold"
+     letter-spacing="3"
+     fill="#c8c8c8"
+     font-family="'Georgia', serif"
+     id="text2">THE TECHNOLOGY SWOT</text>
+  <text
+     x="340"
+     y="56"
+     text-anchor="middle"
+     font-size="11"
+     fill="#aaa"
+     letter-spacing="1"
+     font-family="'Georgia', serif"
+     id="text3">Run alongside — not instead of — the business SWOT</text>
+  <line
+     x1="80"
+     y1="66"
+     x2="600"
+     y2="66"
+     stroke="#2a2a2a"
+     stroke-width="1"
+     id="line3" />
+  <!-- Axis labels -->
+  <text
+     x="222"
+     y="90"
+     text-anchor="middle"
+     font-size="10"
+     fill="#888"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text4">INTERNAL</text>
+  <text
+     x="468"
+     y="90"
+     text-anchor="middle"
+     font-size="10"
+     fill="#888"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text5">EXTERNAL</text>
+  <!-- Vertical axis label -->
+  <text
+     x="-188"
+     y="78"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#888888"
+     letter-spacing="2"
+     font-family="Georgia, serif"
+     transform="rotate(-90)"
+     id="text6">POSITIVE</text>
+  <text
+     x="74"
+     y="395"
+     text-anchor="middle"
+     font-size="10"
+     fill="#888"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     transform="rotate(-90, 74, 390)"
+     id="text7">NEGATIVE</text>
+  <!-- Cross lines -->
+  <line
+     x1="340"
+     y1="97"
+     x2="340"
+     y2="462"
+     stroke="#2a2a2a"
+     stroke-width="1.5"
+     id="line7" />
+  <line
+     x1="90"
+     y1="278"
+     x2="592"
+     y2="278"
+     stroke="#2a2a2a"
+     stroke-width="1.5"
+     id="line8" />
+  <!-- STRENGTHS quadrant -->
+  <rect
+     x="92"
+     y="99"
+     width="244"
+     height="176"
+     rx="3"
+     fill="#122416"
+     id="rect8" />
+  <rect
+     x="92"
+     y="99"
+     width="244"
+     height="4"
+     rx="2"
+     fill="#4caf6e"
+     id="rect9" />
+  <text
+     x="112"
+     y="122"
+     font-size="11"
+     fill="#4caf6e"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text9">STRENGTHS</text>
+  <text
+     x="112"
+     y="145"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text10">· Proprietary data assets</text>
+  <text
+     x="112"
+     y="163"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text11">· Engineering culture</text>
+  <text
+     x="112"
+     y="181"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text12">· Speed / reliability infra</text>
+  <text
+     x="112"
+     y="199"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text13">· Technical depth</text>
+  <text
+     x="112"
+     y="217"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text14">· AI-fluent stack</text>
+  <text
+     x="112"
+     y="235"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text15">· Hard-won operational know-how</text>
+  <!-- OPPORTUNITIES quadrant -->
+  <rect
+     x="342"
+     y="99"
+     width="248"
+     height="176"
+     rx="3"
+     fill="#121828"
+     id="rect15" />
+  <rect
+     x="342"
+     y="99"
+     width="248"
+     height="4"
+     rx="2"
+     fill="#5b8fd4"
+     id="rect16" />
+  <text
+     x="362"
+     y="122"
+     font-size="11"
+     fill="#5b8fd4"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text16">OPPORTUNITIES</text>
+  <text
+     x="362"
+     y="145"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text17">· New AI capabilities</text>
+  <text
+     x="362"
+     y="163"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text18">· Platform shifts</text>
+  <text
+     x="362"
+     y="181"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text19">· Talent market changes</text>
+  <text
+     x="362"
+     y="199"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text20">· Open source leverage</text>
+  <text
+     x="362"
+     y="217"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text21">· Competitor architectural debt</text>
+  <text
+     x="362"
+     y="235"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text22">· Untapped technology moats</text>
+  <!-- WEAKNESSES quadrant -->
+  <rect
+     x="92"
+     y="282"
+     width="244"
+     height="176"
+     rx="3"
+     fill="#221212"
+     id="rect22" />
+  <rect
+     x="92"
+     y="282"
+     width="244"
+     height="4"
+     rx="2"
+     fill="#d46b5b"
+     id="rect23" />
+  <text
+     x="112"
+     y="305"
+     font-size="11"
+     fill="#d46b5b"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text23">WEAKNESSES</text>
+  <text
+     x="112"
+     y="328"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text24">· Architectural debt</text>
+  <text
+     x="112"
+     y="346"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text25">· Skill gaps</text>
+  <text
+     x="112"
+     y="364"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text26">· Operational fragility</text>
+  <text
+     x="112"
+     y="382"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text27">· Stack lock-in</text>
+  <text
+     x="112"
+     y="400"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text28">· Delivery bottlenecks</text>
+  <text
+     x="112"
+     y="418"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text29">· AI-opaque codebase</text>
+  <!-- THREATS quadrant -->
+  <rect
+     x="342"
+     y="282"
+     width="248"
+     height="176"
+     rx="3"
+     fill="#221a0e"
+     id="rect29" />
+  <rect
+     x="342"
+     y="282"
+     width="248"
+     height="4"
+     rx="2"
+     fill="#d4a05b"
+     id="rect30" />
+  <text
+     x="362"
+     y="305"
+     font-size="11"
+     fill="#d4a05b"
+     letter-spacing="2"
+     font-family="'Georgia', serif"
+     id="text30">THREATS</text>
+  <text
+     x="362"
+     y="328"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text31">· Capability commoditization</text>
+  <text
+     x="362"
+     y="346"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text32">· Architectural reinvention pressure</text>
+  <text
+     x="362"
+     y="364"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text33">· Competitor AI leverage</text>
+  <text
+     x="362"
+     y="382"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text34">· Talent market tightening</text>
+  <text
+     x="362"
+     y="400"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text35">· Platform dependency risk</text>
+  <text
+     x="362"
+     y="418"
+     font-size="12"
+     fill="#d4d4d4"
+     font-family="'Georgia', serif"
+     id="text36">· Regulatory / security shifts</text>
+  <!-- Footer -->
+  <line
+     x1="80"
+     y1="472"
+     x2="600"
+     y2="472"
+     stroke="#222"
+     stroke-width="1"
+     id="line36" />
+  <text
+     x="340"
+     y="492"
+     text-anchor="middle"
+     font-size="10"
+     fill="#777"
+     letter-spacing="1.5"
+     font-family="'Georgia', serif"
+     id="text37">TECTONICS — aathawerani.github.io</text>
+</svg>
