@@ -5,7 +5,7 @@ excerpt: "Most technical leadership failures are not failures of the wrong decis
 
 author: ali
 date: '2026-06-07 00:00:00'
-category: ['systems', 'scale']
+category: ['systems', 'culture']
 thumbnail: /assets/img/blog/cto-decision-stack/cto-decision-stack-thumbnail.svg
 ---
 
@@ -261,7 +261,12 @@ Most of the time, the problem is not the decision. It is the frame.
 
 The stack also provides a map for communication. Different stakeholders in an organization have visibility into different layers. Engineers have the deepest visibility into layers six and seven. Product managers have the clearest view of layer two's requirements. HR owns parts of layer five without owning the layer. The executive team lives in layer one. The CTO is the only person in the organization whose job requires fluency across all seven levels — and whose value comes precisely from the ability to translate between them: to carry the implications of a strategic decision downward into infrastructure choices, and to surface the implications of an operational constraint upward into product and business conversations.
 
-This translation is not automatic. It is deliberate work. The stack makes the work legible.
+Most technology failures are not failures of architecture, infrastructure, tooling, or people.
+They are failures of framing.
+
+Decisions made at the wrong layer eventually create consequences that appear somewhere else — and look like a different problem than the one that caused them.
+
+The CTO Decision Stack exists to make those layers visible before the consequences arrive.
 
 ---
 
