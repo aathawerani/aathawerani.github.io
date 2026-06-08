@@ -3,6 +3,7 @@ layout: post
 title: "The CTO Decision Stack"
 excerpt: "Most technical leadership failures are not failures of the wrong decision. They are failures of the wrong layer — the right question answered at the wrong altitude, by the wrong people, against the wrong criteria. The CTO Decision Stack maps seven distinct layers of decision-making, from corporate strategy to developer productivity, and shows why conflating them is how organizations accumulate consequences they cannot trace back to a cause."
 description: "Most technical leadership failures are not failures of the wrong decision. They are failures of the wrong layer — the right question answered at the wrong altitude, by the wrong people, against the wrong criteria."
+summary: "Most technical leadership failures are not failures of the wrong decision. They are failures of the wrong layer — the right question answered at the wrong altitude, by the wrong people, against the wrong criteria. The CTO Decision Stack maps seven distinct layers of decision-making, from corporate strategy to developer productivity, and shows why conflating them is how organizations accumulate consequences they cannot trace back to a cause."
 
 author: ali
 date: '2026-06-07 00:00:00'
