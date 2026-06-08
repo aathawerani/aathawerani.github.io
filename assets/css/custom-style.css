@@ -1,0 +1,10 @@
+/* Hide native scrollbar — nanobar orange progress line is the intended UX */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
