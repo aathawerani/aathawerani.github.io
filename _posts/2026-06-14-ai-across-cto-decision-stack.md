@@ -8,7 +8,7 @@ excerpt: "AI is not a layer-seven tool — it's a force that changes the cost st
 summary: "The second post in the CTO Decision Stack series. When AI lowers implementation cost without lowering understanding cost, the gap between the two propagates upward through the stack — showing up as architectural drift, ownership bottlenecks, a supervision paradox, untraceable infrastructure changes, and a perpetual rewrite loop. AI adoption is correctly a layer-seven decision; the failure is treating it as having answered layers one through six as well."
 
 author: ali
-date: '2026-06-07 00:00:00'
+date: '2026-06-14 00:00:00'
 category: ['systems', 'culture']
 thumbnail: /assets/img/blog/ai-across-cto-decision-stack/ai-across-cto-decision-stack-thumbnail.png
 ---
