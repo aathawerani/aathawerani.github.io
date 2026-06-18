@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 720 630"
+   font-family="Helvetica, Arial, sans-serif"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="understanding_gap_propagation.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5428571"
+     inkscape:cx="262.82407"
+     inkscape:cy="163.33333"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow5"
+       markerWidth="10"
+       markerHeight="10"
+       refX="6"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L6,3 L0,6 Z"
+         fill="#475569"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     x="360"
+     y="32"
+     text-anchor="middle"
+     font-size="20"
+     font-weight="700"
+     fill="#1e293b"
+     id="text1">
+    The Understanding Gap
+  </text>
+  <text
+     x="360"
+     y="56"
+     text-anchor="middle"
+     font-size="13"
+     fill="#64748b"
+     id="text2">
+    Implementation cost falls. Understanding cost doesn't. The gap propagates.
+  </text>
+  <!-- Two diverging lines chart -->
+  <g
+     id="g6">
+    <!-- axes -->
+    <line
+       x1="90"
+       y1="100"
+       x2="90"
+       y2="280"
+       stroke="#cbd5e1"
+       stroke-width="1.5"
+       id="line2" />
+    <line
+       x1="90"
+       y1="280"
+       x2="360"
+       y2="280"
+       stroke="#cbd5e1"
+       stroke-width="1.5"
+       id="line3" />
+    <!-- Implementation cost: falling -->
+    <path
+       d="M100,140 C 180,150 260,230 350,260"
+       fill="none"
+       stroke="#3b82f6"
+       stroke-width="3"
+       id="path3" />
+    <text
+       x="355"
+       y="266"
+       font-size="12"
+       fill="#1d4ed8"
+       font-weight="700"
+       id="text3">Implementation cost (falling)</text>
+    <!-- Understanding cost: flat -->
+    <path
+       d="M100,150 C 180,148 260,148 350,150"
+       fill="none"
+       stroke="#ef4444"
+       stroke-width="3"
+       id="path4" />
+    <text
+       x="355"
+       y="146"
+       font-size="12"
+       fill="#b91c1c"
+       font-weight="700"
+       id="text4">Understanding cost (flat)</text>
+    <!-- gap shading -->
+    <path
+       d="M100,150 C180,148 260,148 350,150 L350,260 C260,230 180,150 100,140 Z"
+       fill="#fde68a"
+       fill-opacity="0.35"
+       id="path5" />
+    <text
+       x="180"
+       y="210"
+       font-size="13"
+       font-weight="700"
+       fill="#92400e"
+       id="text5">growing gap</text>
+    <text
+       x="90"
+       y="295"
+       font-size="12"
+       fill="#94a3b8"
+       id="text6">time / AI adoption →</text>
+  </g>
+  <!-- Arrow down to propagation list -->
+  <path
+     d="m 215,294.16667 v 49.25926"
+     fill="none"
+     stroke="#475569"
+     stroke-width="2.37269"
+     marker-end="url(#arrow5)"
+     id="path6" />
+  <text
+     x="225"
+     y="325"
+     text-anchor="middle"
+     font-size="12"
+     fill="#64748b"
+     id="text7">gap grows, then cascades</text>
+  <!-- Propagation outcomes -->
+  <g
+     font-size="13"
+     id="g14">
+    <rect
+       x="60"
+       y="345"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#f1f5f9"
+       stroke="#64748b"
+       stroke-width="1.2"
+       id="rect7" />
+    <text
+       x="76"
+       y="366"
+       fill="#334155"
+       id="text8"><tspan
+   font-weight="700"
+   id="tspan7">Layer 1</tspan> — Strategic Assumption Failure</text>
+    <rect
+       x="60"
+       y="382"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#eef2ff"
+       stroke="#6366f1"
+       stroke-width="1.2"
+       id="rect8" />
+    <text
+       x="76"
+       y="403"
+       fill="#3730a3"
+       id="text9"><tspan
+   font-weight="700"
+   id="tspan8">Layer 2</tspan> — Architectural Drift</text>
+    <rect
+       x="60"
+       y="419"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#ecfeff"
+       stroke="#06b6d4"
+       stroke-width="1.2"
+       id="rect9" />
+    <text
+       x="76"
+       y="440"
+       fill="#0e7490"
+       id="text10"><tspan
+   font-weight="700"
+   id="tspan9">Layer 3</tspan> — Build-vs-Buy Distortion</text>
+    <rect
+       x="60"
+       y="456"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#ecfdf5"
+       stroke="#10b981"
+       stroke-width="1.2"
+       id="rect10" />
+    <text
+       x="76"
+       y="477"
+       fill="#065f46"
+       id="text11"><tspan
+   font-weight="700"
+   id="tspan10">Layer 4</tspan> — Ownership Bottlenecks</text>
+    <rect
+       x="60"
+       y="493"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#fefce8"
+       stroke="#eab308"
+       stroke-width="1.2"
+       id="rect11" />
+    <text
+       x="76"
+       y="514"
+       fill="#854d0e"
+       id="text12"><tspan
+   font-weight="700"
+   id="tspan11">Layer 5</tspan> — Supervision Paradox</text>
+    <rect
+       x="60"
+       y="530"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#fff7ed"
+       stroke="#f97316"
+       stroke-width="1.2"
+       id="rect12" />
+    <text
+       x="76"
+       y="551"
+       fill="#7c2d12"
+       id="text13"><tspan
+   font-weight="700"
+   id="tspan12">Layer 6</tspan> — Untraceable Changes</text>
+    <rect
+       x="60"
+       y="567"
+       width="600"
+       height="30"
+       rx="5"
+       fill="#fdf2f8"
+       stroke="#ec4899"
+       stroke-width="1.2"
+       id="rect13" />
+    <text
+       x="76"
+       y="588"
+       fill="#831843"
+       id="text14"><tspan
+   font-weight="700"
+   id="tspan13">Layer 7</tspan> — Perpetual Rewrite Loop</text>
+  </g>
+  <!-- sequential connector arrows -->
+  <g
+     stroke="#94a3b8"
+     stroke-width="1.8"
+     marker-end="url(#arrow5)"
+     id="g19">
+    <line
+       x1="360"
+       y1="375"
+       x2="360"
+       y2="382"
+       id="line14" />
+    <line
+       x1="360"
+       y1="412"
+       x2="360"
+       y2="419"
+       id="line15" />
+    <line
+       x1="360"
+       y1="449"
+       x2="360"
+       y2="456"
+       id="line16" />
+    <line
+       x1="360"
+       y1="486"
+       x2="360"
+       y2="493"
+       id="line17" />
+    <line
+       x1="360"
+       y1="523"
+       x2="360"
+       y2="530"
+       id="line18" />
+    <line
+       x1="360"
+       y1="560"
+       x2="360"
+       y2="567"
+       id="line19" />
+  </g>
+</svg>

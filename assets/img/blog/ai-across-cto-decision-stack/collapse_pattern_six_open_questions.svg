@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 700 560"
+   font-family="Helvetica, Arial, sans-serif"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="collapse_pattern_six_open_questions.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86785714"
+     inkscape:cx="349.71193"
+     inkscape:cy="280"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow4"
+       markerWidth="10"
+       markerHeight="10"
+       refX="6"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L6,3 L0,6 Z"
+         fill="#dc2626"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     x="350"
+     y="32"
+     text-anchor="middle"
+     font-size="20"
+     font-weight="700"
+     fill="#1e293b"
+     id="text1">
+    The Collapse Pattern: One Decision, Six Open Questions
+  </text>
+  <!-- Layers 1-6, dashed/open -->
+  <g
+     font-size="14"
+     stroke-dasharray="6 4"
+     id="g6">
+    <rect
+       x="120"
+       y="55"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect1" />
+    <rect
+       x="120"
+       y="118"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect2" />
+    <rect
+       x="120"
+       y="181"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect3" />
+    <rect
+       x="120"
+       y="244"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect4" />
+    <rect
+       x="120"
+       y="307"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect5" />
+    <rect
+       x="120"
+       y="370"
+       width="460"
+       height="56"
+       rx="6"
+       fill="#f8fafc"
+       stroke="#94a3b8"
+       stroke-width="1.5"
+       id="rect6" />
+  </g>
+  <g
+     font-size="13"
+     fill="#475569"
+     id="g17">
+    <text
+       x="140"
+       y="78"
+       font-weight="700"
+       id="text6">Layer 1 — Strategy</text>
+    <text
+       x="504"
+       y="78"
+       text-anchor="end"
+       font-style="italic"
+       id="text7">Does the SWOT still hold?</text>
+    <text
+       x="140"
+       y="141"
+       font-weight="700"
+       id="text8">Layer 2 — Product Architecture</text>
+    <text
+       x="482"
+       y="141"
+       text-anchor="end"
+       font-style="italic"
+       id="text9">Do the seams survive?</text>
+    <text
+       x="140"
+       y="204"
+       font-weight="700"
+       id="text10">Layer 3 — Technology Delivery</text>
+    <text
+       x="524"
+       y="204"
+       text-anchor="end"
+       font-style="italic"
+       id="text11">Did build-vs-buy actually shift?</text>
+    <text
+       x="140"
+       y="267"
+       font-weight="700"
+       id="text12">Layer 4 — Engineering Org</text>
+    <text
+       x="518"
+       y="267"
+       text-anchor="end"
+       font-style="italic"
+       id="text13">Does ownership still mean it?</text>
+    <text
+       x="140"
+       y="330"
+       font-weight="700"
+       id="text14">Layer 5 — People &amp; Talent</text>
+    <text
+       x="524"
+       y="330"
+       text-anchor="end"
+       font-style="italic"
+       id="text15">Real governance, or de facto?</text>
+    <text
+       x="140"
+       y="393"
+       font-weight="700"
+       id="text16">Layer 6 — Infrastructure</text>
+    <text
+       x="518"
+       y="393"
+       text-anchor="end"
+       font-style="italic"
+       id="text17">Can failures trace to causes?</text>
+  </g>
+  <!-- Layer 7, decided, solid -->
+  <rect
+     x="120"
+     y="433"
+     width="460"
+     height="62"
+     rx="6"
+     fill="#ecfdf5"
+     stroke="#10b981"
+     stroke-width="2.5"
+     id="rect17" />
+  <text
+     x="140"
+     y="461"
+     font-size="14"
+     font-weight="700"
+     fill="#047857"
+     id="text18">Layer 7 — Developer Productivity</text>
+  <text
+     x="566"
+     y="461"
+     text-anchor="end"
+     font-size="13px"
+     font-style="italic"
+     fill="#065f46"
+     id="text19">Decided — AI tooling adopted ✓</text>
+  <!-- Arrow showing propagation upward -->
+  <text
+     x="-270"
+     y="630"
+     font-size="13px"
+     fill="#dc2626"
+     text-anchor="middle"
+     transform="rotate(-90)"
+     id="text20">consequences propagate upward</text>
+  <text
+     x="350"
+     y="517"
+     text-anchor="middle"
+     font-size="13px"
+     fill="#64748b"
+     id="text21">The layer-seven decision is correct on its own terms. Treating it as having answered</text>
+  <text
+     x="350"
+     y="539"
+     text-anchor="middle"
+     font-size="13px"
+     fill="#64748b"
+     id="text22">layers 1–6 is the collapse — not because the decision was wrong, but because the rest were never made.</text>
+</svg>
