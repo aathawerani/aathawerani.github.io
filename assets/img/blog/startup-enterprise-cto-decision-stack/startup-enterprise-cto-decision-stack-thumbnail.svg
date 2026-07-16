@@ -1,0 +1,120 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FAF9F6"/>
+
+  <!-- Subtle grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#EAE8E1" stroke-width="0.75"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- ─── LEFT: compact stack indicator ─── -->
+  <text x="108" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#5F5E5A" letter-spacing="2">THE SAME STACK</text>
+
+  <!-- Single compact stack block instead of 7 labeled boxes -->
+  <rect x="40" y="116" width="136" height="280" rx="10" fill="#F1EFE8" stroke="#C8C5BC" stroke-width="1"/>
+
+  <!-- Seven abstract bars with left accent — read as layers -->
+  <rect x="58" y="136" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="136" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="168" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="168" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="200" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="200" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="232" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="232" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="264" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="264" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="296" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="296" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <rect x="58" y="328" width="100" height="18" rx="4" fill="#E8E6DF"/>
+  <rect x="58" y="328" width="6" height="18" rx="2" fill="#C8C5BC"/>
+
+  <!-- Arrow from stack -->
+  <line x1="176" y1="256" x2="226" y2="256" stroke="#888780" stroke-width="2"/>
+  <polygon points="222,251 234,256 222,261" fill="#888780"/>
+
+  <!-- Split paths -->
+  <path d="M234 256 C280 256 280 158 330 158" fill="none" stroke="#D85A30" stroke-width="2.5"/>
+  <path d="M234 256 C280 256 280 354 330 354" fill="none" stroke="#1D9E75" stroke-width="2.5"/>
+
+  <!-- ─── STARTUP box ─── -->
+  <rect x="330" y="106" width="220" height="104" rx="10" fill="#FAECE7" stroke="#D85A30" stroke-width="1.5"/>
+  <text x="440" y="138" text-anchor="middle" font-size="16" font-weight="700" fill="#4A1B0C">Startup</text>
+  <text x="440" y="164" text-anchor="middle" font-size="13" fill="#993C1D">Capital clock binding</text>
+  <text x="440" y="184" text-anchor="middle" font-size="13" fill="#993C1D">Little to protect</text>
+
+  <!-- ─── ENTERPRISE box ─── -->
+  <rect x="330" y="302" width="220" height="104" rx="10" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1.5"/>
+  <text x="440" y="334" text-anchor="middle" font-size="16" font-weight="700" fill="#04342C">Enterprise</text>
+  <text x="440" y="360" text-anchor="middle" font-size="13" fill="#0F6E56">Existing exposure</text>
+  <text x="440" y="380" text-anchor="middle" font-size="13" fill="#0F6E56">Existing capability</text>
+
+  <!-- Arrows to answers -->
+  <line x1="550" y1="158" x2="600" y2="158" stroke="#D85A30" stroke-width="2.5"/>
+  <polygon points="596,153 610,158 596,163" fill="#D85A30"/>
+
+  <line x1="550" y1="354" x2="600" y2="354" stroke="#1D9E75" stroke-width="2.5"/>
+  <polygon points="596,349 610,354 596,359" fill="#1D9E75"/>
+
+  <!-- ─── STARTUP answer ─── -->
+  <rect x="610" y="106" width="220" height="104" rx="10" fill="#D85A30"/>
+  <text x="720" y="146" text-anchor="middle" font-size="14" font-weight="700" fill="#FAF9F6">Startup Answer</text>
+  <text x="720" y="170" text-anchor="middle" font-size="13" fill="#F5C4B3">Optimize for Speed</text>
+  <text x="720" y="190" text-anchor="middle" font-size="13" fill="#F5C4B3">Optimize for Survival</text>
+
+  <!-- ─── ENTERPRISE answer ─── -->
+  <rect x="610" y="302" width="220" height="104" rx="10" fill="#1D9E75"/>
+  <text x="720" y="342" text-anchor="middle" font-size="14" font-weight="700" fill="#FAF9F6">Enterprise Answer</text>
+  <text x="720" y="366" text-anchor="middle" font-size="13" fill="#9FE1CB">Optimize for Durability</text>
+  <text x="720" y="386" text-anchor="middle" font-size="13" fill="#9FE1CB">Optimize for Exposure</text>
+
+  <!-- ─── FAILURE label (readable, centered between answers) ─── -->
+  <rect x="645" y="224" width="150" height="64" rx="6" fill="#FCEBEB" stroke="#E24B4A" stroke-width="1"/>
+  <text x="720" y="249" text-anchor="middle" font-size="12" font-weight="700" fill="#791F1F">The failure</text>
+  <text x="720" y="268" text-anchor="middle" font-size="11" fill="#791F1F">importing the other</text>
+  <text x="720" y="282" text-anchor="middle" font-size="11" fill="#791F1F">context's answer</text>
+  <!-- Connector lines -->
+  <line x1="720" y1="210" x2="720" y2="224" stroke="#E24B4A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="720" y1="288" x2="720" y2="302" stroke="#E24B4A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- ─── DIVIDER ─── -->
+  <line x1="876" y1="50" x2="876" y2="580" stroke="#D3D1C7" stroke-width="1"/>
+
+  <!-- ─── RIGHT: title block ─── -->
+  <text x="910" y="104" font-size="13" font-weight="700" fill="#888780" letter-spacing="2">TECTONICS</text>
+
+  <text x="910" y="166" font-size="37" font-weight="800" fill="#2C2C2A">The CTO</text>
+  <text x="910" y="216" font-size="37" font-weight="800" fill="#2C2C2A">Decision Stack</text>
+
+  <!-- Orange accent rule -->
+  <rect x="910" y="232" width="90" height="5" rx="2.5" fill="#D85A30"/>
+
+  <text x="910" y="278" font-size="24" font-weight="400" fill="#5F5E5A">Across Startup &amp;</text>
+  <text x="910" y="312" font-size="24" font-weight="400" fill="#5F5E5A">Enterprise</text>
+
+  <!-- ─── Quote box ─── -->
+  <rect x="910" y="344" width="258" height="144" rx="8" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="1"/>
+  <text x="926" y="374" font-size="12" fill="#5F5E5A">The failure isn't a bad</text>
+  <text x="926" y="392" font-size="12" fill="#5F5E5A">decision at either end.</text>
+  <text x="926" y="418" font-size="14" font-weight="700" fill="#2C2C2A">Importing a tradeoff</text>
+  <text x="926" y="438" font-size="14" font-weight="700" fill="#2C2C2A">that was correct</text>
+  <text x="926" y="458" font-size="14" font-weight="700" fill="#2C2C2A">somewhere else.</text>
+
+  <!-- ─── Series badge (moved up, closer to quote) ─── -->
+  <rect x="910" y="504" width="150" height="30" rx="4" fill="#2C2C2A"/>
+  <text x="985" y="524" text-anchor="middle" font-size="11" font-weight="700" fill="#FAF9F6" letter-spacing="1">POST 3 OF SERIES</text>
+
+  <!-- Blog URL -->
+  <text x="910" y="566" font-size="11" fill="#B4B2A9">aathawerani.github.io</text>
+
+</svg>

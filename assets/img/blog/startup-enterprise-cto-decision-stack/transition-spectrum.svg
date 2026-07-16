@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>The transition is not a brief crossing</title>
+<desc>A horizontal spectrum from startup to enterprise. The startup zone and enterprise zone are small at each end. The middle zone, labeled enterprise-sized exposure with startup-sized resources, is drawn much wider than either end, representing that most real organizations — scale-ups, fast-growing product companies, regional fintechs — spend most of their operating life in this middle zone rather than briefly passing through it.</desc>
+
+<!-- Startup zone (narrow) -->
+<rect x="40" y="20" width="100" height="60" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.75"/>
+<text x="90" y="45" text-anchor="middle" font-size="12" font-weight="600" fill="#4A1B0C">Startup</text>
+<text x="90" y="62" text-anchor="middle" font-size="10" fill="#993C1D">brief zone</text>
+
+<!-- Middle zone (wide) -->
+<rect x="160" y="10" width="360" height="80" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.75"/>
+<text x="340" y="38" text-anchor="middle" font-size="13" font-weight="600" fill="#412402">The long middle</text>
+<text x="340" y="58" text-anchor="middle" font-size="11" fill="#633806">enterprise-sized exposure,</text>
+<text x="340" y="74" text-anchor="middle" font-size="11" fill="#633806">startup-sized resources</text>
+
+<!-- Enterprise zone (narrow) -->
+<rect x="540" y="20" width="100" height="60" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="590" y="45" text-anchor="middle" font-size="12" font-weight="600" fill="#04342C">Enterprise</text>
+<text x="590" y="62" text-anchor="middle" font-size="10" fill="#0F6E56">stable zone</text>
+
+<!-- Connecting lines -->
+<line x1="140" y1="50" x2="160" y2="50" stroke="#888780" stroke-width="1"/>
+<line x1="520" y1="50" x2="540" y2="50" stroke="#888780" stroke-width="1"/>
+
+<!-- Annotation pointing at the middle -->
+<line x1="340" y1="110" x2="340" y2="94" stroke="#888780" stroke-width="0.75"/>
+<text x="340" y="130" text-anchor="middle" font-size="12" fill="#2C2C2A">Most real organizations — scale-ups, fast-growing</text>
+<text x="340" y="148" text-anchor="middle" font-size="12" fill="#2C2C2A">product companies, regional fintechs — operate here</text>
+<text x="340" y="166" text-anchor="middle" font-size="12" fill="#2C2C2A">for years, not as a brief crossing</text>
+
+</svg>

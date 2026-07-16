@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Before and after Amazon's interface mandate</title>
+<desc>Two diagrams side by side. Before: four teams connected by a tangled mesh of direct links, shared data stores, and back-doors, representing disconnected ad hoc communication where each team's reasonable decision was made without knowledge of the others. After: the same four teams, each exposing only a defined service interface, with all communication routed through those interfaces and no direct connections between teams. The mandate eliminated direct linking, direct reads of another team's data store, shared memory models, and back-doors.</desc>
+<defs>
+<marker id="arrowhead4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#A32D2D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<!-- Headers -->
+<text x="160" y="28" text-anchor="middle" font-size="13" font-weight="600" fill="#791F1F">Before</text>
+<text x="520" y="28" text-anchor="middle" font-size="13" font-weight="600" fill="#0F6E56">After the interface mandate</text>
+
+<!-- BEFORE: four teams in a tangled mesh -->
+<g>
+<circle cx="100" cy="80" r="30" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+<text x="100" y="84" text-anchor="middle" font-size="11" fill="#501313">Team A</text>
+
+<circle cx="220" cy="80" r="30" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+<text x="220" y="84" text-anchor="middle" font-size="11" fill="#501313">Team B</text>
+
+<circle cx="100" cy="190" r="30" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+<text x="100" y="194" text-anchor="middle" font-size="11" fill="#501313">Team C</text>
+
+<circle cx="220" cy="190" r="30" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+<text x="220" y="194" text-anchor="middle" font-size="11" fill="#501313">Team D</text>
+
+<!-- Tangled direct connections -->
+<line x1="125" y1="65" x2="195" y2="65" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+<line x1="100" y1="110" x2="100" y2="160" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+<line x1="220" y1="110" x2="220" y2="160" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+<line x1="125" y1="195" x2="195" y2="195" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+<line x1="122" y1="100" x2="198" y2="170" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+<line x1="198" y1="100" x2="122" y2="170" stroke="#E24B4A" stroke-width="1" marker-end="url(#arrowhead4)"/>
+</g>
+
+<text x="160" y="250" text-anchor="middle" font-size="11" fill="#791F1F">Direct links, shared</text>
+<text x="160" y="264" text-anchor="middle" font-size="11" fill="#791F1F">data stores, back-doors</text>
+
+<!-- AFTER: four teams each behind a service interface -->
+<g>
+<rect x="450" y="55" width="60" height="36" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="480" y="76" text-anchor="middle" font-size="10" fill="#04342C">Team A</text>
+
+<rect x="560" y="55" width="60" height="36" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="590" y="76" text-anchor="middle" font-size="10" fill="#04342C">Team B</text>
+
+<rect x="450" y="165" width="60" height="36" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="480" y="186" text-anchor="middle" font-size="10" fill="#04342C">Team C</text>
+
+<rect x="560" y="165" width="60" height="36" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="590" y="186" text-anchor="middle" font-size="10" fill="#04342C">Team D</text>
+
+<!-- Central interface hub -->
+<rect x="495" y="105" width="90" height="40" rx="6" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+<text x="540" y="121" text-anchor="middle" font-size="10" font-weight="600" fill="#04342C">Service</text>
+<text x="540" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#04342C">interfaces</text>
+
+<!-- All connections route through the hub -->
+<line x1="495" y1="100" x2="510" y2="105" stroke="#1D9E75" stroke-width="0.75"/>
+<line x1="480" y1="91" x2="510" y2="108" stroke="#1D9E75" stroke-width="0.75"/>
+<line x1="600" y1="91" x2="570" y2="108" stroke="#1D9E75" stroke-width="0.75"/>
+<line x1="480" y1="165" x2="510" y2="142" stroke="#1D9E75" stroke-width="0.75"/>
+<line x1="600" y1="165" x2="570" y2="142" stroke="#1D9E75" stroke-width="0.75"/>
+</g>
+
+<text x="540" y="250" text-anchor="middle" font-size="11" fill="#0F6E56">Only the interface is exposed —</text>
+<text x="540" y="264" text-anchor="middle" font-size="11" fill="#0F6E56">no other communication allowed</text>
+
+<!-- Caption -->
+<text x="340" y="310" text-anchor="middle" font-size="12" fill="#2C2C2A">Each team's own decision was reasonable. The mandate fixed what no single team could see.</text>
+
+</svg>

@@ -1,0 +1,98 @@
+<svg width="100%" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>The seven layers, startup vs enterprise</title>
+<desc>A table mapping each of the seven CTO decision stack layers to its primary startup tension and enterprise tension: Strategy (risk appetite), Architecture (resource asymmetry, rewrite tolerance), Delivery (speed vs rigor, build vs buy), Organization (process affordability), Talent (organizational memory, AI adoption), Infrastructure (resource asymmetry, what infrastructure makes thinkable), Productivity (local vs global optimization).</desc>
+
+<!-- Header row -->
+<rect x="40" y="36" width="140" height="40" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.75"/>
+<text x="110" y="61" text-anchor="middle" font-size="14" font-weight="600" fill="#2C2C2A">Layer</text>
+
+<rect x="190" y="36" width="220" height="40" rx="6" fill="#FAECE7" stroke="#D85A30" stroke-width="0.75"/>
+<text x="300" y="61" text-anchor="middle" font-size="14" font-weight="600" fill="#4A1B0C">Startup tension</text>
+
+<rect x="420" y="36" width="220" height="40" rx="6" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="530" y="61" text-anchor="middle" font-size="14" font-weight="600" fill="#04342C">Enterprise tension</text>
+
+<!-- Row 1: Strategy -->
+<rect x="40" y="86" width="140" height="44" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="112" text-anchor="middle" font-size="13" fill="#2C2C2A">1. Strategy</text>
+
+<rect x="190" y="86" width="220" height="44" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="112" text-anchor="middle" font-size="13" fill="#4A1B0C">Risk appetite</text>
+
+<rect x="420" y="86" width="220" height="44" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="112" text-anchor="middle" font-size="13" fill="#04342C">Reputational exposure</text>
+
+<!-- Row 2: Architecture -->
+<rect x="40" y="138" width="140" height="56" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="170" text-anchor="middle" font-size="13" fill="#2C2C2A">2. Architecture</text>
+
+<rect x="190" y="138" width="220" height="56" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="160" text-anchor="middle" font-size="13" fill="#4A1B0C">Resource asymmetry</text>
+<text x="300" y="178" text-anchor="middle" font-size="11" fill="#993C1D">Rewrite tolerance</text>
+
+<rect x="420" y="138" width="220" height="56" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="160" text-anchor="middle" font-size="13" fill="#04342C">Inherited shelf</text>
+<text x="530" y="178" text-anchor="middle" font-size="11" fill="#0F6E56">Migration cost</text>
+
+<!-- Row 3: Delivery -->
+<rect x="40" y="202" width="140" height="56" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="234" text-anchor="middle" font-size="13" fill="#2C2C2A">3. Delivery</text>
+
+<rect x="190" y="202" width="220" height="56" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="224" text-anchor="middle" font-size="13" fill="#4A1B0C">Speed over rigor</text>
+<text x="300" y="242" text-anchor="middle" font-size="11" fill="#993C1D">Build — can't afford to buy</text>
+
+<rect x="420" y="202" width="220" height="56" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="224" text-anchor="middle" font-size="13" fill="#04342C">Rigor earns its cost</text>
+<text x="530" y="242" text-anchor="middle" font-size="11" fill="#0F6E56">Build to dodge procurement</text>
+
+<!-- Row 4: Organization -->
+<rect x="40" y="266" width="140" height="44" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="292" text-anchor="middle" font-size="13" fill="#2C2C2A">4. Organization</text>
+
+<rect x="190" y="266" width="220" height="44" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="292" text-anchor="middle" font-size="13" fill="#4A1B0C">Structure accretes</text>
+
+<rect x="420" y="266" width="220" height="44" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="292" text-anchor="middle" font-size="13" fill="#04342C">Process, maybe misapplied</text>
+
+<!-- Row 5: Talent -->
+<rect x="40" y="318" width="140" height="56" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="340" text-anchor="middle" font-size="13" fill="#2C2C2A">5. Talent</text>
+<text x="110" y="358" text-anchor="middle" font-size="11" fill="#5F5E5A">incl. AI adoption</text>
+
+<rect x="190" y="318" width="220" height="56" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="340" text-anchor="middle" font-size="13" fill="#4A1B0C">Knowledge lives in people</text>
+<text x="300" y="358" text-anchor="middle" font-size="11" fill="#993C1D">Fast, shallow AI adoption</text>
+
+<rect x="420" y="318" width="220" height="56" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="340" text-anchor="middle" font-size="13" fill="#04342C">Knowledge lives in systems</text>
+<text x="530" y="358" text-anchor="middle" font-size="11" fill="#0F6E56">Slow, deep AI adoption</text>
+
+<!-- Row 6: Infrastructure -->
+<rect x="40" y="382" width="140" height="56" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="414" text-anchor="middle" font-size="13" fill="#2C2C2A">6. Infrastructure</text>
+
+<rect x="190" y="382" width="220" height="56" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="404" text-anchor="middle" font-size="13" fill="#4A1B0C">Builds on today's stack</text>
+<text x="300" y="422" text-anchor="middle" font-size="11" fill="#993C1D">No inherited maturity</text>
+
+<rect x="420" y="382" width="220" height="56" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="404" text-anchor="middle" font-size="13" fill="#04342C">May carry forward an</text>
+<text x="530" y="422" text-anchor="middle" font-size="11" fill="#0F6E56">older stack's constraints</text>
+
+<!-- Row 7: Productivity -->
+<rect x="40" y="446" width="140" height="44" rx="6" fill="#FAF9F6" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="110" y="472" text-anchor="middle" font-size="13" fill="#2C2C2A">7. Productivity</text>
+
+<rect x="190" y="446" width="220" height="44" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="300" y="472" text-anchor="middle" font-size="13" fill="#4A1B0C">Optimized for one team</text>
+
+<rect x="420" y="446" width="220" height="44" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="530" y="472" text-anchor="middle" font-size="13" fill="#04342C">Optimized for the portfolio</text>
+
+<!-- Footer note -->
+<text x="40" y="524" font-size="12" fill="#5F5E5A">Each tension is a rational response to a different constraint, not a difference in discipline.</text>
+<text x="40" y="544" font-size="12" fill="#5F5E5A">The failure is applying one column's answer inside the other column's constraints.</text>
+
+</svg>

@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Where organizational knowledge lives</title>
+<desc>Two containers side by side. The startup container holds knowledge inside a small number of people: why decisions were made, what was tried and abandoned, what the system does under load. Removing one person removes a meaningful fraction of the container's contents. The enterprise container holds knowledge inside systems: documentation, onboarding material, and architecture decision records. Removing one person leaves the container's contents intact, but the systems themselves carry a continuous maintenance cost.</desc>
+
+<!-- Startup container -->
+<rect x="40" y="40" width="280" height="220" rx="14" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.75"/>
+<text x="60" y="68" font-size="13" font-weight="600" fill="#4A1B0C">Startup</text>
+<text x="60" y="86" font-size="11" fill="#993C1D">knowledge lives in people</text>
+
+<!-- People icons as simple circles -->
+<circle cx="100" cy="140" r="22" fill="#F5C4B3" stroke="#D85A30" stroke-width="0.75"/>
+<text x="100" y="144" text-anchor="middle" font-size="10" fill="#4A1B0C">person</text>
+
+<circle cx="180" cy="140" r="22" fill="#F0997B" stroke="#D85A30" stroke-width="1.5"/>
+<text x="180" y="144" text-anchor="middle" font-size="10" fill="#4A1B0C">person</text>
+
+<circle cx="260" cy="140" r="22" fill="#F5C4B3" stroke="#D85A30" stroke-width="0.75"/>
+<text x="260" y="144" text-anchor="middle" font-size="10" fill="#4A1B0C">person</text>
+
+<text x="180" y="190" text-anchor="middle" font-size="11" fill="#4A1B0C">why decisions were made,</text>
+<text x="180" y="206" text-anchor="middle" font-size="11" fill="#4A1B0C">what the system does under load</text>
+
+<line x1="158" y1="158" x2="202" y2="122" stroke="#A32D2D" stroke-width="2"/>
+<line x1="202" y1="158" x2="158" y2="122" stroke="#A32D2D" stroke-width="2"/>
+<text x="180" y="238" text-anchor="middle" font-size="10" fill="#993C1D">removing one person removes</text>
+<text x="180" y="252" text-anchor="middle" font-size="10" fill="#993C1D">a meaningful fraction of this</text>
+
+<!-- Enterprise container -->
+<rect x="360" y="40" width="280" height="220" rx="14" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="380" y="68" font-size="13" font-weight="600" fill="#04342C">Enterprise</text>
+<text x="380" y="86" font-size="11" fill="#0F6E56">knowledge lives in systems</text>
+
+<rect x="385" y="110" width="110" height="50" rx="6" fill="#9FE1CB" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="440" y="132" text-anchor="middle" font-size="10" fill="#04342C">Documentation</text>
+<text x="440" y="146" text-anchor="middle" font-size="10" fill="#04342C">&amp; onboarding</text>
+
+<rect x="505" y="110" width="115" height="50" rx="6" fill="#9FE1CB" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="562" y="132" text-anchor="middle" font-size="10" fill="#04342C">Architecture</text>
+<text x="562" y="146" text-anchor="middle" font-size="10" fill="#04342C">decision records</text>
+
+<circle cx="500" cy="195" r="18" fill="#5DCAA5" stroke="#0F6E56" stroke-width="0.75" opacity="0.6"/>
+<text x="500" y="199" text-anchor="middle" font-size="9" fill="#04342C">person</text>
+
+<text x="500" y="232" text-anchor="middle" font-size="10" fill="#0F6E56">one person can leave —</text>
+<text x="500" y="246" text-anchor="middle" font-size="10" fill="#0F6E56">the systems keep the knowledge</text>
+
+</svg>

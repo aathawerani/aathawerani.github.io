@@ -1,0 +1,32 @@
+<svg width="100%" viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>What infrastructure makes possible changes over time, in both directions</title>
+<desc>A timeline showing infrastructure availability rising over time. A startup founded today sits on the current point of the curve, inheriting modern infrastructure like containers and managed services for free. An enterprise's core platform was built at an earlier point on the curve and may still carry forward the constraints of that earlier era, such as no containers or manual operations, unless actively modernized. Separately, Amazon's Prime Video example shows that an architecture chosen correctly for the scale and infrastructure economics of one point in time can become the wrong choice as scale changes, illustrated by a single service moving from microservices to a monolith and cutting infrastructure cost by over ninety percent.</desc>
+<defs>
+<marker id="arrowhead3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<!-- Rising curve representing infrastructure availability over time -->
+<path d="M50 230 C 180 220, 280 180, 380 120 C 460 75, 540 50, 620 35" fill="none" stroke="#888780" stroke-width="1.5"/>
+<line x1="50" y1="250" x2="630" y2="250" stroke="#888780" stroke-width="1" marker-end="url(#arrowhead3)"/>
+<text x="630" y="285" text-anchor="end" font-size="11" fill="#5F5E5A">time</text>
+<text x="50" y="270" font-size="11" fill="#5F5E5A">no containers, manual ops</text>
+<text x="500" y="270" font-size="11" fill="#5F5E5A">containers, managed services</text>
+
+<!-- Enterprise's original build point, marked earlier on the curve -->
+<circle cx="180" cy="220" r="5" fill="#1D9E75" stroke="#0F6E56" stroke-width="1"/>
+<line x1="180" y1="220" x2="180" y2="190" stroke="#1D9E75" stroke-width="0.75" stroke-dasharray="3 3"/>
+<rect x="100" y="150" width="160" height="40" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="180" y="166" text-anchor="middle" font-size="11" font-weight="600" fill="#04342C">Enterprise's core</text>
+<text x="180" y="180" text-anchor="middle" font-size="11" fill="#04342C">platform was built here</text>
+
+<!-- Startup's build point, today, far along the curve -->
+<circle cx="600" cy="40" r="5" fill="#D85A30" stroke="#993C1D" stroke-width="1"/>
+<line x1="600" y1="40" x2="600" y2="70" stroke="#D85A30" stroke-width="0.75" stroke-dasharray="3 3"/>
+<rect x="470" y="72" width="160" height="40" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.75"/>
+<text x="550" y="88" text-anchor="middle" font-size="11" font-weight="600" fill="#4A1B0C">Startup founded</text>
+<text x="550" y="102" text-anchor="middle" font-size="11" fill="#4A1B0C">today, starts here</text>
+
+<!-- Caption -->
+<text x="340" y="312" text-anchor="middle" font-size="12" fill="#2C2C2A">The advantage isn't size — it's whether what was inherited still represents the present.</text>
+
+</svg>

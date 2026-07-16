@@ -1,0 +1,80 @@
+<svg width="100%" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>The technology SWOT, run twice</title>
+<desc>Two SWOT grids side by side. Startup SWOT: strength is speed of iteration, weakness is no inherited infrastructure or process, opportunity is the freedom to make tradeoffs an enterprise cannot, threat is the runway clock running out before that freedom is used well. Enterprise SWOT: strength is inherited infrastructure, process, and brand, weakness is slower iteration speed, opportunity is time and the ability to be right rather than fast, threat is mistaking structural advantages for permission to move at startup speed. The two grids are mirror images of each other.</desc>
+
+<!-- Column headers -->
+<rect x="40" y="20" width="290" height="36" rx="6" fill="#FAECE7" stroke="#D85A30" stroke-width="0.75"/>
+<text x="185" y="43" text-anchor="middle" font-size="14" font-weight="600" fill="#4A1B0C">Startup</text>
+
+<rect x="350" y="20" width="290" height="36" rx="6" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+<text x="495" y="43" text-anchor="middle" font-size="14" font-weight="600" fill="#04342C">Enterprise</text>
+
+<!-- Row label helper: S / W / O / T as small left tags, repeated per grid -->
+
+<!-- Startup grid: 2x2 inside the 290-wide column -->
+<!-- S -->
+<rect x="40" y="68" width="140" height="84" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="50" y="86" font-size="11" font-weight="600" fill="#993C1D">Strength</text>
+<text x="50" y="104" font-size="11" fill="#4A1B0C">Speed of iteration —</text>
+<text x="50" y="120" font-size="11" fill="#4A1B0C">ship, learn, reverse</text>
+<text x="50" y="136" font-size="11" fill="#4A1B0C">before it calcifies</text>
+
+<!-- W -->
+<rect x="190" y="68" width="140" height="84" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="200" y="86" font-size="11" font-weight="600" fill="#993C1D">Weakness</text>
+<text x="200" y="104" font-size="11" fill="#4A1B0C">No inherited</text>
+<text x="200" y="120" font-size="11" fill="#4A1B0C">infrastructure, process,</text>
+<text x="200" y="136" font-size="11" fill="#4A1B0C">or brand to absorb cost</text>
+
+<!-- O -->
+<rect x="40" y="160" width="140" height="84" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="50" y="178" font-size="11" font-weight="600" fill="#993C1D">Opportunity</text>
+<text x="50" y="196" font-size="11" fill="#4A1B0C">Freedom to take a</text>
+<text x="50" y="212" font-size="11" fill="#4A1B0C">tradeoff an enterprise</text>
+<text x="50" y="228" font-size="11" fill="#4A1B0C">structurally cannot</text>
+
+<!-- T -->
+<rect x="190" y="160" width="140" height="84" rx="6" fill="#FCF3EF" stroke="#D85A30" stroke-width="0.5"/>
+<text x="200" y="178" font-size="11" font-weight="600" fill="#993C1D">Threat</text>
+<text x="200" y="196" font-size="11" fill="#4A1B0C">Runway clock runs out</text>
+<text x="200" y="212" font-size="11" fill="#4A1B0C">before that freedom</text>
+<text x="200" y="228" font-size="11" fill="#4A1B0C">gets used well</text>
+
+<!-- Enterprise grid: mirror layout -->
+<!-- S -->
+<rect x="350" y="68" width="140" height="84" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="360" y="86" font-size="11" font-weight="600" fill="#0F6E56">Strength</text>
+<text x="360" y="104" font-size="11" fill="#04342C">Inherited infrastructure,</text>
+<text x="360" y="120" font-size="11" fill="#04342C">process muscle,</text>
+<text x="360" y="136" font-size="11" fill="#04342C">durable brand</text>
+
+<!-- W -->
+<rect x="500" y="68" width="140" height="84" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="510" y="86" font-size="11" font-weight="600" fill="#0F6E56">Weakness</text>
+<text x="510" y="104" font-size="11" fill="#04342C">Slower iteration —</text>
+<text x="510" y="120" font-size="11" fill="#04342C">every strength comes</text>
+<text x="510" y="136" font-size="11" fill="#04342C">wrapped in process</text>
+
+<!-- O -->
+<rect x="350" y="160" width="140" height="84" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="360" y="178" font-size="11" font-weight="600" fill="#0F6E56">Opportunity</text>
+<text x="360" y="196" font-size="11" fill="#04342C">Time — capital clock</text>
+<text x="360" y="212" font-size="11" fill="#04342C">rarely binds, can afford</text>
+<text x="360" y="228" font-size="11" fill="#04342C">to be right, not fast</text>
+
+<!-- T -->
+<rect x="500" y="160" width="140" height="84" rx="6" fill="#EEF9F4" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="510" y="178" font-size="11" font-weight="600" fill="#0F6E56">Threat</text>
+<text x="510" y="196" font-size="11" fill="#04342C">Mistaking structural</text>
+<text x="510" y="212" font-size="11" fill="#04342C">advantage for permission</text>
+<text x="510" y="228" font-size="11" fill="#04342C">to move at startup speed</text>
+
+<!-- Mirror connector -->
+<line x1="330" y1="190" x2="350" y2="190" stroke="#888780" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="340" y="262" text-anchor="middle" font-size="11" fill="#5F5E5A">mirror image</text>
+
+<!-- Footer -->
+<text x="40" y="296" font-size="12" fill="#5F5E5A">Same four quadrants, reshaped by time horizon and reversibility:</text>
+<text x="40" y="316" font-size="12" fill="#5F5E5A">a startup's bets are short-horizon and reversible; an enterprise's are long-horizon and load-bearing.</text>
+
+</svg>
