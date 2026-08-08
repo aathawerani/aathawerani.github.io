@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 980 200"
+   width="100%"
+   role="img"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="causal-chain.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.60306122"
+     inkscape:cx="480.05076"
+     inkscape:cy="104.46701"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs1">
+    <marker
+       id="a"
+       viewBox="0 0 8 8"
+       refX="7"
+       refY="4"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto">
+      <path
+         d="M0 1 L7 4 L0 7"
+         fill="none"
+         stroke="#1D73A7"
+         stroke-width="1.4"
+         id="path1" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="980"
+     height="200"
+     fill="#FFFFFF"
+     id="rect1" />
+  <rect
+     x="20"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     stroke-width="1"
+     id="rect2" />
+  <text
+     x="88.0"
+     y="92"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text2">Scarcity</text>
+  <text
+     x="88"
+     y="124"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11"
+     fill="#64748b"
+     id="text3"
+     style="font-size:13.3333px">permanent condition</text>
+  <path
+     d="M162 95 L178 95"
+     stroke="#1D73A7"
+     stroke-width="1.6"
+     marker-end="url(#a)"
+     id="path3" />
+  <rect
+     x="184"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     stroke-width="1"
+     id="rect3" />
+  <text
+     x="252.0"
+     y="92"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text4">Search</text>
+  <text
+     x="252"
+     y="124"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11"
+     fill="#64748b"
+     id="text5"
+     style="font-size:13.3333px">not a decision</text>
+  <path
+     d="M326 95 L342 95"
+     stroke="#1D73A7"
+     stroke-width="1.6"
+     marker-end="url(#a)"
+     id="path5" />
+  <rect
+     x="348"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#E8F0F7"
+     stroke="#064F88"
+     stroke-width="1.6"
+     id="rect5" />
+  <text
+     x="416.0"
+     y="82"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text6">Generation</text>
+  <text
+     x="416.0"
+     y="101"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text7">+ Evaluation</text>
+  <text
+     x="416"
+     y="124"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11"
+     fill="#64748b"
+     id="text8"
+     style="font-size:13.3333px">two arms</text>
+  <path
+     d="M490 95 L506 95"
+     stroke="#1D73A7"
+     stroke-width="1.6"
+     marker-end="url(#a)"
+     id="path8" />
+  <rect
+     x="512"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     stroke-width="1"
+     id="rect8" />
+  <text
+     x="580.0"
+     y="82"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text9">Superior</text>
+  <text
+     x="580.0"
+     y="101"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text10">Allocation</text>
+  <text
+     x="580.0"
+     y="124"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="11"
+     fill="#64748B"
+     id="text11"
+     style="font-size:13.33333333px">rare</text>
+  <path
+     d="M654 95 L670 95"
+     stroke="#1D73A7"
+     stroke-width="1.6"
+     marker-end="url(#a)"
+     id="path11" />
+  <rect
+     x="676"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     stroke-width="1"
+     id="rect11" />
+  <text
+     x="744.0"
+     y="82"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text12">Future</text>
+  <text
+     x="744.0"
+     y="101"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text13">Capability</text>
+  <text
+     x="744"
+     y="124"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11"
+     fill="#64748b"
+     id="text14"
+     style="font-size:13.3333px">the outcome</text>
+  <path
+     d="M818 95 L834 95"
+     stroke="#1D73A7"
+     stroke-width="1.6"
+     marker-end="url(#a)"
+     id="path14" />
+  <rect
+     x="840"
+     y="52"
+     width="136"
+     height="86"
+     rx="8"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     stroke-width="1"
+     id="rect14" />
+  <text
+     x="908.0"
+     y="92"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="16"
+     fill="#1C3664"
+     id="text15">Advantage</text>
+  <text
+     x="908"
+     y="124"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11"
+     fill="#64748b"
+     id="text16"
+     style="font-size:13.3333px">compounding</text>
+  <text
+     x="490"
+     y="30"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="13"
+     fill="#64748B"
+     letter-spacing="1.5"
+     id="text17">THE ARGUMENT IN ONE LINE</text>
+  <text
+     x="490"
+     y="172"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="12.5"
+     fill="#64748b"
+     id="text18"
+     style="font-size:16px">Every mechanism in this essay — governance, technical debt, platform work, AI — acts on one of these six links.</text>
+</svg>

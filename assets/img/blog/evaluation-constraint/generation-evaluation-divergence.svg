@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 860 400"
+   width="100%"
+   role="img"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="generation-evaluation-divergence.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.85913474"
+     inkscape:cx="434.73972"
+     inkscape:cy="199.03746"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <rect
+     width="860"
+     height="400"
+     fill="#FFFFFF"
+     id="rect1" />
+  <text
+     x="430"
+     y="32"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="13"
+     fill="#64748b"
+     letter-spacing="1.5"
+     id="text1"
+     style="font-size:21.3333px">THE ARM THAT USED TO BE EXPENSIVE</text>
+  <path
+     d="M90 70 L90 310 L790 310"
+     fill="none"
+     stroke="#CBD5E1"
+     stroke-width="1.2"
+     id="path1" />
+  <text
+     x="78"
+     y="78"
+     text-anchor="end"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="12"
+     fill="#64748B"
+     id="text2"
+     style="font-size:16px">capacity</text>
+  <text
+     x="790"
+     y="336"
+     text-anchor="end"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="12"
+     fill="#64748B"
+     id="text3"
+     style="font-size:16px">time</text>
+  <path
+     d="M100 270 C320 252 470 220 560 160 S740 78 780 74"
+     fill="none"
+     stroke="#064F88"
+     stroke-width="2.6"
+     id="path3" />
+  <path
+     d="M100 258 C330 240 520 222 780 206"
+     fill="none"
+     stroke="#B45309"
+     stroke-width="2.6"
+     id="path4" />
+  <text
+     x="750"
+     y="64"
+     text-anchor="start"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="14.5"
+     fill="#064f88"
+     id="text4"
+     style="font-size:16px">Generation</text>
+  <text
+     x="756"
+     y="224"
+     text-anchor="start"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="14.5"
+     fill="#b45309"
+     id="text5"
+     style="font-size:16px">Evaluation</text>
+  <path
+     d="M560 80 L560 310"
+     stroke="#CBD5E1"
+     stroke-width="1.2"
+     stroke-dasharray="5 4"
+     id="path5" />
+  <text
+     x="560"
+     y="72"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="13"
+     fill="#64748B"
+     id="text6"
+     style="font-size:13.33333333px">AI</text>
+  <text
+     x="320"
+     y="294"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="12"
+     fill="#64748B"
+     id="text7"
+     style="font-size:13.33333333px">generation was the binding arm</text>
+  <text
+     x="680"
+     y="294"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="12"
+     fill="#64748B"
+     id="text8"
+     style="font-size:13.33333333px">evaluation is</text>
+  <path
+     d="M750 82 L750 198"
+     stroke="#64748B"
+     stroke-width="1"
+     stroke-dasharray="3 3"
+     id="path8" />
+  <text
+     x="742"
+     y="140"
+     text-anchor="end"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     fill="#64748B"
+     id="text9"
+     style="font-size:13.33333333px">the gap</text>
+  <text
+     x="430"
+     y="372"
+     text-anchor="middle"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     fill="#64748B"
+     id="text10"
+     style="font-size:16px">Understanding used to arrive as a by-product of construction. Now the construction happens without it.</text>
+</svg>

@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 820 440"
+   width="100%"
+   role="img"
+   version="1.1"
+   id="svg169"
+   sodipodi:docname="allocation-search-space.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs169" />
+  <sodipodi:namedview
+     id="namedview169"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.78103158"
+     inkscape:cx="407.79401"
+     inkscape:cy="224.06264"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg169" />
+  <rect
+     x="0"
+     y="0"
+     width="820"
+     height="440"
+     fill="#FFFFFF"
+     id="rect1" />
+  <rect
+     x="60"
+     y="60"
+     width="700"
+     height="320"
+     rx="10"
+     fill="#F1F5F9"
+     stroke="#CBD5E1"
+     id="rect2" />
+  <text
+     x="76"
+     y="86"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="12.5"
+     fill="#64748b"
+     id="text2"
+     style="font-size:16px">All possible allocations of a fixed engineering capacity</text>
+  <circle
+     cx="292"
+     cy="137"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle2" />
+  <circle
+     cx="511"
+     cy="116"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle3" />
+  <circle
+     cx="434"
+     cy="195"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle4" />
+  <circle
+     cx="114"
+     cy="234"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle5" />
+  <circle
+     cx="100"
+     cy="214"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle6" />
+  <circle
+     cx="122"
+     cy="121"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle7" />
+  <circle
+     cx="359"
+     cy="321"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle8" />
+  <circle
+     cx="158"
+     cy="157"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle9" />
+  <circle
+     cx="495"
+     cy="354"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle10" />
+  <circle
+     cx="462"
+     cy="204"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle11" />
+  <circle
+     cx="729"
+     cy="109"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle12" />
+  <circle
+     cx="650"
+     cy="175"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle13" />
+  <circle
+     cx="172"
+     cy="128"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle14" />
+  <circle
+     cx="282"
+     cy="318"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle15" />
+  <circle
+     cx="196"
+     cy="254"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle16" />
+  <circle
+     cx="503"
+     cy="197"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle17" />
+  <circle
+     cx="442"
+     cy="113"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle18" />
+  <circle
+     cx="115"
+     cy="152"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle19" />
+  <circle
+     cx="531"
+     cy="212"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle20" />
+  <circle
+     cx="285"
+     cy="255"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle21" />
+  <circle
+     cx="379"
+     cy="178"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle22" />
+  <circle
+     cx="607"
+     cy="286"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle23" />
+  <circle
+     cx="239"
+     cy="252"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle24" />
+  <circle
+     cx="427"
+     cy="334"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle25" />
+  <circle
+     cx="564"
+     cy="174"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle26" />
+  <circle
+     cx="732"
+     cy="128"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle27" />
+  <circle
+     cx="355"
+     cy="302"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle28" />
+  <circle
+     cx="177"
+     cy="229"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle29" />
+  <circle
+     cx="101"
+     cy="278"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle30" />
+  <circle
+     cx="587"
+     cy="252"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle31" />
+  <circle
+     cx="662"
+     cy="181"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle32" />
+  <circle
+     cx="541"
+     cy="258"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle33" />
+  <circle
+     cx="464"
+     cy="220"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle34" />
+  <circle
+     cx="638"
+     cy="353"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle35" />
+  <circle
+     cx="393"
+     cy="277"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle36" />
+  <circle
+     cx="116"
+     cy="287"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle37" />
+  <circle
+     cx="509"
+     cy="366"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle38" />
+  <circle
+     cx="626"
+     cy="173"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle39" />
+  <circle
+     cx="333"
+     cy="278"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle40" />
+  <circle
+     cx="90"
+     cy="222"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle41" />
+  <circle
+     cx="188"
+     cy="128"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle42" />
+  <circle
+     cx="114"
+     cy="305"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle43" />
+  <circle
+     cx="162"
+     cy="163"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle44" />
+  <circle
+     cx="337"
+     cy="333"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle45" />
+  <circle
+     cx="129"
+     cy="218"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle46" />
+  <circle
+     cx="443"
+     cy="336"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle47" />
+  <circle
+     cx="624"
+     cy="331"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle48" />
+  <circle
+     cx="262"
+     cy="209"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle49" />
+  <circle
+     cx="315"
+     cy="337"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle50" />
+  <circle
+     cx="717"
+     cy="137"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle51" />
+  <circle
+     cx="193"
+     cy="159"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle52" />
+  <circle
+     cx="231"
+     cy="228"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle53" />
+  <circle
+     cx="470"
+     cy="167"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle54" />
+  <circle
+     cx="78"
+     cy="210"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle55" />
+  <circle
+     cx="322"
+     cy="250"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle56" />
+  <circle
+     cx="714"
+     cy="284"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle57" />
+  <circle
+     cx="420"
+     cy="264"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle58" />
+  <circle
+     cx="528"
+     cy="111"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle59" />
+  <circle
+     cx="678"
+     cy="308"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle60" />
+  <circle
+     cx="661"
+     cy="313"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle61" />
+  <circle
+     cx="338"
+     cy="205"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle62" />
+  <circle
+     cx="144"
+     cy="269"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle63" />
+  <circle
+     cx="117"
+     cy="114"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle64" />
+  <circle
+     cx="215"
+     cy="140"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle65" />
+  <circle
+     cx="303"
+     cy="110"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle66" />
+  <circle
+     cx="75"
+     cy="137"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle67" />
+  <circle
+     cx="143"
+     cy="195"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle68" />
+  <circle
+     cx="92"
+     cy="334"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle69" />
+  <circle
+     cx="486"
+     cy="136"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle70" />
+  <circle
+     cx="244"
+     cy="190"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle71" />
+  <circle
+     cx="319"
+     cy="129"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle72" />
+  <circle
+     cx="644"
+     cy="366"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle73" />
+  <circle
+     cx="387"
+     cy="228"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle74" />
+  <circle
+     cx="133"
+     cy="124"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle75" />
+  <circle
+     cx="305"
+     cy="168"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle76" />
+  <circle
+     cx="630"
+     cy="140"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle77" />
+  <circle
+     cx="90"
+     cy="355"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle78" />
+  <circle
+     cx="429"
+     cy="136"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle79" />
+  <circle
+     cx="439"
+     cy="103"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle80" />
+  <circle
+     cx="429"
+     cy="362"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle81" />
+  <circle
+     cx="653"
+     cy="285"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle82" />
+  <circle
+     cx="250"
+     cy="196"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle83" />
+  <circle
+     cx="187"
+     cy="306"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle84" />
+  <circle
+     cx="432"
+     cy="308"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle85" />
+  <circle
+     cx="296"
+     cy="157"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle86" />
+  <circle
+     cx="619"
+     cy="364"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle87" />
+  <circle
+     cx="646"
+     cy="315"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle88" />
+  <circle
+     cx="623"
+     cy="297"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle89" />
+  <circle
+     cx="227"
+     cy="237"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle90" />
+  <circle
+     cx="313"
+     cy="104"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle91" />
+  <circle
+     cx="94"
+     cy="172"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle92" />
+  <circle
+     cx="249"
+     cy="284"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle93" />
+  <circle
+     cx="716"
+     cy="218"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle94" />
+  <circle
+     cx="703"
+     cy="365"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle95" />
+  <circle
+     cx="715"
+     cy="195"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle96" />
+  <circle
+     cx="223"
+     cy="158"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle97" />
+  <circle
+     cx="207"
+     cy="152"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle98" />
+  <circle
+     cx="493"
+     cy="341"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle99" />
+  <circle
+     cx="638"
+     cy="226"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle100" />
+  <circle
+     cx="512"
+     cy="314"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle101" />
+  <circle
+     cx="132"
+     cy="276"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle102" />
+  <circle
+     cx="685"
+     cy="309"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle103" />
+  <circle
+     cx="578"
+     cy="226"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle104" />
+  <circle
+     cx="195"
+     cy="311"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle105" />
+  <circle
+     cx="298"
+     cy="314"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle106" />
+  <circle
+     cx="726"
+     cy="204"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle107" />
+  <circle
+     cx="344"
+     cy="354"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle108" />
+  <circle
+     cx="561"
+     cy="142"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle109" />
+  <circle
+     cx="160"
+     cy="137"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle110" />
+  <circle
+     cx="681"
+     cy="315"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle111" />
+  <circle
+     cx="173"
+     cy="321"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle112" />
+  <circle
+     cx="732"
+     cy="275"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle113" />
+  <circle
+     cx="310"
+     cy="245"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle114" />
+  <circle
+     cx="163"
+     cy="100"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle115" />
+  <circle
+     cx="725"
+     cy="273"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle116" />
+  <circle
+     cx="428"
+     cy="350"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle117" />
+  <circle
+     cx="366"
+     cy="333"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle118" />
+  <circle
+     cx="629"
+     cy="153"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle119" />
+  <circle
+     cx="244"
+     cy="176"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle120" />
+  <circle
+     cx="236"
+     cy="256"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle121" />
+  <circle
+     cx="249"
+     cy="210"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle122" />
+  <circle
+     cx="163"
+     cy="344"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle123" />
+  <circle
+     cx="312"
+     cy="221"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle124" />
+  <circle
+     cx="466"
+     cy="342"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle125" />
+  <circle
+     cx="357"
+     cy="346"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle126" />
+  <circle
+     cx="411"
+     cy="241"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle127" />
+  <circle
+     cx="426"
+     cy="101"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle128" />
+  <circle
+     cx="370"
+     cy="146"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle129" />
+  <circle
+     cx="78"
+     cy="313"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle130" />
+  <circle
+     cx="190"
+     cy="225"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle131" />
+  <circle
+     cx="561"
+     cy="247"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle132" />
+  <circle
+     cx="293"
+     cy="237"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle133" />
+  <circle
+     cx="447"
+     cy="309"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle134" />
+  <circle
+     cx="146"
+     cy="248"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle135" />
+  <circle
+     cx="241"
+     cy="171"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle136" />
+  <circle
+     cx="592"
+     cy="234"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle137" />
+  <circle
+     cx="451"
+     cy="303"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle138" />
+  <circle
+     cx="686"
+     cy="217"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle139" />
+  <circle
+     cx="485"
+     cy="234"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle140" />
+  <circle
+     cx="418"
+     cy="284"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle141" />
+  <circle
+     cx="378"
+     cy="241"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle142" />
+  <circle
+     cx="395"
+     cy="352"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle143" />
+  <circle
+     cx="543"
+     cy="334"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle144" />
+  <circle
+     cx="706"
+     cy="167"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle145" />
+  <circle
+     cx="450"
+     cy="353"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle146" />
+  <circle
+     cx="638"
+     cy="133"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle147" />
+  <circle
+     cx="156"
+     cy="216"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle148" />
+  <circle
+     cx="124"
+     cy="161"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle149" />
+  <circle
+     cx="124"
+     cy="278"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle150" />
+  <circle
+     cx="600"
+     cy="340"
+     r="2.4"
+     fill="#CBD5E1"
+     id="circle151" />
+  <ellipse
+     cx="560"
+     cy="170"
+     rx="86"
+     ry="58"
+     fill="#E8F0F7"
+     stroke="#064F88"
+     stroke-width="1.6"
+     id="ellipse151" />
+  <circle
+     cx="517"
+     cy="187"
+     r="3"
+     fill="#064F88"
+     id="circle152" />
+  <circle
+     cx="580"
+     cy="141"
+     r="3"
+     fill="#064F88"
+     id="circle153" />
+  <circle
+     cx="607"
+     cy="207"
+     r="3"
+     fill="#064F88"
+     id="circle154" />
+  <circle
+     cx="525"
+     cy="206"
+     r="3"
+     fill="#064F88"
+     id="circle155" />
+  <circle
+     cx="547"
+     cy="169"
+     r="3"
+     fill="#064F88"
+     id="circle156" />
+  <circle
+     cx="621"
+     cy="197"
+     r="3"
+     fill="#064F88"
+     id="circle157" />
+  <circle
+     cx="518"
+     cy="165"
+     r="3"
+     fill="#064F88"
+     id="circle158" />
+  <circle
+     cx="562"
+     cy="157"
+     r="3"
+     fill="#064F88"
+     id="circle159" />
+  <circle
+     cx="522"
+     cy="155"
+     r="3"
+     fill="#064F88"
+     id="circle160" />
+  <text
+     x="560"
+     y="255"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="15"
+     fill="#064F88"
+     id="text160">Superior allocations</text>
+  <text
+     x="560"
+     y="274"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11.5"
+     fill="#64748b"
+     id="text161"
+     style="font-size:13.3333px">vanishingly small region</text>
+  <ellipse
+     cx="215"
+     cy="290"
+     rx="74"
+     ry="46"
+     fill="#FDF3E7"
+     stroke="#B45309"
+     stroke-width="1.6"
+     stroke-dasharray="5 3"
+     id="ellipse161" />
+  <circle
+     cx="238"
+     cy="261"
+     r="3"
+     fill="#B45309"
+     id="circle161" />
+  <circle
+     cx="221"
+     cy="286"
+     r="3"
+     fill="#B45309"
+     id="circle162" />
+  <circle
+     cx="165"
+     cy="280"
+     r="3"
+     fill="#B45309"
+     id="circle163" />
+  <circle
+     cx="228"
+     cy="291"
+     r="3"
+     fill="#B45309"
+     id="circle164" />
+  <circle
+     cx="170"
+     cy="319"
+     r="3"
+     fill="#B45309"
+     id="circle165" />
+  <circle
+     cx="245"
+     cy="318"
+     r="3"
+     fill="#B45309"
+     id="circle166" />
+  <text
+     x="215"
+     y="356"
+     text-anchor="middle"
+     font-family="Georgia,serif"
+     font-size="15"
+     fill="#B45309"
+     id="text166">Candidates actually considered</text>
+  <text
+     x="215"
+     y="374"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11.5"
+     fill="#64748b"
+     id="text167"
+     style="font-size:13.3333px">what reaches the review board</text>
+  <text
+     x="410"
+     y="418"
+     text-anchor="middle"
+     font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="12.5"
+     fill="#64748b"
+     id="text168"
+     style="font-size:14.6667px">A decision procedure evaluates the candidates that arrive. It has no mechanism for generating the one nobody proposed.</text>
+  <text
+     x="60"
+     y="36"
+     font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+     font-size="13"
+     fill="#64748B"
+     letter-spacing="1.5"
+     id="text169">SEARCH VERSUS RATIFICATION</text>
+</svg>
