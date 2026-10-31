@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Engineering practices drawn as four nets hanging from a person who understands the code; in a vibe-coded system the nets remain but that person is missing">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Engineering practices are nets. They hang from a reader.</text>
+
+  <!-- left panel -->
+  <text x="200" y="56" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Engineered, with or without AI</text>
+  <rect x="40" y="66" width="320" height="34" rx="6" fill="#1f2937"/>
+  <text x="200" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">A person who understands and owns the code</text>
+  <line x1="62" y1="100" x2="62" y2="330" stroke="#6b7280" stroke-width="2"/>
+  <line x1="338" y1="100" x2="338" y2="330" stroke="#6b7280" stroke-width="2"/>
+  <rect x="62" y="116" width="276" height="44" rx="6" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="134" text-anchor="middle" font-size="12" font-weight="600" fill="#14532d">Code review</text>
+  <text x="200" y="150" text-anchor="middle" font-size="10" fill="#14532d">a second reader questions the author's assumptions</text>
+  <rect x="62" y="170" width="276" height="44" rx="6" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="188" text-anchor="middle" font-size="12" font-weight="600" fill="#14532d">Tests</text>
+  <text x="200" y="204" text-anchor="middle" font-size="10" fill="#14532d">what the author believed, checked against what happens</text>
+  <rect x="62" y="224" width="276" height="44" rx="6" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="242" text-anchor="middle" font-size="12" font-weight="600" fill="#14532d">Traceability</text>
+  <text x="200" y="258" text-anchor="middle" font-size="10" fill="#14532d">requirement → code → evidence; gaps become visible</text>
+  <rect x="62" y="278" width="276" height="44" rx="6" fill="#dcfce7" stroke="#86efac"/>
+  <text x="200" y="296" text-anchor="middle" font-size="12" font-weight="600" fill="#14532d">Change control</text>
+  <text x="200" y="312" text-anchor="middle" font-size="10" fill="#14532d">what changed, why, and who agreed</text>
+
+  <!-- right panel -->
+  <text x="560" y="56" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Vibe-coded</text>
+  <rect x="400" y="66" width="320" height="34" rx="6" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="560" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="#b91c1c">Missing: someone accountable who understands it</text>
+  <line x1="422" y1="100" x2="422" y2="330" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="698" y1="100" x2="698" y2="330" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 4"/>
+  <rect x="422" y="116" width="276" height="44" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="560" y="134" text-anchor="middle" font-size="12" font-weight="600" fill="#6b7280">Code review</text>
+  <text x="560" y="150" text-anchor="middle" font-size="10" fill="#6b7280">no first reader to be the second to</text>
+  <rect x="422" y="170" width="276" height="44" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="560" y="188" text-anchor="middle" font-size="12" font-weight="600" fill="#6b7280">Tests</text>
+  <text x="560" y="204" text-anchor="middle" font-size="10" fill="#6b7280">they run, but nobody checked what they assert</text>
+  <rect x="422" y="224" width="276" height="44" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="560" y="242" text-anchor="middle" font-size="12" font-weight="600" fill="#6b7280">Traceability</text>
+  <text x="560" y="258" text-anchor="middle" font-size="10" fill="#6b7280">written, but nobody knows if the code matches</text>
+  <rect x="422" y="278" width="276" height="44" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="560" y="296" text-anchor="middle" font-size="12" font-weight="600" fill="#6b7280">Change control</text>
+  <text x="560" y="312" text-anchor="middle" font-size="10" fill="#6b7280">records changes that nobody understood</text>
+
+  <line x1="40" y1="350" x2="720" y2="350" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="380" y="374" text-anchor="middle" font-size="12" fill="#4b5563">The nets can all still run. What goes missing is someone who can judge what they caught.</text>
+</svg>

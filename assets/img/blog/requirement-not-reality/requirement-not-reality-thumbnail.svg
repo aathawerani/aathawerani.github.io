@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 630" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="A Requirement Rather Than a Reality: four engineering nets hanging from an accountable reader, beside the same nets in a vibe-coded system with no accountable reader">
+  <rect width="1200" height="630" fill="#f1f5f9"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="58px" fill="#1c3664">A Requirement Rather Than a Reality</text>
+  <text x="600" y="164" text-anchor="middle" font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27px" fill="#64748b">Generating code is not the same as engineering it.</text>
+
+  <g font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="380" y="218" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">ENGINEERED</text>
+    <text x="820" y="218" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">VIBE-CODED</text>
+
+    <!-- left: beam, ropes, nets -->
+    <rect x="200" y="234" width="360" height="50" rx="6" fill="#1c3664"/>
+    <text x="380" y="266" text-anchor="middle" font-size="21px" font-weight="600" fill="#ffffff">an accountable reader</text>
+    <line x1="226" y1="284" x2="226" y2="524" stroke="#64748b" stroke-width="3"/>
+    <line x1="534" y1="284" x2="534" y2="524" stroke="#64748b" stroke-width="3"/>
+    <rect x="226" y="302" width="308" height="44" rx="5" fill="#064f88"/>
+    <text x="380" y="331" text-anchor="middle" font-size="20px" font-weight="600" fill="#ffffff">review</text>
+    <rect x="226" y="358" width="308" height="44" rx="5" fill="#064f88"/>
+    <text x="380" y="387" text-anchor="middle" font-size="20px" font-weight="600" fill="#ffffff">tests</text>
+    <rect x="226" y="414" width="308" height="44" rx="5" fill="#064f88"/>
+    <text x="380" y="443" text-anchor="middle" font-size="20px" font-weight="600" fill="#ffffff">traceability</text>
+    <rect x="226" y="470" width="308" height="44" rx="5" fill="#064f88"/>
+    <text x="380" y="499" text-anchor="middle" font-size="20px" font-weight="600" fill="#ffffff">change control</text>
+
+    <!-- right: missing beam, dashed ropes, faded nets -->
+    <rect x="641.5" y="235.5" width="357" height="47" rx="6" fill="#fef9f2" stroke="#b45309" stroke-width="3" stroke-dasharray="10 7"/>
+    <text x="820" y="266" text-anchor="middle" font-size="21px" font-weight="600" fill="#b45309">no accountable reader</text>
+    <line x1="666" y1="284" x2="666" y2="524" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="974" y1="284" x2="974" y2="524" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="8 7"/>
+    <rect x="667.5" y="303.5" width="305" height="41" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="820" y="331" text-anchor="middle" font-size="20px" fill="#94a3b8">review</text>
+    <rect x="667.5" y="359.5" width="305" height="41" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="820" y="387" text-anchor="middle" font-size="20px" fill="#94a3b8">tests</text>
+    <rect x="667.5" y="415.5" width="305" height="41" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="820" y="443" text-anchor="middle" font-size="20px" fill="#94a3b8">traceability</text>
+    <rect x="667.5" y="471.5" width="305" height="41" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="820" y="499" text-anchor="middle" font-size="20px" fill="#94a3b8">change control</text>
+
+    <text x="600" y="566" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">GARMISCH 1968 · AI AGENTS 2026</text>
+  </g>
+</svg>

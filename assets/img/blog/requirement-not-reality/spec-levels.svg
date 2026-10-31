@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Vibe coding and three levels of spec-driven development, showing whether the spec stays true after release and whether a person reads the code, with Spec Kit, Kiro and Tessl placed on the scale">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Where the spec lives, and who still reads the code</text>
+
+  <!-- same bet arc -->
+  <path d="M110 112 C 250 76, 510 76, 650 112" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="380" y="70" text-anchor="middle" font-size="11" font-weight="600" fill="#b91c1c">the same bet: the code need not be read, so who answers for it?</text>
+
+  <!-- four stops -->
+  <rect x="40" y="116" width="140" height="56" rx="8" fill="#fef3c7"/>
+  <text x="110" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Vibe coding</text>
+  <text x="110" y="156" text-anchor="middle" font-size="10" fill="#78350f">intent lives in a prompt</text>
+  <rect x="220" y="116" width="140" height="56" rx="8" fill="#e0f2fe"/>
+  <text x="290" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#075985">Spec-first</text>
+  <text x="290" y="156" text-anchor="middle" font-size="10" fill="#075985">spec guides one task</text>
+  <rect x="400" y="116" width="140" height="56" rx="8" fill="#dcfce7"/>
+  <text x="470" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#14532d">Spec-anchored</text>
+  <text x="470" y="156" text-anchor="middle" font-size="10" fill="#14532d">spec maintained with feature</text>
+  <rect x="580" y="116" width="140" height="56" rx="8" fill="#ede9fe"/>
+  <text x="650" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#5b21b6">Spec-as-source</text>
+  <text x="650" y="156" text-anchor="middle" font-size="10" fill="#5b21b6">only the spec is edited</text>
+  <polygon points="184,139 214,144 184,149" fill="#d1d5db"/>
+  <polygon points="364,139 394,144 364,149" fill="#d1d5db"/>
+  <polygon points="544,139 574,144 544,149" fill="#d1d5db"/>
+
+  <!-- two questions -->
+  <text x="30" y="198" font-size="10" font-weight="600" fill="#6b7280">Spec still true after release?</text>
+  <text x="110" y="216" text-anchor="middle" font-size="11" fill="#b91c1c">no spec</text>
+  <text x="290" y="216" text-anchor="middle" font-size="11" fill="#b91c1c">no, it drifts</text>
+  <text x="470" y="216" text-anchor="middle" font-size="11" fill="#15803d">yes, if the team keeps it</text>
+  <text x="650" y="216" text-anchor="middle" font-size="11" fill="#15803d">yes, it is the source</text>
+  <text x="30" y="242" font-size="10" font-weight="600" fill="#6b7280">A person reads the code?</text>
+  <text x="110" y="260" text-anchor="middle" font-size="11" fill="#b91c1c">no</text>
+  <text x="290" y="260" text-anchor="middle" font-size="11" fill="#15803d">yes</text>
+  <text x="470" y="260" text-anchor="middle" font-size="11" fill="#15803d">yes</text>
+  <text x="650" y="260" text-anchor="middle" font-size="11" fill="#b91c1c">rarely: "do not edit"</text>
+
+  <!-- tools -->
+  <line x1="30" y1="276" x2="730" y2="276" stroke="#e5e7eb"/>
+  <text x="30" y="296" font-size="11" font-weight="600" fill="#b45309">Tools as reviewed in October 2025, not a current comparison</text>
+  <rect x="236" y="304" width="108" height="22" rx="11" fill="#1f2937"/>
+  <text x="290" y="319" text-anchor="middle" font-size="11" fill="#ffffff">Spec Kit · Kiro</text>
+  <rect x="470" y="304" width="70" height="22" rx="11" fill="#1f2937"/>
+  <text x="505" y="319" text-anchor="middle" font-size="11" fill="#ffffff">Tessl</text>
+  <line x1="542" y1="315" x2="612" y2="315" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="612,310 622,315 612,320" fill="#1f2937"/>
+  <text x="630" y="319" font-size="10" fill="#4b5563">exploring</text>
+  <text x="380" y="348" text-anchor="middle" font-size="11" fill="#4b5563">Spec Kit's later documentation leaves post-release maintenance to the team: "a team convention, not a CLI setting."</text>
+</svg>

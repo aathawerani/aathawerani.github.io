@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="How much discipline a system needs, plotted by how long it will live and what failure costs; a one-time project often drifts into the long-lived, high-cost corner">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">How much discipline does a system need?</text>
+
+  <!-- quadrants -->
+  <rect x="100" y="52" width="300" height="140" fill="#fef3c7"/>
+  <rect x="400" y="52" width="300" height="140" fill="#dcfce7"/>
+  <rect x="100" y="192" width="300" height="140" fill="#f3f4f6"/>
+  <rect x="400" y="192" width="300" height="140" fill="#e0f2fe"/>
+  <text x="110" y="70" font-size="11" font-weight="600" fill="#92400e">Short-lived but dangerous</text>
+  <text x="110" y="84" font-size="10" fill="#92400e">review it anyway</text>
+  <text x="690" y="70" text-anchor="end" font-size="11" font-weight="600" fill="#14532d">Long-lived and consequential</text>
+  <text x="690" y="84" text-anchor="end" font-size="10" fill="#14532d">full engineering discipline</text>
+  <text x="110" y="306" font-size="11" font-weight="600" fill="#4b5563">Disposable</text>
+  <text x="110" y="320" font-size="10" fill="#4b5563">vibe coding is fine</text>
+  <text x="690" y="306" text-anchor="end" font-size="11" font-weight="600" fill="#075985">Long-lived, low stakes</text>
+  <text x="690" y="320" text-anchor="end" font-size="10" fill="#075985">keep it readable</text>
+
+  <!-- axes -->
+  <line x1="100" y1="332" x2="712" y2="332" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="712,327 722,332 712,337" fill="#6b7280"/>
+  <line x1="100" y1="332" x2="100" y2="44" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="95,44 100,34 105,44" fill="#6b7280"/>
+  <text x="410" y="356" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">How long it will live →</text>
+  <text x="104" y="350" font-size="10" fill="#9ca3af">days</text>
+  <text x="700" y="350" text-anchor="end" font-size="10" fill="#9ca3af">years</text>
+  <text x="28" y="192" text-anchor="middle" font-size="12" font-weight="600" fill="#374151" transform="rotate(-90 28 192)">What failure costs →</text>
+  <text x="60" y="326" text-anchor="middle" font-size="10" fill="#9ca3af">annoyance</text>
+  <text x="60" y="60" text-anchor="middle" font-size="10" fill="#9ca3af">money,</text>
+  <text x="60" y="73" text-anchor="middle" font-size="10" fill="#9ca3af">data, law</text>
+
+  <!-- points -->
+  <circle cx="160" cy="270" r="6" fill="#6b7280"/>
+  <text x="172" y="274" font-size="11" fill="#1f2937">Demo for tomorrow</text>
+  <circle cx="175" cy="120" r="6" fill="#d97706"/>
+  <text x="187" y="117" font-size="11" fill="#1f2937">One-off script that</text>
+  <text x="187" y="131" font-size="11" fill="#1f2937">migrates ledger records</text>
+  <circle cx="600" cy="250" r="6" fill="#0284c7"/>
+  <text x="588" y="254" text-anchor="end" font-size="11" fill="#1f2937">Internal dashboard</text>
+  <circle cx="640" cy="112" r="6" fill="#16a34a"/>
+  <text x="628" y="116" text-anchor="end" font-size="11" fill="#1f2937">Payments product</text>
+
+  <!-- drifting project -->
+  <circle cx="250" cy="165" r="6" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <text x="262" y="176" font-size="11" fill="#b91c1c">"One-time" bank project</text>
+  <path d="M258 160 C 380 140, 480 150, 588 140" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="586,134 598,139 587,146" fill="#dc2626"/>
+  <circle cx="606" cy="140" r="6" fill="#dc2626"/>
+  <text x="560" y="164" text-anchor="middle" font-size="10" fill="#b91c1c">still running ten years later</text>
+
+  <text x="380" y="392" text-anchor="middle" font-size="12" fill="#4b5563">Systems can drift right over time. What their failure costs rarely drifts down.</text>
+</svg>

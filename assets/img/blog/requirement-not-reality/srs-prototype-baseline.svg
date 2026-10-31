@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Comparison of a signed SRS, a vibe-coded prototype, and frozen load-bearing decisions plus a prototype, across five jobs a requirements agreement does">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">What the signed document did, and what replaced it</text>
+
+  <!-- header -->
+  <text x="30" y="62" font-size="11" font-weight="600" fill="#6b7280">The job</text>
+  <text x="330" y="62" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Signed SRS</text>
+  <text x="496" y="62" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Prototype alone</text>
+  <text x="662" y="62" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Frozen decisions</text>
+  <text x="662" y="76" text-anchor="middle" font-size="10" fill="#6b7280">+ prototype as illustration</text>
+
+  <!-- rows: y 86, 136, 186, 236, 286 ; cell w 156 at x 252, 418, 584 -->
+  <text x="30" y="108" font-size="11" font-weight="600" fill="#1f2937">Shared understanding</text>
+  <text x="30" y="122" font-size="10" fill="#6b7280">of visible behaviour</text>
+  <rect x="252" y="88" width="156" height="44" rx="5" fill="#fef3c7"/><text x="330" y="114" text-anchor="middle" font-size="10" fill="#78350f">pages people signed unread</text>
+  <rect x="418" y="88" width="156" height="44" rx="5" fill="#dcfce7"/><text x="496" y="114" text-anchor="middle" font-size="10" fill="#14532d">strong: people can see it</text>
+  <rect x="584" y="88" width="156" height="44" rx="5" fill="#dcfce7"/><text x="662" y="114" text-anchor="middle" font-size="10" fill="#14532d">strong</text>
+
+  <text x="30" y="158" font-size="11" font-weight="600" fill="#1f2937">A baseline</text>
+  <text x="30" y="172" font-size="10" fill="#6b7280">of what was agreed</text>
+  <rect x="252" y="138" width="156" height="44" rx="5" fill="#dcfce7"/><text x="330" y="164" text-anchor="middle" font-size="10" fill="#14532d">yes, for the agreed scope</text>
+  <rect x="418" y="138" width="156" height="44" rx="5" fill="#fee2e2"/><text x="496" y="158" text-anchor="middle" font-size="10" fill="#7f1d1d">no: decision or accident?</text><text x="496" y="172" text-anchor="middle" font-size="10" fill="#7f1d1d">nobody can tell</text>
+  <rect x="584" y="138" width="156" height="44" rx="5" fill="#dcfce7"/><text x="662" y="164" text-anchor="middle" font-size="10" fill="#14532d">yes, for what matters</text>
+
+  <text x="30" y="208" font-size="11" font-weight="600" fill="#1f2937">Exceptions and</text>
+  <text x="30" y="222" font-size="10" fill="#6b7280">non-functional requirements</text>
+  <rect x="252" y="188" width="156" height="44" rx="5" fill="#fef3c7"/><text x="330" y="208" text-anchor="middle" font-size="10" fill="#78350f">written, if someone</text><text x="330" y="222" text-anchor="middle" font-size="10" fill="#78350f">thought of them</text>
+  <rect x="418" y="188" width="156" height="44" rx="5" fill="#fee2e2"/><text x="496" y="208" text-anchor="middle" font-size="10" fill="#7f1d1d">mostly absent: happy</text><text x="496" y="222" text-anchor="middle" font-size="10" fill="#7f1d1d">path only</text>
+  <rect x="584" y="188" width="156" height="44" rx="5" fill="#dcfce7"/><text x="662" y="208" text-anchor="middle" font-size="10" fill="#14532d">timeouts, reversals, limits,</text><text x="662" y="222" text-anchor="middle" font-size="10" fill="#14532d">performance: written down</text>
+
+  <text x="30" y="258" font-size="11" font-weight="600" fill="#1f2937">Expectation</text>
+  <text x="30" y="272" font-size="10" fill="#6b7280">of how finished it is</text>
+  <rect x="252" y="238" width="156" height="44" rx="5" fill="#dcfce7"/><text x="330" y="264" text-anchor="middle" font-size="10" fill="#14532d">clearly not built yet</text>
+  <rect x="418" y="238" width="156" height="44" rx="5" fill="#fee2e2"/><text x="496" y="264" text-anchor="middle" font-size="10" fill="#7f1d1d">"it looks done"</text>
+  <rect x="584" y="238" width="156" height="44" rx="5" fill="#fef3c7"/><text x="662" y="258" text-anchor="middle" font-size="10" fill="#78350f">prototype labelled as</text><text x="662" y="272" text-anchor="middle" font-size="10" fill="#78350f">illustration, not product</text>
+
+  <text x="30" y="308" font-size="11" font-weight="600" fill="#1f2937">Change management</text>
+  <text x="30" y="322" font-size="10" fill="#6b7280">where it applies</text>
+  <rect x="252" y="288" width="156" height="44" rx="5" fill="#fef3c7"/><text x="330" y="314" text-anchor="middle" font-size="10" fill="#78350f">every change, however small</text>
+  <rect x="418" y="288" width="156" height="44" rx="5" fill="#fee2e2"/><text x="496" y="314" text-anchor="middle" font-size="10" fill="#7f1d1d">nowhere: every change argued</text>
+  <rect x="584" y="288" width="156" height="44" rx="5" fill="#dcfce7"/><text x="662" y="308" text-anchor="middle" font-size="10" fill="#14532d">load-bearing changes only;</text><text x="662" y="322" text-anchor="middle" font-size="10" fill="#14532d">screens iterate freely</text>
+
+  <text x="380" y="352" text-anchor="middle" font-size="11" fill="#4b5563">Green: does the job well. Amber: partly. Red: does not do it.</text>
+</svg>

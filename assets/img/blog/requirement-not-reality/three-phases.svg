@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Three phases: vibe-coded discovery, a deliberate break where decisions are carried across and unreviewed code is left behind, then disciplined product development">
+  <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Where vibe coding belongs, and where it stops</text>
+
+  <!-- phase boxes -->
+  <rect x="30" y="52" width="230" height="110" rx="8" fill="#fef3c7"/>
+  <text x="145" y="76" text-anchor="middle" font-size="13" font-weight="600" fill="#92400e">1 · Discovery</text>
+  <text x="145" y="98" text-anchor="middle" font-size="11" fill="#78350f">vibe-code freely to see requirements</text>
+  <text x="145" y="116" text-anchor="middle" font-size="11" fill="#78350f">build the visible part with the customer</text>
+  <text x="145" y="134" text-anchor="middle" font-size="11" fill="#78350f">any stack; fake data only</text>
+
+  <rect x="290" y="52" width="180" height="110" rx="8" fill="#1f2937"/>
+  <text x="380" y="76" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">2 · Deliberate break</text>
+  <text x="380" y="98" text-anchor="middle" font-size="11" fill="#e5e7eb">write decisions into the spec</text>
+  <text x="380" y="116" text-anchor="middle" font-size="11" fill="#e5e7eb">choose the production stack:</text>
+  <text x="380" y="132" text-anchor="middle" font-size="11" fill="#e5e7eb">security, performance,</text>
+  <text x="380" y="148" text-anchor="middle" font-size="11" fill="#e5e7eb">compliance, team, AI fluency</text>
+
+  <rect x="500" y="52" width="230" height="110" rx="8" fill="#dcfce7"/>
+  <text x="615" y="76" text-anchor="middle" font-size="13" font-weight="600" fill="#14532d">3 · Product development</text>
+  <text x="615" y="98" text-anchor="middle" font-size="11" fill="#14532d">discipline from the first commit</text>
+  <text x="615" y="116" text-anchor="middle" font-size="11" fill="#14532d">spec, review, tests, CI guardrails</text>
+  <text x="615" y="134" text-anchor="middle" font-size="11" fill="#14532d">seams for later migration</text>
+
+  <polygon points="262,102 286,107 262,112" fill="#6b7280"/>
+  <polygon points="472,102 496,107 472,112" fill="#6b7280"/>
+
+  <!-- what crosses -->
+  <line x1="380" y1="164" x2="380" y2="186" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="110" y="190" width="260" height="140" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="240" y="212" text-anchor="middle" font-size="12" font-weight="600" fill="#15803d">Carried across</text>
+  <text x="128" y="234" font-size="11" fill="#1f2937">• confirmed decisions and business rules</text>
+  <text x="128" y="254" font-size="11" fill="#1f2937">• open questions, still marked open</text>
+  <text x="128" y="274" font-size="11" fill="#1f2937">• options tried and rejected, and why</text>
+  <text x="128" y="294" font-size="11" fill="#1f2937">• examples that become acceptance tests</text>
+  <text x="128" y="314" font-size="11" fill="#1f2937">• performance and security targets</text>
+
+  <rect x="390" y="190" width="260" height="140" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="520" y="212" text-anchor="middle" font-size="12" font-weight="600" fill="#b91c1c">Left behind</text>
+  <text x="408" y="234" font-size="11" fill="#1f2937">• unreviewed prototype code</text>
+  <text x="408" y="254" font-size="11" fill="#1f2937">• the stack it happened to use</text>
+  <text x="408" y="274" font-size="11" fill="#1f2937">• "it did this in the demo" as a promise</text>
+  <text x="408" y="294" font-size="11" fill="#6b7280">(reviewed, tested code may be reused,</text>
+  <text x="408" y="308" font-size="11" fill="#6b7280">on evidence, not by default)</text>
+
+  <text x="380" y="358" text-anchor="middle" font-size="12" fill="#4b5563">The break is the step most likely to be skipped: the prototype already works, and the customer has seen it.</text>
+</svg>
