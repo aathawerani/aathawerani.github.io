@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 330" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ride-hailing entrants in the region each changed an assumption of the model before them: Careem changed payment and location, Bykea the vehicle, supply and language, inDrive who sets the price; Careem later added bidding as a separate, bounded option" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Each entrant changed an assumption, not just a feature</text>
+
+  <!-- boxes -->
+  <rect x="16" y="56" width="164" height="150" rx="8" fill="#f3f4f6"/>
+  <text x="98" y="80" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Uber</text>
+  <text x="98" y="96" text-anchor="middle" font-size="10" fill="#6b7280">the template</text>
+  <text x="30" y="122" font-size="11" fill="#374151">• card-first payment</text>
+  <text x="30" y="140" font-size="11" fill="#374151">• a pin on a map</text>
+  <text x="30" y="158" font-size="11" fill="#374151">• cars, full-time drivers</text>
+  <text x="30" y="176" font-size="11" fill="#374151">• the platform sets fares</text>
+
+  <rect x="206" y="56" width="164" height="150" rx="8" fill="#e0f2fe"/>
+  <text x="288" y="80" text-anchor="middle" font-size="13" font-weight="600" fill="#075985">Careem</text>
+  <text x="288" y="96" text-anchor="middle" font-size="10" fill="#0369a1">Dubai, 2012</text>
+  <text x="220" y="122" font-size="11" fill="#0c4a6e">• cash</text>
+  <text x="220" y="140" font-size="11" fill="#0c4a6e">• its own location</text>
+  <text x="230" y="156" font-size="11" fill="#0c4a6e">database</text>
+
+  <rect x="396" y="56" width="164" height="150" rx="8" fill="#fef3c7"/>
+  <text x="478" y="80" text-anchor="middle" font-size="13" font-weight="600" fill="#92400e">Bykea</text>
+  <text x="478" y="96" text-anchor="middle" font-size="10" fill="#b45309">Pakistan, 2016</text>
+  <text x="410" y="122" font-size="11" fill="#78350f">• motorbikes</text>
+  <text x="410" y="140" font-size="11" fill="#78350f">• part-time riders</text>
+  <text x="410" y="158" font-size="11" fill="#78350f">• Urdu, named zones</text>
+  <text x="410" y="176" font-size="11" fill="#78350f">• deliveries, doorstep</text>
+  <text x="420" y="192" font-size="11" fill="#78350f">cash collection</text>
+
+  <rect x="586" y="56" width="158" height="150" rx="8" fill="#1f2937"/>
+  <text x="665" y="80" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">inDrive</text>
+  <text x="665" y="96" text-anchor="middle" font-size="10" fill="#d1d5db">Pakistan, 2021</text>
+  <text x="600" y="122" font-size="11" fill="#ffffff">• passengers and</text>
+  <text x="610" y="138" font-size="11" fill="#ffffff">drivers negotiate</text>
+  <text x="610" y="154" font-size="11" fill="#ffffff">the fare</text>
+  <text x="600" y="174" font-size="11" fill="#ffffff">• no surge pricing</text>
+
+  <polygon points="182,126 202,131 182,136" fill="#9ca3af"/>
+  <polygon points="372,126 392,131 372,136" fill="#9ca3af"/>
+  <polygon points="562,126 582,131 562,136" fill="#9ca3af"/>
+
+  <!-- layer labels -->
+  <text x="288" y="226" text-anchor="middle" font-size="10" font-weight="600" fill="#0369a1">payment and location</text>
+  <text x="478" y="226" text-anchor="middle" font-size="10" fill="#b45309" font-weight="600">vehicle, supply, language</text>
+  <text x="665" y="226" text-anchor="middle" font-size="10" fill="#4b5563" font-weight="600">who sets the price</text>
+
+  <!-- response -->
+  <path d="M665 236 L 665 256 L 300 256 L 300 270" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="295,268 300,278 305,268" fill="#9ca3af"/>
+  <rect x="120" y="280" width="360" height="34" rx="6" fill="#ffffff" stroke="#0369a1"/>
+  <text x="300" y="301" text-anchor="middle" font-size="11" fill="#075985">Careem, 2023: bidding as a separate option, within ±15%</text>
+</svg>

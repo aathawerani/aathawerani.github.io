@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 630" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="Who Can Say Yes: a team connected to four kinds of validator, a client who can decide, a domain expert who knows, a product owner who stands in, and a missing validator">
+  <rect width="1200" height="630" fill="#f1f5f9"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="58px" fill="#1c3664">Who Can Say Yes</text>
+  <text x="600" y="164" text-anchor="middle" font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27px" fill="#64748b">When building is cheap, confirmation is the constraint.</text>
+
+  <g font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- team -->
+    <rect x="200" y="330" width="200" height="80" rx="8" fill="#1c3664"/>
+    <text x="300" y="379" text-anchor="middle" font-size="26px" font-weight="600" fill="#ffffff">team</text>
+
+    <!-- links -->
+    <path d="M400 370 C 520 370, 560 250, 680 250" fill="none" stroke="#064f88" stroke-width="4"/>
+    <path d="M400 370 C 520 370, 560 330, 680 330" fill="none" stroke="#064f88" stroke-width="4"/>
+    <path d="M400 370 C 520 370, 560 410, 680 410" fill="none" stroke="#b45309" stroke-width="4"/>
+    <path d="M400 370 C 520 370, 560 490, 680 490" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 8"/>
+
+    <!-- validators -->
+    <circle cx="704" cy="250" r="24" fill="#064f88"/>
+    <text x="748" y="258" font-size="24px" font-weight="600" fill="#1c3664">client</text>
+    <text x="948" y="258" font-size="22px" fill="#475569">decides</text>
+
+    <circle cx="704" cy="330" r="24" fill="#ffffff" stroke="#064f88" stroke-width="4"/>
+    <text x="748" y="338" font-size="24px" font-weight="600" fill="#1c3664">domain expert</text>
+    <text x="948" y="338" font-size="22px" fill="#475569">knows</text>
+
+    <circle cx="704" cy="410" r="24" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+    <text x="748" y="418" font-size="24px" font-weight="600" fill="#b45309">product owner</text>
+    <text x="948" y="418" font-size="22px" fill="#475569">stands in</text>
+
+    <circle cx="704" cy="490" r="24" fill="#ffffff" stroke="#94a3b8" stroke-width="4" stroke-dasharray="8 6"/>
+    <text x="704" y="499" text-anchor="middle" font-size="24px" font-weight="600" fill="#94a3b8">?</text>
+    <text x="748" y="498" font-size="24px" font-weight="600" fill="#94a3b8">no one yet</text>
+
+    <text x="600" y="566" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">VALIDATION TOPOLOGY · KNOWING IS NOT DECIDING</text>
+  </g>
+</svg>

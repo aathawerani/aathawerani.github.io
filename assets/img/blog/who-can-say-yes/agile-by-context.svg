@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 560" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What each of the eight contexts means for Agile: who is really in the sprint review, the risk, and the adjustment" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">What each context means for Agile</text>
+
+  <text x="20" y="58" font-size="11" font-weight="600" fill="#6b7280">CONTEXT</text>
+  <text x="128" y="58" font-size="11" font-weight="600" fill="#6b7280">WHO IS REALLY IN THE REVIEW</text>
+  <text x="318" y="58" font-size="11" font-weight="600" fill="#6b7280">THE RISK</text>
+  <text x="530" y="58" font-size="11" font-weight="600" fill="#6b7280">THE ADJUSTMENT</text>
+  <line x1="12" y1="66" x2="748" y2="66" stroke="#d1d5db"/>
+
+  <!-- row template: y base -->
+  <g font-size="11" fill="#374151">
+    <!-- 1 startup -->
+    <rect x="12" y="70" width="736" height="56" fill="#f9fafb"/>
+    <text x="20" y="102" font-size="12" font-weight="600" fill="#1f2937">Startup</text>
+    <text x="128" y="94">founder or design partner;</text>
+    <text x="128" y="110">close to how Agile was designed</text>
+    <text x="318" y="94">every review hears the same</text>
+    <text x="318" y="110">one or two voices</text>
+    <text x="530" y="94">show load-bearing decisions to a</text>
+    <text x="530" y="110">second customer before they harden</text>
+
+    <!-- 2 software house -->
+    <text x="20" y="158" font-size="12" font-weight="600" fill="#1f2937">Software house</text>
+    <text x="128" y="150">a vendor-side domain expert</text>
+    <text x="128" y="166">as Product Owner</text>
+    <text x="318" y="150">confirmed by someone who knows,</text>
+    <text x="318" y="166">not someone who decides</text>
+    <text x="530" y="150">expert accepts domain correctness;</text>
+    <text x="530" y="166">client confirms business rules in Done</text>
+
+    <!-- 3 greenfield -->
+    <rect x="12" y="182" width="736" height="56" fill="#f9fafb"/>
+    <text x="20" y="214" font-size="12" font-weight="600" fill="#1f2937">Greenfield</text>
+    <text x="128" y="206">the client, usually reachable</text>
+    <text x="318" y="206">early sprints chase momentum while</text>
+    <text x="318" y="222">foundations harden in days</text>
+    <text x="530" y="206">plan early sprints around confirming</text>
+    <text x="530" y="222">the few decisions all else stands on</text>
+
+    <!-- 4 brownfield -->
+    <text x="20" y="270" font-size="12" font-weight="600" fill="#1f2937">Brownfield</text>
+    <text x="128" y="262">memory: people who left,</text>
+    <text x="128" y="278">operations, counterparties</text>
+    <text x="318" y="262">Done checks new behaviour, not old</text>
+    <text x="318" y="278">behaviour changed silently</text>
+    <text x="530" y="262">decision archaeology on the backlog;</text>
+    <text x="530" y="278">characterization tests in Done</text>
+
+    <!-- 5 project -->
+    <rect x="12" y="294" width="736" height="56" fill="#f9fafb"/>
+    <text x="20" y="326" font-size="12" font-weight="600" fill="#1f2937">Project</text>
+    <text x="128" y="318">one empowered representative,</text>
+    <text x="128" y="334">or a committee outside the sprint</text>
+    <text x="318" y="318">accepted in review, rejected by</text>
+    <text x="318" y="334">compliance three sprints later</text>
+    <text x="530" y="318">name the approvals each decision</text>
+    <text x="530" y="334">class needs; make them part of Done</text>
+
+    <!-- 6 product -->
+    <text x="20" y="382" font-size="12" font-weight="600" fill="#1f2937">Product</text>
+    <text x="128" y="374">a product manager standing</text>
+    <text x="128" y="390">in for a population</text>
+    <text x="318" y="374">a review shows it works, not that</text>
+    <text x="318" y="390">customers want it</text>
+    <text x="530" y="374">build for real what discovery</text>
+    <text x="530" y="390">supports; prototype the rest</text>
+
+    <!-- 7 novel -->
+    <rect x="12" y="406" width="736" height="56" fill="#f9fafb"/>
+    <text x="20" y="438" font-size="12" font-weight="600" fill="#1f2937">Novel idea</text>
+    <text x="128" y="430">the champion</text>
+    <text x="318" y="430">the champion confirming</text>
+    <text x="318" y="446">their own idea</text>
+    <text x="530" y="430">real users in reviews early; agree</text>
+    <text x="530" y="446">up front what evidence ends it</text>
+
+    <!-- 8 crowded -->
+    <text x="20" y="494" font-size="12" font-weight="600" fill="#1f2937">Crowded market</text>
+    <text x="128" y="486">the market and its benchmarks</text>
+    <text x="318" y="486">a backlog that is really a</text>
+    <text x="318" y="502">competitor's feature list</text>
+    <text x="530" y="486">test against your own customers,</text>
+    <text x="530" y="502">not parity with someone else</text>
+  </g>
+
+  <line x1="12" y1="520" x2="748" y2="520" stroke="#d1d5db"/>
+  <text x="380" y="544" text-anchor="middle" font-size="12" fill="#4b5563">The same pattern in every row: the cadence follows whoever can actually say yes, not the calendar.</text>
+</svg>

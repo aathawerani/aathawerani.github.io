@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 410" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four validation topologies" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="410" fill="#ffffff"/>
+  <text x="380" y="28" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="600">Four validation topologies</text>
+  <rect x="20" y="48" width="350" height="160" rx="8" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="36" y="72" font-size="13" fill="#1f2937" text-anchor="start" font-weight="600">Startup</text>
+  <rect x="48" y="110" width="70" height="40" rx="6" fill="#1e3a8a"/>
+  <text x="83" y="135" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">team</text>
+  <line x1="118" y1="130" x2="158" y2="114" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="170" cy="114" r="11" fill="#bbf7d0" stroke="#059669" stroke-width="1.5"/>
+  <line x1="118" y1="130" x2="158" y2="148" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="170" cy="148" r="11" fill="#bbf7d0" stroke="#059669" stroke-width="1.5"/>
+  <text x="190" y="118" font-size="11" fill="#14532d" text-anchor="start" font-weight="400">design partner</text>
+  <text x="190" y="152" font-size="11" fill="#14532d" text-anchor="start" font-weight="400">second customer?</text>
+  <text x="36" y="196" font-size="11" fill="#4b5563" text-anchor="start" font-weight="400">close, but only one or two voices</text>
+  <rect x="390" y="48" width="350" height="160" rx="8" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="406" y="72" font-size="13" fill="#1f2937" text-anchor="start" font-weight="600">Software house</text>
+  <rect x="418" y="110" width="70" height="40" rx="6" fill="#1e3a8a"/>
+  <text x="453" y="135" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">team</text>
+  <circle cx="474" cy="150" r="10" fill="#bbf7d0" stroke="#059669" stroke-width="1.5"/>
+  <text x="453" y="176" font-size="11" fill="#14532d" text-anchor="middle" font-weight="400">domain experts</text>
+  <line x1="488" y1="130" x2="608" y2="130" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="620" cy="130" r="12" fill="#bbf7d0" stroke="#059669" stroke-width="1.5"/>
+  <text x="640" y="134" font-size="11" fill="#14532d" text-anchor="start" font-weight="400">client</text>
+  <text x="406" y="196" font-size="11" fill="#4b5563" text-anchor="start" font-weight="400">experts inside, the client nearby</text>
+  <rect x="20" y="222" width="350" height="160" rx="8" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="36" y="246" font-size="13" fill="#1f2937" text-anchor="start" font-weight="600">Product company</text>
+  <rect x="48" y="284" width="70" height="40" rx="6" fill="#1e3a8a"/>
+  <text x="83" y="309" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">team</text>
+  <circle cx="145" cy="304" r="11" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <line x1="118" y1="304" x2="134" y2="304" stroke="#b45309" stroke-width="1.5"/>
+  <text x="145" y="334" font-size="11" fill="#78350f" text-anchor="middle" font-weight="400">PM</text>
+  <line x1="156" y1="304" x2="270" y2="304" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="213" y="296" font-size="10" fill="#6b7280" text-anchor="middle" font-weight="400">research, usage</text>
+  <circle cx="312" cy="313" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="351" cy="284" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="329" cy="314" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="342" cy="316" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="290" cy="314" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="283" cy="329" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="342" cy="292" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="352" cy="290" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="306" cy="321" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="342" cy="310" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="352" cy="306" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="332" cy="316" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="301" cy="290" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <circle cx="301" cy="331" r="5" fill="#e5e7eb" stroke="#9ca3af"/>
+  <text x="317" y="348" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="400">customers</text>
+  <text x="36" y="370" font-size="11" fill="#4b5563" text-anchor="start" font-weight="400">a proxy for a distant population</text>
+  <rect x="390" y="222" width="350" height="160" rx="8" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="406" y="246" font-size="13" fill="#1f2937" text-anchor="start" font-weight="600">Novel venture</text>
+  <rect x="418" y="284" width="70" height="40" rx="6" fill="#1e3a8a"/>
+  <text x="453" y="309" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">team</text>
+  <circle cx="515" cy="304" r="11" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <line x1="488" y1="304" x2="504" y2="304" stroke="#b45309" stroke-width="1.5"/>
+  <text x="515" y="334" font-size="11" fill="#78350f" text-anchor="middle" font-weight="400">champion</text>
+  <line x1="526" y1="304" x2="662" y2="304" stroke="#d1d5db" stroke-width="1.5" stroke-dasharray="2 5"/>
+  <circle cx="680" cy="304" r="16" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="680" y="309" font-size="14" fill="#6b7280" text-anchor="middle" font-weight="600">?</text>
+  <text x="680" y="338" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="400">no customer yet</text>
+  <text x="406" y="370" font-size="11" fill="#4b5563" text-anchor="start" font-weight="400">only an internal champion</text>
+  <text x="380" y="402" font-size="11" fill="#4b5563" text-anchor="middle" font-weight="400">Line length suggests distance from the team; green can confirm directly, amber stands in for someone else.</text>
+</svg>
