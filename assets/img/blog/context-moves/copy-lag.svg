@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 490" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of how long established ride-hailing companies took to respond to rivals, from about 11 months for motorbikes to 5 to 6 years for driver-set fares" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<rect x="0" y="0" width="760" height="490" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">How long it took to follow: ride-hailing</text>
+<text x="380" y="48" text-anchor="middle" font-size="11" fill="#6b7280">From the rival's model appearing in a market to the established company's response there</text>
+<line x1="230.0" y1="62" x2="230.0" y2="392" stroke="#f3f4f6"/>
+<text x="230.0" y="408" text-anchor="middle" font-size="10" fill="#6b7280">0 yr</text>
+<line x1="296.7" y1="62" x2="296.7" y2="392" stroke="#f3f4f6"/>
+<text x="296.7" y="408" text-anchor="middle" font-size="10" fill="#6b7280">1 yr</text>
+<line x1="363.3" y1="62" x2="363.3" y2="392" stroke="#f3f4f6"/>
+<text x="363.3" y="408" text-anchor="middle" font-size="10" fill="#6b7280">2 yr</text>
+<line x1="430.0" y1="62" x2="430.0" y2="392" stroke="#f3f4f6"/>
+<text x="430.0" y="408" text-anchor="middle" font-size="10" fill="#6b7280">3 yr</text>
+<line x1="496.7" y1="62" x2="496.7" y2="392" stroke="#f3f4f6"/>
+<text x="496.7" y="408" text-anchor="middle" font-size="10" fill="#6b7280">4 yr</text>
+<line x1="563.3" y1="62" x2="563.3" y2="392" stroke="#f3f4f6"/>
+<text x="563.3" y="408" text-anchor="middle" font-size="10" fill="#6b7280">5 yr</text>
+<line x1="630.0" y1="62" x2="630.0" y2="392" stroke="#f3f4f6"/>
+<text x="630.0" y="408" text-anchor="middle" font-size="10" fill="#6b7280">6 yr</text>
+<text x="12" y="86" font-size="11" font-weight="600" fill="#1f2937">Motorbikes, Pakistan</text>
+<text x="12" y="100" font-size="10" fill="#6b7280">Bykea → Careem Bike</text>
+<rect x="230" y="78" width="61.1" height="20" rx="4" fill="#16a34a"/>
+<text x="297.1" y="92" font-size="10" font-weight="600" fill="#16a34a">about 11 months</text>
+<text x="297.1" y="105" font-size="9.5" fill="#6b7280">added on top; nothing load-bearing</text>
+<text x="12" y="140" font-size="10" fill="#6b7280">Bykea → uberMOTO</text>
+<rect x="230" y="118" width="83.3" height="20" rx="4" fill="#16a34a"/>
+<text x="319.3" y="132" font-size="10" font-weight="600" fill="#16a34a">about 15 months</text>
+<text x="12" y="166" font-size="11" font-weight="600" fill="#1f2937">Cash, Middle East</text>
+<text x="12" y="180" font-size="10" fill="#6b7280">Careem → Uber, after arriving</text>
+<rect x="230" y="158" width="200.0" height="20" rx="4" fill="#d97706"/>
+<text x="436.0" y="172" font-size="10" font-weight="600" fill="#d97706">about 3 years</text>
+<text x="436.0" y="185" font-size="9.5" fill="#6b7280">pilot first, then region-wide</text>
+<text x="12" y="206" font-size="11" font-weight="600" fill="#1f2937">Cash, India</text>
+<text x="12" y="220" font-size="10" fill="#6b7280">Uber arrives → cash</text>
+<rect x="230" y="198" width="122.2" height="20" rx="4" fill="#d97706"/>
+<text x="358.2" y="212" font-size="10" font-weight="600" fill="#d97706">about 2 years</text>
+<text x="358.2" y="225" font-size="9.5" fill="#6b7280">payment flow unwound</text>
+<text x="12" y="246" font-size="11" font-weight="600" fill="#1f2937">Daily fee, India autos</text>
+<text x="12" y="260" font-size="10" fill="#6b7280">Namma Yatri → Uber</text>
+<rect x="230" y="238" width="150.0" height="20" rx="4" fill="#d97706"/>
+<text x="386.0" y="252" font-size="10" font-weight="600" fill="#d97706">about 2¼ years</text>
+<text x="386.0" y="265" font-size="9.5" fill="#6b7280">revenue model changed</text>
+<text x="12" y="286" font-size="11" font-weight="600" fill="#1f2937">Bounded bidding, Pakistan</text>
+<text x="12" y="300" font-size="10" fill="#6b7280">inDrive → Careem Flexi</text>
+<rect x="230" y="278" width="177.8" height="20" rx="4" fill="#b91c1c"/>
+<text x="413.8" y="292" font-size="10" font-weight="600" fill="#b91c1c">under 3 years</text>
+<text x="413.8" y="305" font-size="9.5" fill="#6b7280">price changed, fenced ±15%</text>
+<text x="12" y="326" font-size="11" font-weight="600" fill="#1f2937">Negotiated fares, India</text>
+<text x="12" y="340" font-size="10" fill="#6b7280">inDrive → Uber Flex</text>
+<rect x="230" y="318" width="288.9" height="20" rx="4" fill="#b91c1c"/>
+<text x="524.9" y="332" font-size="10" font-weight="600" fill="#b91c1c">about 4 years</text>
+<text x="524.9" y="345" font-size="9.5" fill="#6b7280">nine fixed price points</text>
+<text x="12" y="380" font-size="10" fill="#6b7280">inDrive → Uber autos</text>
+<rect x="230" y="358" width="377.8" height="20" rx="4" fill="#b91c1c"/>
+<text x="613.8" y="372" font-size="10" font-weight="600" fill="#b91c1c">5 to 6 years</text>
+<text x="613.8" y="385" font-size="9.5" fill="#6b7280">driver-set, autos only</text>
+<g font-size="10">
+<rect x="120" y="424" width="10" height="10" fill="#16a34a"/><text x="134" y="433" fill="#374151">added on top of existing decisions</text>
+<rect x="348.4" y="424" width="10" height="10" fill="#d97706"/><text x="362.4" y="433" fill="#374151">changed money</text>
+<rect x="459.2" y="424" width="10" height="10" fill="#b91c1c"/><text x="473.2" y="433" fill="#374151">changed the price</text>
+</g>
+<text x="380" y="454" text-anchor="middle" font-size="9.5" fill="#9ca3af">Approximate, from launch dates in public reporting. Delay also reflects strategy and how large the rival looked.</text></svg>

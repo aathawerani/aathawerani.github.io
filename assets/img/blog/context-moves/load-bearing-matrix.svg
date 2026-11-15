@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 380" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A two-by-two grid: how much rests on a decision against how far the context has moved since it was confirmed. Little resting, little movement: leave it. Much resting, little movement: record and watch. Little resting, much movement: reconsider it now. Much resting, much movement: revisit with today's validators and fence before rebuilding." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">What to do with a decision, by weight and drift</text>
+
+  <!-- quadrants: x 110..730, y 50..330 -->
+  <rect x="112" y="52" width="306" height="134" rx="8" fill="#fef3c7"/>
+  <text x="128" y="80" font-size="13" font-weight="600" fill="#92400e">Reconsider it now</text>
+  <text x="128" y="102" font-size="11" fill="#78350f">The context has moved and little depends</text>
+  <text x="128" y="118" font-size="11" fill="#78350f">on it yet. If the evidence supports a change,</text>
+  <text x="128" y="134" font-size="11" fill="#78350f">this is likely the easiest time to make it.</text>
+
+  <rect x="424" y="52" width="306" height="134" rx="8" fill="#fee2e2"/>
+  <text x="440" y="80" font-size="13" font-weight="600" fill="#991b1b">Revisit with today's validators</text>
+  <text x="440" y="102" font-size="11" fill="#7f1d1d">Much rests on it and the people who</text>
+  <text x="440" y="118" font-size="11" fill="#7f1d1d">confirmed it no longer represent who</text>
+  <text x="440" y="134" font-size="11" fill="#7f1d1d">we serve. Fence it before rebuilding it.</text>
+  <text x="440" y="164" font-size="10.5" fill="#991b1b" font-weight="600">Uber's card-only payments in India</text>
+
+  <rect x="112" y="192" width="306" height="134" rx="8" fill="#f3f4f6"/>
+  <text x="128" y="220" font-size="13" font-weight="600" fill="#374151">Leave it</text>
+  <text x="128" y="242" font-size="11" fill="#4b5563">A two-way door. Change it when there</text>
+  <text x="128" y="258" font-size="11" fill="#4b5563">is a reason; a light process is enough.</text>
+
+  <rect x="424" y="192" width="306" height="134" rx="8" fill="#dbeafe"/>
+  <text x="440" y="220" font-size="13" font-weight="600" fill="#1e3a8a">Record it and watch</text>
+  <text x="440" y="242" font-size="11" fill="#1e3a8a">Write down who confirmed it and in what</text>
+  <text x="440" y="258" font-size="11" fill="#1e3a8a">context. Look again when the market, the</text>
+  <text x="440" y="274" font-size="11" fill="#1e3a8a">customer or the regulator changes.</text>
+  <text x="440" y="304" font-size="10.5" fill="#1e3a8a" font-weight="600">S3's interface; Stripe's developer-first core</text>
+
+  <!-- axes -->
+  <line x1="104" y1="330" x2="104" y2="52" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="99,58 104,48 109,58" fill="#6b7280"/>
+  <line x1="104" y1="334" x2="728" y2="334" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="722,329 732,334 722,339" fill="#6b7280"/>
+  <text x="418" y="354" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">How much rests on it  →</text>
+  <text x="62" y="191" text-anchor="middle" font-size="11" font-weight="600" fill="#374151" transform="rotate(-90 62 191)">How far the context has moved  →</text>
+
+  <text x="380" y="374" text-anchor="middle" font-size="10.5" fill="#6b7280">A judgement aid, not a scoring model: weight and drift are assessed from the six questions, not calculated.</text>
+</svg>

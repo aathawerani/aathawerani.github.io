@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 520" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Journey map for six companies: starting context, first validators, early load-bearing decision, how the context moved, and later validators" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Six journeys: the context moved, the early decisions met new validators</text>
+
+  <g font-size="10.5">
+    <text x="12" y="58" font-weight="600" fill="#6b7280" font-size="10">COMPANY</text>
+    <text x="92" y="58" font-weight="600" fill="#6b7280" font-size="10">STARTED AS</text>
+    <text x="232" y="58" font-weight="600" fill="#6b7280" font-size="10">FIRST WHO COULD SAY YES</text>
+    <text x="392" y="58" font-weight="600" fill="#1e3a8a" font-size="10">EARLY LOAD-BEARING CHOICE</text>
+    <text x="558" y="58" font-weight="600" fill="#6b7280" font-size="10">LATER, AS THE CONTEXT MOVED</text>
+    <line x1="8" y1="66" x2="752" y2="66" stroke="#d1d5db"/>
+
+    <!-- Uber -->
+    <rect x="8" y="70" width="744" height="68" fill="#f9fafb"/>
+    <text x="12" y="100" font-size="12" font-weight="600" fill="#1f2937">Uber</text>
+    <text x="12" y="114" fill="#6b7280">2010</text>
+    <text x="92" y="94" fill="#374151">startup; novel idea</text>
+    <text x="92" y="109" fill="#374151">in a crowded market</text>
+    <text x="232" y="94" fill="#374151">the team, a few drivers,</text>
+    <text x="232" y="109" fill="#374151">San Francisco riders</text>
+    <rect x="388" y="80" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="99" fill="#1e3a8a" font-weight="600">a card on file;</text>
+    <text x="396" y="114" fill="#1e3a8a">no cash changes hands</text>
+    <text x="552" y="94" fill="#374151">crowded by ride-sharing; then</text>
+    <text x="552" y="109" fill="#374151">riders in India prefer cash:</text>
+    <text x="552" y="124" fill="#b91c1c" font-weight="600">a later no; costly rebuild</text>
+
+    <!-- Careem -->
+    <text x="12" y="168" font-size="12" font-weight="600" fill="#1f2937">Careem</text>
+    <text x="12" y="182" fill="#6b7280">2012</text>
+    <text x="92" y="162" fill="#374151">corporate service;</text>
+    <text x="92" y="177" fill="#374151">consulting know-how</text>
+    <text x="232" y="162" fill="#374151">companies booking</text>
+    <text x="232" y="177" fill="#374151">rides for employees</text>
+    <rect x="388" y="148" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="167" fill="#1e3a8a" font-weight="600">corporate transport;</text>
+    <text x="396" y="182" fill="#1e3a8a">local execution</text>
+    <text x="552" y="162" fill="#374151">a consumer product; regulators</text>
+    <text x="552" y="177" fill="#374151">city by city decide where it runs</text>
+    <text x="552" y="192" fill="#b45309" font-weight="600">riders and regulators reshape it</text>
+
+    <!-- AWS -->
+    <rect x="8" y="206" width="744" height="68" fill="#f9fafb"/>
+    <text x="12" y="236" font-size="12" font-weight="600" fill="#1f2937">AWS</text>
+    <text x="12" y="250" fill="#6b7280">2003–06</text>
+    <text x="92" y="230" fill="#374151">brownfield inside;</text>
+    <text x="92" y="245" fill="#374151">novel outside</text>
+    <text x="232" y="230" fill="#374151">Amazon's own engineers,</text>
+    <text x="232" y="245" fill="#374151">and the CEO's approval</text>
+    <rect x="388" y="216" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="235" fill="#1e3a8a" font-weight="600">simple object-storage</text>
+    <text x="396" y="250" fill="#1e3a8a">interface</text>
+    <text x="552" y="230" fill="#374151">developers as a population,</text>
+    <text x="552" y="245" fill="#374151">answering through usage</text>
+    <text x="552" y="260" fill="#15803d" font-weight="600">its principles proved durable</text>
+
+    <!-- Stripe -->
+    <text x="12" y="304" font-size="12" font-weight="600" fill="#1f2937">Stripe</text>
+    <text x="12" y="318" fill="#6b7280">2011</text>
+    <text x="92" y="298" fill="#374151">startup in a</text>
+    <text x="92" y="313" fill="#374151">crowded market</text>
+    <text x="232" y="298" fill="#374151">the founders, as developers,</text>
+    <text x="232" y="313" fill="#374151">and YC startups</text>
+    <rect x="388" y="284" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="303" fill="#1e3a8a" font-weight="600">payments as code;</text>
+    <text x="396" y="318" fill="#1e3a8a">developer first</text>
+    <text x="552" y="298" fill="#374151">banking products: partner banks</text>
+    <text x="552" y="313" fill="#374151">and regulators hold authority</text>
+    <text x="552" y="328" fill="#15803d" font-weight="600">the core commitment held</text>
+
+    <!-- inDrive -->
+    <rect x="8" y="342" width="744" height="68" fill="#f9fafb"/>
+    <text x="12" y="372" font-size="12" font-weight="600" fill="#1f2937">inDrive</text>
+    <text x="12" y="386" fill="#6b7280">2012</text>
+    <text x="92" y="366" fill="#374151">a community group;</text>
+    <text x="92" y="381" fill="#374151">novel mechanism</text>
+    <text x="232" y="366" fill="#374151">Yakutsk's passengers</text>
+    <text x="232" y="381" fill="#374151">and drivers themselves</text>
+    <rect x="388" y="352" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="371" fill="#1e3a8a" font-weight="600">the rider proposes,</text>
+    <text x="396" y="386" fill="#1e3a8a">the driver accepts</text>
+    <text x="552" y="366" fill="#374151">crowded markets where people</text>
+    <text x="552" y="381" fill="#374151">bargain; drivers as second side</text>
+    <text x="552" y="396" fill="#b45309" font-weight="600">a trip agreed ≠ a fair market</text>
+
+    <!-- Bykea -->
+    <text x="12" y="440" font-size="12" font-weight="600" fill="#1f2937">Bykea</text>
+    <text x="12" y="454" fill="#6b7280">2016</text>
+    <text x="92" y="434" fill="#374151">startup in a crowded</text>
+    <text x="92" y="449" fill="#374151">market, new customer</text>
+    <text x="232" y="434" fill="#374151">a founder who knew small</text>
+    <text x="232" y="449" fill="#374151">traders' lives; the riders</text>
+    <rect x="388" y="420" width="156" height="48" rx="6" fill="#dbeafe"/>
+    <text x="396" y="439" fill="#1e3a8a" font-weight="600">motorbikes, Urdu,</text>
+    <text x="396" y="454" fill="#1e3a8a">cash in hand</text>
+    <text x="552" y="434" fill="#374151">carrying other people's money:</text>
+    <text x="552" y="449" fill="#374151">banks and the regulator matter</text>
+    <text x="552" y="464" fill="#b45309" font-weight="600">riders push back on wallets</text>
+  </g>
+
+  <line x1="8" y1="482" x2="752" y2="482" stroke="#d1d5db"/>
+  <text x="380" y="504" text-anchor="middle" font-size="11" fill="#6b7280">Read from public accounts listed at the end of the post. The lenses are mine, not the companies'.</text>
+</svg>

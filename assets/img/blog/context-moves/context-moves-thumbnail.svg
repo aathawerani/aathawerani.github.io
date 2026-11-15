@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 630" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="The Context Moves. The Decisions Stay.: a fixed foundation block of early decisions under customer, market and regulatory contexts that each move independently">
+  <rect width="1200" height="630" fill="#f1f5f9"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="56px" fill="#1c3664">The Context Moves. The Decisions Stay.</text>
+  <text x="600" y="164" text-anchor="middle" font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26px" fill="#64748b">Six company journeys, read through who could say yes.</text>
+
+  <g font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- independent contexts, each moving on its own -->
+    <g transform="rotate(-3 265 248)"><rect x="150" y="214" width="230" height="64" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="265" y="254" text-anchor="middle" font-size="23px" font-weight="600" fill="#92400e">customer context</text></g>
+    <g transform="translate(0,-10) rotate(2 600 248)"><rect x="485" y="214" width="230" height="64" rx="10" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="600" y="254" text-anchor="middle" font-size="23px" font-weight="600" fill="#3730a3">market context</text></g>
+    <g transform="translate(0,6) rotate(-2 935 248)"><rect x="820" y="214" width="230" height="64" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="935" y="254" text-anchor="middle" font-size="23px" font-weight="600" fill="#14532d">regulatory context</text></g>
+    <text x="600" y="322" text-anchor="middle" font-size="20px" fill="#64748b">each moves on its own; who can say yes changes</text>
+
+    <!-- fixed foundation -->
+    <rect x="150" y="350" width="900" height="130" rx="10" fill="#1c3664"/>
+    <text x="600" y="392" text-anchor="middle" font-size="26px" font-weight="600" fill="#ffffff">early load-bearing decisions</text>
+    <text x="600" y="430" text-anchor="middle" font-size="21px" fill="#cbd5e1">card on file · corporate transport · PUT and GET</text>
+    <text x="600" y="460" text-anchor="middle" font-size="21px" fill="#cbd5e1">payments as code · negotiated fares · motorbikes and Urdu</text>
+
+    <text x="600" y="548" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">UBER · CAREEM · AWS · STRIPE · INDRIVE · BYKEA</text>
+  </g>
+</svg>

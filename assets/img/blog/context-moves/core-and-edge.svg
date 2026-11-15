@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 360" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The established players' response to negotiated fares as a core and an edge: algorithmic, upfront pricing in the core, and bounded variants at the edge" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Vary at the edge, keep the core</text>
+
+  <!-- edge ring -->
+  <rect x="40" y="50" width="680" height="250" rx="16" fill="#fef3c7" stroke="#d97706" stroke-dasharray="6 4"/>
+  <text x="60" y="76" font-size="12" font-weight="600" fill="#92400e">THE EDGE: bounded, local, separate</text>
+
+  <g font-size="11">
+    <rect x="52" y="90" width="192" height="66" rx="8" fill="#ffffff" stroke="#d97706"/>
+    <text x="148" y="112" text-anchor="middle" font-weight="600" fill="#92400e">Uber Flex, from 2023</text>
+    <text x="148" y="128" text-anchor="middle" fill="#78350f">nine price points, a floor;</text>
+    <text x="148" y="144" text-anchor="middle" fill="#78350f">smaller Indian cities and others</text>
+
+    <rect x="516" y="90" width="192" height="66" rx="8" fill="#ffffff" stroke="#d97706"/>
+    <text x="612" y="112" text-anchor="middle" font-weight="600" fill="#92400e">Careem Flexi Ride, 2023</text>
+    <text x="612" y="128" text-anchor="middle" fill="#78350f">a separate option; bids</text>
+    <text x="612" y="144" text-anchor="middle" fill="#78350f">within ±15% of the fare</text>
+
+    <rect x="280" y="222" width="200" height="66" rx="8" fill="#ffffff" stroke="#d97706"/>
+    <text x="380" y="244" text-anchor="middle" font-weight="600" fill="#92400e">Uber autos in India, 2025</text>
+    <text x="380" y="260" text-anchor="middle" fill="#78350f">drivers set fares; a daily fee</text>
+    <text x="380" y="276" text-anchor="middle" fill="#78350f">instead of commission</text>
+  </g>
+
+  <!-- core -->
+  <rect x="256" y="110" width="248" height="96" rx="12" fill="#1e3a8a"/>
+  <text x="380" y="136" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">THE CORE</text>
+  <text x="380" y="158" text-anchor="middle" font-size="11" fill="#dbeafe">the platform sets the price</text>
+  <text x="380" y="174" text-anchor="middle" font-size="11" fill="#dbeafe">to balance supply and demand,</text>
+  <text x="380" y="190" text-anchor="middle" font-size="11" fill="#dbeafe">shown upfront, commission on the fare</text>
+
+  <text x="380" y="326" text-anchor="middle" font-size="12" fill="#4b5563">The established players could add negotiation. They fenced it, rather than move what the core stands on.</text>
+  <text x="380" y="346" text-anchor="middle" font-size="10" fill="#9ca3af">A reading of public reporting; neither company has given this explanation.</text>
+</svg>

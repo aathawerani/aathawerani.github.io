@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 380" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="When Uber let auto-rickshaw drivers in India set fares in 2025, five other things changed with it" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Who sets the price looked like a feature. Five things moved with it.</text>
+  <text x="380" y="48" text-anchor="middle" font-size="11" fill="#6b7280">Uber's auto-rickshaw service in India, February 2025</text>
+
+  <!-- hub -->
+  <rect x="270" y="160" width="220" height="70" rx="10" fill="#1e3a8a"/>
+  <text x="380" y="188" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">who sets the fare</text>
+  <text x="380" y="208" text-anchor="middle" font-size="11" fill="#dbeafe">Uber suggests; drivers decide</text>
+
+  <g stroke="#9ca3af" stroke-width="1.5">
+    <line x1="270" y1="180" x2="210" y2="110"/>
+    <line x1="490" y1="180" x2="550" y2="110"/>
+    <line x1="270" y1="210" x2="210" y2="280"/>
+    <line x1="490" y1="210" x2="550" y2="280"/>
+    <line x1="380" y1="230" x2="380" y2="290"/>
+  </g>
+
+  <g font-size="11">
+    <rect x="40" y="70" width="230" height="56" rx="8" fill="#fef3c7"/>
+    <text x="155" y="92" text-anchor="middle" font-weight="600" fill="#92400e">how Uber earns</text>
+    <text x="155" y="110" text-anchor="middle" fill="#78350f">commission → a daily fee</text>
+
+    <rect x="490" y="70" width="230" height="56" rx="8" fill="#fef3c7"/>
+    <text x="605" y="92" text-anchor="middle" font-weight="600" fill="#92400e">how money moves</text>
+    <text x="605" y="110" text-anchor="middle" fill="#78350f">riders pay drivers directly</text>
+
+    <rect x="40" y="264" width="230" height="56" rx="8" fill="#fef3c7"/>
+    <text x="155" y="286" text-anchor="middle" font-weight="600" fill="#92400e">what Uber promises riders</text>
+    <text x="155" y="304" text-anchor="middle" fill="#78350f">no final fare shown; no promotions</text>
+
+    <rect x="490" y="264" width="230" height="56" rx="8" fill="#fef3c7"/>
+    <text x="605" y="286" text-anchor="middle" font-weight="600" fill="#92400e">what Uber is responsible for</text>
+    <text x="605" y="304" text-anchor="middle" fill="#78350f">"not involved in fare-related disputes"</text>
+
+    <rect x="290" y="290" width="180" height="50" rx="8" fill="#fef3c7"/>
+    <text x="380" y="311" text-anchor="middle" font-weight="600" fill="#92400e">rider penalties</text>
+    <text x="380" y="328" text-anchor="middle" fill="#78350f">no cancellation charges</text>
+  </g>
+
+  <text x="380" y="366" text-anchor="middle" font-size="11" fill="#6b7280">Source: TechCrunch, 19 February 2025. The change applied to Uber's auto-rickshaw service.</text>
+</svg>

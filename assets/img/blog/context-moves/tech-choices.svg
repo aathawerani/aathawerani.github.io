@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 420" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five technology decisions made for speed, the context each was chosen in, what changed, and what reversing it took" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Technology chosen for the first release, tested by the next context</text>
+
+  <g font-size="10.5">
+    <text x="12" y="60" font-size="10" font-weight="600" fill="#6b7280">DECISION</text>
+    <text x="196" y="60" font-size="10" font-weight="600" fill="#15803d">RIGHT FOR THE CONTEXT THEN</text>
+    <text x="386" y="60" font-size="10" font-weight="600" fill="#b45309">THE CONTEXT THAT MOVED</text>
+    <text x="576" y="60" font-size="10" font-weight="600" fill="#b91c1c">WHAT REVERSING IT TOOK</text>
+    <line x1="8" y1="68" x2="752" y2="68" stroke="#d1d5db"/>
+
+    <rect x="8" y="72" width="744" height="62" fill="#f9fafb"/>
+    <text x="12" y="98" font-size="12" font-weight="600" fill="#1f2937">Facebook: HTML5</text>
+    <text x="12" y="114" fill="#6b7280">mobile apps, to 2012</text>
+    <text x="196" y="98" fill="#374151">one codebase, web-speed</text>
+    <text x="196" y="114" fill="#374151">updates</text>
+    <text x="386" y="98" fill="#374151">mobile became central; the</text>
+    <text x="386" y="114" fill="#374151">app felt slow</text>
+    <text x="576" y="98" fill="#374151">a native rewrite; called "one</text>
+    <text x="576" y="114" fill="#374151">of the biggest mistakes"</text>
+
+    <text x="12" y="160" font-size="12" font-weight="600" fill="#1f2937">LinkedIn: HTML5</text>
+    <text x="12" y="176" fill="#6b7280">mobile apps, to 2013</text>
+    <text x="196" y="160" fill="#374151">"worked really well when mobile</text>
+    <text x="196" y="176" fill="#374151">was 8 to 10 percent of traffic"</text>
+    <text x="386" y="160" fill="#374151">longer sessions, memory limits,</text>
+    <text x="386" y="176" fill="#374151">no debugging tools</text>
+    <text x="576" y="160" fill="#374151">native apps</text>
+
+    <rect x="8" y="196" width="744" height="62" fill="#f9fafb"/>
+    <text x="12" y="222" font-size="12" font-weight="600" fill="#1f2937">Airbnb: React Native</text>
+    <text x="12" y="238" fill="#6b7280">to 2018</text>
+    <text x="196" y="222" fill="#374151">move faster; write once for</text>
+    <text x="196" y="238" fill="#374151">two platforms</text>
+    <text x="386" y="222" fill="#374151">a large native app; code to</text>
+    <text x="386" y="238" fill="#374151">maintain on three platforms</text>
+    <text x="576" y="222" fill="#374151">sunset; all effort back</text>
+    <text x="576" y="238" fill="#374151">to native</text>
+
+    <text x="12" y="284" font-size="12" font-weight="600" fill="#1f2937">Twitter: Rails monolith</text>
+    <text x="12" y="300" fill="#6b7280">to around 2010</text>
+    <text x="196" y="284" fill="#374151">a quick first product, one</text>
+    <text x="196" y="300" fill="#374151">codebase, one team</text>
+    <text x="386" y="284" fill="#374151">explosive growth; instability</text>
+    <text x="386" y="300" fill="#374151">at World Cup peaks</text>
+    <text x="576" y="284" fill="#374151">re-architecture into JVM</text>
+    <text x="576" y="300" fill="#374151">services</text>
+
+    <rect x="8" y="320" width="744" height="62" fill="#f9fafb"/>
+    <text x="12" y="346" font-size="12" font-weight="600" fill="#1f2937">SQL Server: Windows</text>
+    <text x="12" y="362" fill="#6b7280">to 2016</text>
+    <text x="196" y="346" fill="#374151">its maker's own platform; its</text>
+    <text x="196" y="362" fill="#374151">own OS layer inside</text>
+    <text x="386" y="346" fill="#374151">enterprises asked for Linux</text>
+    <text x="576" y="346" fill="#374151">an abstraction layer under</text>
+    <text x="576" y="362" fill="#374151">tens of millions of lines</text>
+  </g>
+  <text x="380" y="408" text-anchor="middle" font-size="11" fill="#4b5563">None of these was wrong when it was made. The context moved, and too much had been built on it.</text>
+</svg>
