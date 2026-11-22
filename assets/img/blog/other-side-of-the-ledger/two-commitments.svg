@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 330" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One condition, two commitments: the wallet company. The deciding condition was the licence, controlled by the regulator, not the company. Engineering waited: it kept a modest team rather than building for a scale the regulator had not allowed, which was reasonable at the time, the option value of waiting applied correctly; later, I suspect, the temporary team became load-bearing. Acquisition committed: it spent heavily on deals and discounts to bring users in, spent once, before the deciding condition was met; the licence came after the first wave had passed. Time each commitment by the conditions that decide whether that commitment will produce value." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">One condition, two commitments: the wallet company</text>
+
+  <rect x="230" y="44" width="300" height="56" rx="8" fill="#1c3664"/>
+  <text x="380" y="68" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Deciding condition: the licence</text>
+  <text x="380" y="88" text-anchor="middle" font-size="11" fill="#cbd5e1">controlled by the regulator, not the company</text>
+
+  <line x1="320" y1="100" x2="200" y2="124" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="440" y1="100" x2="560" y2="124" stroke="#6b7280" stroke-width="1.5"/>
+
+  <rect x="24" y="124" width="350" height="140" rx="8" fill="#dbeafe"/>
+  <text x="40" y="148" font-size="13" font-weight="600" fill="#1e3a8a">Engineering: waited</text>
+  <g font-size="11" fill="#1e3a8a">
+    <text x="40" y="172">Kept a modest team rather than building</text>
+    <text x="40" y="187">for a scale the regulator had not allowed</text>
+    <text x="40" y="211">Reasonable at the time: the option value</text>
+    <text x="40" y="226">of waiting, applied correctly</text>
+    <text x="40" y="250" font-style="italic">Later, I suspect: the temporary team became load-bearing</text>
+  </g>
+
+  <rect x="386" y="124" width="350" height="140" rx="8" fill="#fee2e2"/>
+  <text x="402" y="148" font-size="13" font-weight="600" fill="#b91c1c">Acquisition: committed</text>
+  <g font-size="11" fill="#7f1d1d">
+    <text x="402" y="172">Spent heavily on deals and discounts to</text>
+    <text x="402" y="187">bring users in</text>
+    <text x="402" y="211">Spent once, before the deciding condition</text>
+    <text x="402" y="226">was met</text>
+    <text x="402" y="250" font-style="italic">The licence came after the first wave had passed</text>
+  </g>
+
+  <rect x="24" y="278" width="712" height="34" rx="8" fill="#fef3c7"/>
+  <text x="380" y="300" text-anchor="middle" font-size="11.5" fill="#78350f">Time each commitment by the conditions that decide whether that commitment will produce value.</text>
+</svg>

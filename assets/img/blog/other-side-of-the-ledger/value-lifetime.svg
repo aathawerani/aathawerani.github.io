@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 330" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Value has a lifetime: three products from one company, shown as cumulative value over years. All three start with the build, investment before return. Cash-deposit automation earned for well over a decade. ATM monitoring had a shorter tail. Cash forecasting was never sold; the market was not yet ready. The curve flattens where the context moved. Illustrative shapes from my own experience, not actual figures." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Value has a lifetime: three products from one company</text>
+  <line x1="80" y1="50" x2="80" y2="282" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="80" y1="200" x2="720" y2="200" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="80" y1="282" x2="720" y2="282" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="714,277 724,282 714,287" fill="#6b7280"/>
+  <text x="72" y="204" text-anchor="end" font-size="10.5" fill="#6b7280">0</text>
+  <text x="400" y="302" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Years  →</text>
+  <text x="44" y="166" text-anchor="middle" font-size="11" font-weight="600" fill="#374151" transform="rotate(-90 44 166)">Cumulative value  →</text>
+
+  <path d="M80,200 C120,200 150,252 190,250 C240,248 260,200 300,170 C360,125 440,95 520,85 C580,80 640,78 680,78" fill="none" stroke="#1c3664" stroke-width="3"/>
+  <circle cx="680" cy="78" r="4.5" fill="#1c3664"/>
+  <text x="680" y="64" text-anchor="end" font-size="11" font-weight="600" fill="#1c3664">Cash-deposit automation: earned for well over a decade</text>
+
+  <path d="M80,200 C110,200 140,238 170,236 C210,234 230,190 270,160 C310,135 340,128 380,126 L400,126" fill="none" stroke="#15803d" stroke-width="3"/>
+  <circle cx="400" cy="126" r="4.5" fill="#15803d"/>
+  <text x="410" y="130" font-size="11" font-weight="600" fill="#15803d">ATM monitoring: a shorter tail</text>
+
+  <path d="M80,200 C110,200 140,244 175,246 L300,246" fill="none" stroke="#b91c1c" stroke-width="3" stroke-dasharray="7 4"/>
+  <circle cx="300" cy="246" r="4.5" fill="#b91c1c"/>
+  <text x="310" y="250" font-size="11" font-weight="600" fill="#b91c1c">Cash forecasting: never sold; the market was not yet ready</text>
+
+  <text x="186" y="272" text-anchor="middle" font-size="10.5" fill="#4b5563">the build: investment before return</text>
+  <text x="560" y="118" text-anchor="middle" font-size="10.5" font-style="italic" fill="#6b7280">the curve flattens where the context moved</text>
+
+  <text x="380" y="322" text-anchor="middle" font-size="11" fill="#6b7280">Illustrative shapes from my own experience, not actual figures.</text>
+</svg>

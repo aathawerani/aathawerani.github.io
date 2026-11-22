@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 400" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A two-by-two grid of how much rests on a decision against what it is worth if it is right. Little rests on it, worth little: regenerate it freely. Little rests on it, worth a lot: build early and iterate, ordered by urgency and capacity with cost of delay deciding which goes first, for example a new screen for a high-demand journey. Much rests on it, worth little: load-bearing by accident, put it behind an interface before more is built on it, for example a reference format from the first integration. Much rests on it, worth a lot: strategic commitments, where building early and deciding carefully collide, so buy information, stage the commitment, or reduce the weight, for example a ledger model or Stripe's developer-first core. A judgement aid, not a scoring model: the axes are often correlated, and the grid separates them for analysis." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">What to do with a decision, by weight and value</text>
+
+  <rect x="112" y="52" width="306" height="144" rx="8" fill="#dcfce7"/>
+  <text x="128" y="80" font-size="13" font-weight="600" fill="#15803d">Build early and iterate</text>
+  <text x="128" y="102" font-size="11" fill="#166534">Being wrong is cheap and being late is</text>
+  <text x="128" y="118" font-size="11" fill="#166534">expensive. Order by urgency and capacity:</text>
+  <text x="128" y="134" font-size="11" fill="#166534">cost of delay decides which goes first.</text>
+  <text x="128" y="174" font-size="10.5" font-weight="600" fill="#15803d">A new screen for a high-demand journey</text>
+
+  <rect x="424" y="52" width="306" height="144" rx="8" fill="#dbeafe"/>
+  <text x="440" y="80" font-size="13" font-weight="600" fill="#1e3a8a">Strategic commitments</text>
+  <text x="440" y="102" font-size="11" fill="#1e3a8a">Building early and deciding carefully</text>
+  <text x="440" y="118" font-size="11" fill="#1e3a8a">collide. Buy information, stage the</text>
+  <text x="440" y="134" font-size="11" fill="#1e3a8a">commitment, or reduce the weight.</text>
+  <text x="440" y="174" font-size="10.5" font-weight="600" fill="#1e3a8a">A ledger model; Stripe's developer-first core</text>
+
+  <rect x="112" y="202" width="306" height="144" rx="8" fill="#f3f4f6"/>
+  <text x="128" y="230" font-size="13" font-weight="600" fill="#374151">Regenerate it freely</text>
+  <text x="128" y="252" font-size="11" fill="#4b5563">Most of the work in any product.</text>
+  <text x="128" y="268" font-size="11" fill="#4b5563">Build, show, learn, change.</text>
+
+  <rect x="424" y="202" width="306" height="144" rx="8" fill="#fef3c7"/>
+  <text x="440" y="230" font-size="13" font-weight="600" fill="#92400e">Load-bearing by accident</text>
+  <text x="440" y="252" font-size="11" fill="#78350f">Much depends on it and nobody would pay</text>
+  <text x="440" y="268" font-size="11" fill="#78350f">for it. Put it behind an interface before</text>
+  <text x="440" y="284" font-size="11" fill="#78350f">more is built on it.</text>
+  <text x="440" y="324" font-size="10.5" font-weight="600" fill="#92400e">A reference format from the first integration</text>
+
+  <line x1="104" y1="350" x2="104" y2="52" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="99,58 104,48 109,58" fill="#6b7280"/>
+  <line x1="104" y1="354" x2="728" y2="354" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="722,349 732,354 722,359" fill="#6b7280"/>
+  <text x="418" y="374" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">How much rests on it  →</text>
+  <text x="62" y="201" text-anchor="middle" font-size="11" font-weight="600" fill="#374151" transform="rotate(-90 62 201)">What it is worth if it is right  →</text>
+
+  <text x="380" y="394" text-anchor="middle" font-size="11" fill="#6b7280">A judgement aid, not a scoring model. The axes are often correlated; the grid separates them for analysis.</text>
+</svg>

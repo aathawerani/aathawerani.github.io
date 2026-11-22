@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 310" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prioritisation is a ratio, and most of the care went into the bottom. On top, what it is worth if it is right, the least well measured: business value points are hard because the value of small pieces is intertwined; cost of delay asks what each week of delay costs in money; WSJF as SAFe uses it sums three relative scores and divides by job size. Underneath, what it costs to build, the most carefully measured: story points, a relative estimate of effort, complexity, and risk and uncertainty, saying nothing about value. Two warnings: much of software engineering is practised as if every requirement, test and defect were equally important; and in Lean software development, extra features nobody values are waste, however well estimated." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="310" fill="#ffffff"/>
+  <text x="380" y="28" font-size="16" font-weight="600" text-anchor="middle" fill="#1f2937">Prioritisation is a ratio, and most of the care went into the bottom</text>
+  <rect x="20" y="50" width="470" height="128" rx="8" fill="#eff6ff"/>
+  <text x="36" y="74" font-size="13" font-weight="600" fill="#1c3664">What it is worth if it is right</text>
+  <text x="474" y="74" font-size="10" text-anchor="end" fill="#6b7280">least well measured</text>
+  <text x="36" y="100" font-size="11.5" font-weight="600" fill="#1e3a8a">Business value points</text>
+  <text x="200" y="100" font-size="10.5" fill="#1f2937">hard: the value of small pieces is intertwined</text>
+  <text x="36" y="126" font-size="11.5" font-weight="600" fill="#1e3a8a">Cost of delay</text>
+  <text x="200" y="126" font-size="10.5" fill="#1f2937">what each week of delay costs, in money</text>
+  <text x="36" y="152" font-size="11.5" font-weight="600" fill="#1e3a8a">WSJF, as SAFe uses it</text>
+  <text x="200" y="152" font-size="10.5" fill="#1f2937">three relative scores, summed, over job size</text>
+  <line x1="20" y1="192" x2="490" y2="192" stroke="#1f2937" stroke-width="2.5"/>
+  <rect x="20" y="206" width="470" height="86" rx="8" fill="#f3f4f6"/>
+  <text x="36" y="230" font-size="13" font-weight="600" fill="#374151">What it costs to build</text>
+  <text x="474" y="230" font-size="10" text-anchor="end" fill="#6b7280">most carefully measured</text>
+  <text x="36" y="256" font-size="11.5" font-weight="600" fill="#374151">Story points</text>
+  <text x="200" y="256" font-size="10.5" fill="#1f2937">relative effort, complexity, and risk and</text>
+  <text x="200" y="271" font-size="10.5" fill="#1f2937">uncertainty; they say nothing about value</text>
+  <rect x="510" y="50" width="230" height="242" rx="8" fill="#fef3c7"/>
+  <text x="526" y="74" font-size="13" font-weight="600" fill="#92400e">Two warnings</text>
+  <text x="526" y="102" font-size="11.5" font-weight="600" fill="#92400e">Value-neutral practice</text>
+  <text x="526" y="122" font-size="10.5" fill="#78350f">Much of software engineering</text>
+  <text x="526" y="137" font-size="10.5" fill="#78350f">treats every requirement, test</text>
+  <text x="526" y="152" font-size="10.5" fill="#78350f">and defect as equally important</text>
+  <text x="526" y="190" font-size="11.5" font-weight="600" fill="#92400e">Extra features are waste</text>
+  <text x="526" y="210" font-size="10.5" fill="#78350f">In Lean software development,</text>
+  <text x="526" y="225" font-size="10.5" fill="#78350f">features nobody values are</text>
+  <text x="526" y="240" font-size="10.5" fill="#78350f">waste, however well estimated</text>
+
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 254" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adding hides a zero. An illustrative feature scored on four conditions, each out of ten: need 9, economics at scale 7, permission 8, critical mass 0. Added, it scores 24 of 40 and looks strong. Multiplied as shares, 0.9 times 0.7 times 0.8 times 0 is 0: nothing arrives. An additive summary can hide a missing prerequisite when the value needs every condition to hold. Neither WSJF nor RICE scores these market conditions; RICE multiplies, but its factors are reach, impact, confidence and effort." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="254" fill="#ffffff"/>
+  <text x="380" y="28" font-size="16" font-weight="600" text-anchor="middle" fill="#1f2937">Adding hides a zero</text>
+  <text x="20" y="69" font-size="11.5" font-weight="600" fill="#1f2937">Need</text>
+  <rect x="160" y="56" width="200" height="18" rx="4" fill="#f3f4f6"/>
+  <rect x="160" y="56" width="180" height="18" rx="4" fill="#1e3a8a"/>
+  <text x="372" y="69" font-size="11" fill="#374151">9 / 10</text>
+  <text x="20" y="99" font-size="11.5" font-weight="600" fill="#1f2937">Economics at scale</text>
+  <rect x="160" y="86" width="200" height="18" rx="4" fill="#f3f4f6"/>
+  <rect x="160" y="86" width="140" height="18" rx="4" fill="#1e3a8a"/>
+  <text x="372" y="99" font-size="11" fill="#374151">7 / 10</text>
+  <text x="20" y="129" font-size="11.5" font-weight="600" fill="#1f2937">Permission</text>
+  <rect x="160" y="116" width="200" height="18" rx="4" fill="#f3f4f6"/>
+  <rect x="160" y="116" width="160" height="18" rx="4" fill="#1e3a8a"/>
+  <text x="372" y="129" font-size="11" fill="#374151">8 / 10</text>
+  <text x="20" y="159" font-size="11.5" font-weight="600" fill="#1f2937">Critical mass</text>
+  <rect x="160" y="146" width="200" height="18" rx="4" fill="#f3f4f6"/>
+  <text x="372" y="159" font-size="11" font-weight="600" fill="#b91c1c">0 / 10</text>
+  <rect x="440" y="52" width="300" height="54" rx="8" fill="#fef3c7"/>
+  <text x="456" y="74" font-size="13" font-weight="600" fill="#92400e">Added: 24 of 40</text>
+  <text x="456" y="94" font-size="10.5" fill="#78350f">looks strong</text>
+  <rect x="440" y="114" width="300" height="54" rx="8" fill="#fee2e2"/>
+  <text x="456" y="136" font-size="13" font-weight="600" fill="#b91c1c">Multiplied: 0.9 × 0.7 × 0.8 × 0 = 0</text>
+  <text x="456" y="156" font-size="10.5" fill="#7f1d1d">nothing arrives</text>
+  <text x="20" y="196" font-size="10" fill="#6b7280">An illustrative feature, not a real score.</text>
+  <text x="380" y="222" font-size="11" text-anchor="middle" fill="#6b7280">An additive summary can hide a missing prerequisite when the value needs every condition to hold.</text>
+  <text x="380" y="238" font-size="11" text-anchor="middle" fill="#6b7280">Neither WSJF nor RICE scores these market conditions; RICE multiplies, but its factors are reach, impact, confidence and effort.</text>
+
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 630" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="The Other Side of the Ledger: a two-column ledger for one load-bearing decision. The left column, what it costs if it is wrong, is filled in with spread, reach, outside dependents, reversal path, validator distance and accumulation. The right column, what it is worth if it is right, holds worth, conditions and evidence, with the rest still empty: the side we rarely fill in.">
+  <rect width="1200" height="630" fill="#f1f5f9"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="58px" fill="#1c3664">The Other Side of the Ledger</text>
+  <text x="600" y="164" text-anchor="middle" font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25px" fill="#64748b">A decision has two prices: what it costs to undo, and what it is worth if it is right.</text>
+
+  <g font-family="'-apple-system', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- ledger frame -->
+    <rect x="150" y="200" width="900" height="330" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="600" y1="200" x2="600" y2="530" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="150" y="200" width="450" height="56" rx="10" fill="#1c3664"/>
+    <rect x="150" y="230" width="450" height="26" fill="#1c3664"/>
+    <rect x="600" y="200" width="450" height="56" rx="10" fill="#15803d"/>
+    <rect x="600" y="230" width="450" height="26" fill="#15803d"/>
+    <text x="375" y="236" text-anchor="middle" font-size="23px" font-weight="600" fill="#ffffff">What it costs if it is wrong</text>
+    <text x="825" y="236" text-anchor="middle" font-size="23px" font-weight="600" fill="#ffffff">What it is worth if it is right</text>
+
+    <!-- left column: filled -->
+    <g font-size="22px" fill="#1f2937">
+      <text x="185" y="296">spread</text>
+      <text x="185" y="336">reach</text>
+      <text x="185" y="376">outside dependents</text>
+      <text x="185" y="416">reversal path</text>
+      <text x="185" y="456">validator distance</text>
+      <text x="185" y="496">accumulation</text>
+    </g>
+    <g stroke="#e2e8f0" stroke-width="1.5">
+      <line x1="170" y1="308" x2="580" y2="308"/><line x1="170" y1="348" x2="580" y2="348"/>
+      <line x1="170" y1="388" x2="580" y2="388"/><line x1="170" y1="428" x2="580" y2="428"/>
+      <line x1="170" y1="468" x2="580" y2="468"/>
+      <line x1="620" y1="308" x2="1030" y2="308"/><line x1="620" y1="348" x2="1030" y2="348"/>
+      <line x1="620" y1="388" x2="1030" y2="388"/><line x1="620" y1="428" x2="1030" y2="428"/>
+      <line x1="620" y1="468" x2="1030" y2="468"/>
+    </g>
+    <g font-size="22px" fill="#4b5563">
+      <text x="545" y="296" text-anchor="end">✓</text><text x="545" y="336" text-anchor="end">✓</text>
+      <text x="545" y="376" text-anchor="end">✓</text><text x="545" y="416" text-anchor="end">✓</text>
+      <text x="545" y="456" text-anchor="end">✓</text><text x="545" y="496" text-anchor="end">✓</text>
+    </g>
+
+    <!-- right column: mostly empty -->
+    <g font-size="22px" font-weight="600" fill="#15803d">
+      <text x="635" y="296">worth</text>
+      <text x="635" y="336">conditions</text>
+      <text x="635" y="376">evidence</text>
+    </g>
+    <g font-size="22px" fill="#94a3b8">
+      <text x="995" y="296" text-anchor="end">?</text>
+      <text x="995" y="336" text-anchor="end">?</text>
+      <text x="995" y="376" text-anchor="end">?</text>
+    </g>
+    <text x="825" y="456" text-anchor="middle" font-size="19px" font-style="italic" fill="#94a3b8">the side we rarely fill in</text>
+
+    <text x="600" y="566" text-anchor="middle" font-size="17px" letter-spacing="2" fill="#64748b">TECTONICS</text>
+  </g>
+</svg>

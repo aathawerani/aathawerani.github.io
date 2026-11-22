@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 420" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Both sides of a load-bearing decision. What it costs if it is wrong, the six questions from The Context Moves: weight, through spread, reach, outside dependents and reversal path; drift, through validator distance and accumulation. What it is worth if it is right, the half the six questions leave out: worth, its economic and strategic value including revenue, losses avoided and what it enables, to whom and for how long; conditions, what must be true, who controls it and which is weakest; evidence, how we know it is true and who can confirm it. If an essential condition is missing, the value can collapse, so conditions are recorded with the decision to find the missing one when the value does not arrive. Questions, not a score." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Both sides of a load-bearing decision</text>
+
+  <!-- left column -->
+  <rect x="16" y="48" width="356" height="30" rx="6" fill="#1c3664"/>
+  <text x="194" y="68" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">What it costs if it is wrong</text>
+  <text x="28" y="98" font-size="10" font-weight="600" fill="#6b7280">WEIGHT</text>
+  <text x="28" y="120" font-size="12" font-weight="600" fill="#1f2937">Spread</text>
+  <text x="166" y="120" font-size="10.5" fill="#4b5563">How much of the system assumes it?</text>
+  <rect x="16" y="130" width="356" height="26" fill="#f9fafb"/>
+  <text x="28" y="148" font-size="12" font-weight="600" fill="#1f2937">Reach</text>
+  <text x="166" y="148" font-size="10.5" fill="#4b5563">What does it touch beyond the code?</text>
+  <text x="28" y="176" font-size="12" font-weight="600" fill="#1f2937">Outside dependents</text>
+  <text x="166" y="176" font-size="10.5" fill="#4b5563">Who outside must agree to a change?</text>
+  <rect x="16" y="186" width="356" height="26" fill="#f9fafb"/>
+  <text x="28" y="204" font-size="12" font-weight="600" fill="#1f2937">Reversal path</text>
+  <text x="166" y="204" font-size="10.5" fill="#4b5563">Beside the core, or only in place?</text>
+  <text x="28" y="236" font-size="10" font-weight="600" fill="#6b7280">DRIFT</text>
+  <text x="28" y="258" font-size="12" font-weight="600" fill="#1f2937">Validator distance</text>
+  <text x="166" y="258" font-size="10.5" fill="#4b5563">Do its validators still represent us?</text>
+  <rect x="16" y="268" width="356" height="26" fill="#f9fafb"/>
+  <text x="28" y="286" font-size="12" font-weight="600" fill="#1f2937">Accumulation</text>
+  <text x="166" y="286" font-size="10.5" fill="#4b5563">How fast is more built on it?</text>
+  <text x="194" y="318" text-anchor="middle" font-size="10.5" fill="#6b7280">From The Context Moves</text>
+
+  <!-- right column -->
+  <rect x="388" y="48" width="356" height="30" rx="6" fill="#15803d"/>
+  <text x="566" y="68" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">What it is worth if it is right</text>
+  <text x="400" y="98" font-size="10" font-weight="600" fill="#6b7280">VALUE</text>
+  <text x="400" y="122" font-size="12" font-weight="600" fill="#1f2937">Worth</text>
+  <text x="490" y="122" font-size="10.5" fill="#4b5563">Revenue, losses avoided, what it</text>
+  <text x="490" y="137" font-size="10.5" fill="#4b5563">enables. To whom, and for how long?</text>
+  <rect x="388" y="150" width="356" height="52" fill="#f9fafb"/>
+  <text x="400" y="172" font-size="12" font-weight="600" fill="#1f2937">Conditions</text>
+  <text x="490" y="172" font-size="10.5" fill="#4b5563">What must be true, who controls it,</text>
+  <text x="490" y="187" font-size="10.5" fill="#4b5563">and which is weakest here?</text>
+  <text x="400" y="226" font-size="12" font-weight="600" fill="#1f2937">Evidence</text>
+  <text x="490" y="226" font-size="10.5" fill="#4b5563">How do we know each condition holds,</text>
+  <text x="490" y="241" font-size="10.5" fill="#4b5563">and who can confirm it?</text>
+  <text x="566" y="318" text-anchor="middle" font-size="10.5" fill="#6b7280">The half the six questions leave out</text>
+
+  <rect x="16" y="338" width="728" height="46" rx="8" fill="#fef3c7"/>
+  <text x="380" y="358" text-anchor="middle" font-size="11" fill="#78350f">Conditions multiply. If an essential condition is missing, the value can collapse, however strong the rest.</text>
+  <text x="380" y="374" text-anchor="middle" font-size="11" fill="#78350f">Record them with the decision, so that when the value does not arrive, the missing one can be found.</text>
+
+  <text x="380" y="408" text-anchor="middle" font-size="11" fill="#6b7280">Questions, not a score.</text>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 330" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ordering competing opportunities, in five steps. 1. Start from strategy: which kinds of value we trade against each other, and whose value counts. 2. Separate what can be built from what must first be made possible: blocked is not worthless, do the work that resolves the blocking condition. 3. Compare cost of delay, in money, where it can be expressed that way: for direct value and losses avoided, a monthly range divided by how long the work takes. 4. Match the commitment to the evidence: evidence sets the size of the bet, not the order. 5. Let weight shape how and when: light, build early and iterate; heavy, stage it, buy information first, or wait for its conditions. Judgement, not a formula. Enabling and option value are judged at step 1, not forced into step 3." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">Ordering competing opportunities</text>
+  <g>
+    <rect x="12" y="44" width="736" height="46" rx="6" fill="#f9fafb"/>
+    <circle cx="38" cy="67" r="13" fill="#1c3664"/><text x="38" y="71" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">1</text>
+    <text x="62" y="63" font-size="12.5" font-weight="600" fill="#1f2937">Start from strategy</text>
+    <text x="62" y="80" font-size="11" fill="#4b5563">Which kinds of value we trade against each other, and whose value counts</text>
+  </g>
+  <g>
+    <rect x="12" y="96" width="736" height="46" rx="6" fill="#ffffff"/>
+    <circle cx="38" cy="119" r="13" fill="#1c3664"/><text x="38" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">2</text>
+    <text x="62" y="115" font-size="12.5" font-weight="600" fill="#1f2937">Separate what can be built from what must first be made possible</text>
+    <text x="62" y="132" font-size="11" fill="#4b5563">Blocked is not worthless: do the work that resolves the blocking condition</text>
+  </g>
+  <g>
+    <rect x="12" y="148" width="736" height="46" rx="6" fill="#f9fafb"/>
+    <circle cx="38" cy="171" r="13" fill="#1c3664"/><text x="38" y="175" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">3</text>
+    <text x="62" y="167" font-size="12.5" font-weight="600" fill="#1f2937">Compare cost of delay, in money, where it can be expressed that way</text>
+    <text x="62" y="184" font-size="11" fill="#4b5563">For direct value and losses avoided: a monthly range, divided by how long the work takes</text>
+  </g>
+  <g>
+    <rect x="12" y="200" width="736" height="46" rx="6" fill="#ffffff"/>
+    <circle cx="38" cy="223" r="13" fill="#1c3664"/><text x="38" y="227" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">4</text>
+    <text x="62" y="219" font-size="12.5" font-weight="600" fill="#1f2937">Match the commitment to the evidence</text>
+    <text x="62" y="236" font-size="11" fill="#4b5563">Evidence sets the size of the bet, not the order</text>
+  </g>
+  <g>
+    <rect x="12" y="252" width="736" height="46" rx="6" fill="#f9fafb"/>
+    <circle cx="38" cy="275" r="13" fill="#1c3664"/><text x="38" y="279" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">5</text>
+    <text x="62" y="271" font-size="12.5" font-weight="600" fill="#1f2937">Let weight shape how and when</text>
+    <text x="62" y="288" font-size="11" fill="#4b5563">Light: build early and iterate. Heavy: stage it, buy information first, or wait for its conditions</text>
+  </g>
+  <text x="380" y="320" text-anchor="middle" font-size="11" fill="#6b7280">Judgement, not a formula. Enabling and option value are judged at step 1, not forced into step 3.</text>
+</svg>

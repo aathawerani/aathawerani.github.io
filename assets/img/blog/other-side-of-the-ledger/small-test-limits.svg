@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 760 318" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What a small, fast test can and cannot see. It can show whether early users try it, whether the workflow works in real use, whether it solves the problem for one customer, and how our guesses compare with real behaviour. It cannot show critical mass: a network's value needs many users, and a small pilot shows weak adoption whether or not it works. Permission: in regulated payments you cannot test before you may operate, and the licence itself cannot be tested. Readiness: a fast failure on an idea whose market is not yet ready reads as a permanent one. The test that stays: small versions tend to become the product, and load-bearing whether or not anyone decided. For these, gather evidence another way: comparable markets, early conversations with the regulator, a partner's commitment, or a staged commitment." font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="760" height="318" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1f2937">What a small, fast test can and cannot see</text>
+
+  <text x="512" y="56" text-anchor="middle" font-size="10" font-weight="600" fill="#6b7280">IT CANNOT SHOW</text>
+  <g transform="translate(0,18)">
+  <rect x="12" y="46" width="250" height="196" rx="8" fill="#dcfce7"/>
+  <text x="137" y="70" text-anchor="middle" font-size="13" font-weight="600" fill="#15803d">It can show</text>
+  <g font-size="11" fill="#166534">
+    <text x="28" y="98">Whether early users try it</text>
+    <text x="28" y="126">Whether the workflow works in</text>
+    <text x="28" y="141">real use</text>
+    <text x="28" y="169">Whether it solves the problem</text>
+    <text x="28" y="184">for one customer</text>
+    <text x="28" y="212">How our guesses compare with</text>
+    <text x="28" y="227">real behaviour</text>
+  </g>
+
+  <g>
+    <rect x="276" y="46" width="230" height="94" rx="8" fill="#fef3c7"/>
+    <text x="290" y="70" font-size="12.5" font-weight="600" fill="#92400e">Critical mass</text>
+    <text x="290" y="92" font-size="10.5" fill="#78350f">A network's value needs many</text>
+    <text x="290" y="107" font-size="10.5" fill="#78350f">users; a small pilot shows weak</text>
+    <text x="290" y="122" font-size="10.5" fill="#78350f">adoption whether or not it works</text>
+  </g>
+  <g>
+    <rect x="518" y="46" width="230" height="94" rx="8" fill="#fef3c7"/>
+    <text x="532" y="70" font-size="12.5" font-weight="600" fill="#92400e">Permission</text>
+    <text x="532" y="92" font-size="10.5" fill="#78350f">In regulated payments you cannot</text>
+    <text x="532" y="107" font-size="10.5" fill="#78350f">test before you may operate; the</text>
+    <text x="532" y="122" font-size="10.5" fill="#78350f">licence itself cannot be tested</text>
+  </g>
+  <g>
+    <rect x="276" y="148" width="230" height="94" rx="8" fill="#fef3c7"/>
+    <text x="290" y="172" font-size="12.5" font-weight="600" fill="#92400e">Readiness</text>
+    <text x="290" y="194" font-size="10.5" fill="#78350f">A fast failure on an idea whose</text>
+    <text x="290" y="209" font-size="10.5" fill="#78350f">market is not yet ready reads as</text>
+    <text x="290" y="224" font-size="10.5" fill="#78350f">a permanent one</text>
+  </g>
+  <g>
+    <rect x="518" y="148" width="230" height="94" rx="8" fill="#fef3c7"/>
+    <text x="532" y="172" font-size="12.5" font-weight="600" fill="#92400e">The test that stays</text>
+    <text x="532" y="194" font-size="10.5" fill="#78350f">Small versions tend to become</text>
+    <text x="532" y="209" font-size="10.5" fill="#78350f">the product, and load-bearing</text>
+    <text x="532" y="224" font-size="10.5" fill="#78350f">whether or not anyone decided</text>
+  </g>
+  
+
+  <text x="380" y="270" text-anchor="middle" font-size="11" fill="#6b7280">For the conditions on the right, gather evidence another way: comparable markets,</text>
+  <text x="380" y="286" text-anchor="middle" font-size="11" fill="#6b7280">early conversations with the regulator, a partner's commitment, or a staged commitment.</text>
+  </g>
+</svg>
