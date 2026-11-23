@@ -5,4 +5,8 @@
   <a href="https://twitter.com/intent/tweet?url={{ site.url | append: page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener">X</a>
     &middot;
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener">Facebook</a>
+    &middot;
+  <a href="https://wa.me/?text={{ page.title | url_encode | replace: '+', '%20' }}%20{{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener">WhatsApp</a>
+  &middot;
+  <a href="mailto:?subject={{ page.title | url_encode | replace: '+', '%20' }}&body={{ site.url | append: page.url | url_encode }}">Email</a>
 </div>
