@@ -153,7 +153,19 @@ layout: default
         </div>
         <p class="lead" style="margin-top:.65rem;">{{ site.typewrite-text }}</p>
       </div>
-
+      <div class="card">
+        <h1 class="card-title">Latest writing</h1>
+        <ul style="padding-left:1rem;">
+          {% for post in site.posts limit:5 %}
+          <li style="margin-bottom:.6rem;">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <small style="color:#6c757d;">{{ post.date | date: "%b %-d, %Y" }}</small><br />
+            <span style="color:#495057;">{{ post.summary }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+        <p><a href="/blog/">All posts &rarr;</a></p>
+      </div>
       <div id="author_projects" class="card">
         <h1 class="card-title">Projects</h1>
 
