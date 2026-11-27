@@ -1,12 +1,14 @@
+{% assign share_url = site.url | append: page.url | url_encode %}
+{% assign share_title = page.title | url_encode | replace: '+', '%20' %}
 <div class="share-page">
-  <p class="share-text">Share this on &rarr;</p>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener">LinkedIn</a>
-  &middot;
-  <a href="https://twitter.com/intent/tweet?url={{ site.url | append: page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener">X</a>
-    &middot;
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener">Facebook</a>
-    &middot;
-  <a href="https://wa.me/?text={{ page.title | url_encode | replace: '+', '%20' }}%20{{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener">WhatsApp</a>
-  &middot;
-  <a href="mailto:?subject={{ page.title | url_encode | replace: '+', '%20' }}&body={{ site.url | append: page.url | url_encode }}">Email</a>
+  <p class="share-text">Found this useful? Share it &rarr;</p>
+  <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ share_url }}&text={{ share_title }}" target="_blank" rel="noopener">X</a>
+  <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener">Facebook</a>
+  <a class="share-btn" href="https://wa.me/?text={{ share_title }}%20{{ share_url }}" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="share-btn" href="mailto:?subject={{ share_title }}&body={{ share_url }}">Email</a>
 </div>
+<style>
+  .share-page { padding: 16px; }
+  .share-btn { display: inline-block; margin: 4px; padding: 6px 16px; border: 1px solid currentColor; border-radius: 20px; font-weight: 600; text-decoration: none; }
+</style>
