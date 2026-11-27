@@ -38,6 +38,8 @@
   <meta content="{{ site.url }}/about/" property="article:author" />
   {% endif %} {% if page.thumbnail %}
   <meta content="{{ site.url }}{{ page.thumbnail | replace: '.svg', '.png' }}" property="og:image" />
+  {% else %}
+  <meta content="{{ site.url }}/assets/img/{{ site.author_logo }}" property="og:image" />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
